@@ -1042,6 +1042,7 @@ function renderLinkArea(s) {
           <li>Tap <strong>Link with phone number instead</strong></li>
           <li>Type the code above</li>
         </ol>
+        <button class="btn small" style="margin-top:8px" onclick="linkWith('qr')">Code not working? Show a QR code instead</button>
       </div>`;
   } else if (s.state === 'awaiting-qr' && s.qr) {
     area.innerHTML = `
@@ -1050,6 +1051,7 @@ function renderLinkArea(s) {
         <img src="${s.qr}" alt="QR code">
         <div class="muted small" style="margin-top:6px">Codes expire after about two
           minutes. A fresh one appears on its own — you do not need to click again.</div>
+        <button class="btn small" style="margin-top:8px" onclick="linkWith('pairing')">Can't scan? Use a pairing code instead</button>
       </div>`;
   } else if (s.state === 'connecting' && s.nextReconnectAt) {
     // Say what it is waiting for. A bare "Connecting…" through a fifteen-minute
@@ -6130,6 +6132,7 @@ function spareLinkBox(a, link) {
         <img src="${link.qr}" alt="QR code for ${esc(a.label)}">
         <div class="muted small" style="margin-top:6px">The bot stays on the number it is using while you do this.
           A fresh code appears on its own when this one expires.</div>
+        <button class="btn small" style="margin-top:8px" onclick="linkSpareWith('${esc(a.id)}', 'pairing')">Can't scan? Use a pairing code instead</button>
       </div>`;
   }
   if (link.state === 'awaiting-pairing' && link.pairingCode) {
@@ -6142,6 +6145,7 @@ function spareLinkBox(a, link) {
           <li>Tap <strong>Link with phone number instead</strong></li>
           <li>Type the code above</li>
         </ol>
+        <button class="btn small" style="margin-top:8px" onclick="linkSpareWith('${esc(a.id)}', 'qr')">Code not working? Show a QR code instead</button>
       </div>`;
   }
   if (link.state === 'starting') return '<div class="item-sub small">Getting a code…</div>';
@@ -6171,6 +6175,27 @@ window.linkSpare = async (id, relink = false) => {
   $('acct-note').textContent = 'getting a code…';
   try {
     const r = await api('POST', `/wa/accounts/${encodeURIComponent(id)}/link`, { method: pairing ? 'pairing' : 'qr' });
+    if (r.linking) onSparesPush(r.linking);
+    $('acct-note').textContent = '';
+  } catch (err) { $('acct-note').innerHTML = `<span style="color:var(--danger)">${esc(err.message)}</span>`; }
+};
+
+/**
+ * QR is the default way to link; a pairing code is the backup, offered beside
+ * the QR (the operator, 2026-10-25: "code usually fails"). This asks for the
+ * other method for this one link; the saved setting is left as it is.
+ */
+window.linkWith = async (method) => {
+  try { await api('POST', '/wa/start', { method }); toast(method === 'pairing' ? 'Getting a pairing code…' : 'Getting a QR code…'); }
+  catch (err) { toast(err.message, true); }
+};
+
+/** The same for a spare number: the link in progress is cancelled and started again the other way. */
+window.linkSpareWith = async (id, method) => {
+  $('acct-note').textContent = method === 'pairing' ? 'getting a pairing code…' : 'getting a QR code…';
+  try {
+    await api('DELETE', `/wa/accounts/${encodeURIComponent(id)}/link`);
+    const r = await api('POST', `/wa/accounts/${encodeURIComponent(id)}/link`, { method });
     if (r.linking) onSparesPush(r.linking);
     $('acct-note').textContent = '';
   } catch (err) { $('acct-note').innerHTML = `<span style="color:var(--danger)">${esc(err.message)}</span>`; }

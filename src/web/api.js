@@ -865,6 +865,11 @@ export function createApiRouter({ configStore, bot, queue, linkQueue = null, plu
       // Somebody has come back with the phone, so start counting codes again
       // from zero rather than inheriting an abandoned attempt's tally.
       bot._linkAttempts = 0;
+      // QR is the default; a pairing code is the backup, asked for from the
+      // QR box for this link only (the operator, 2026-10-25: "Default should be
+      // pairing with QR, the code as a backup option (code usually fails").
+      const method = req.body?.method;
+      if (method === 'pairing' || method === 'qr') bot.loginOverride = method;
       bot.start().catch((err) => logger.error(`start failed: ${err.message}`));
       res.json({ ok: true });
     } catch (err) {

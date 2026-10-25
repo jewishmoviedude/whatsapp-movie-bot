@@ -279,6 +279,7 @@ export class WhatsAppBot extends EventEmitter {
     this.state = 'stopped';
     this.qrDataUrl = null;
     this.pairingCode = null;
+    this.loginOverride = null;   // 'pairing' | 'qr' for one link, from the panel; null = the setting
     this.me = null;
     this.lastError = null;
     this.groupCache = new Map();
@@ -553,7 +554,9 @@ export class WhatsAppBot extends EventEmitter {
     }
 
     const cfg = this.config.whatsapp;
-    const usePairing = cfg.loginMethod === 'pairing' && !authState.creds.registered;
+    // The panel's "Can't scan? Use a pairing code instead" asks for the other
+    // method for this link only (loginOverride); the saved setting stays QR.
+    const usePairing = (this.loginOverride ?? cfg.loginMethod) === 'pairing' && !authState.creds.registered;
     const needsAppStateKey = !authState.creds?.myAppStateKeyId;
     if (needsAppStateKey) {
       logger.info('no app-state key yet - syncing history this session so WhatsApp shares one (needed to archive/delete chats)');
@@ -621,6 +624,7 @@ export class WhatsAppBot extends EventEmitter {
         this._linkAttempts = 0;
         this.qrDataUrl = null;
         this.pairingCode = null;
+        this.loginOverride = null;
         // A connection that worked clears the last failure. Leaving it set was
         // catastrophic: stop() reports state 'stopped' without touching it, so
         // one genuine logout left lastError saying "loggedOut" forever, and

@@ -37,6 +37,8 @@ export const DEFAULT_CONFIG = {
     // 'qr' (scan from the phone) | 'pairing' (code pushed to the phone). QR is
     // the default (the operator, 2026-10-06): it needs no number typed in first,
     // and a pairing code goes only to whatsapp.phoneNumber, blank on a new box.
+    // The pairing code is the backup, offered beside the QR for one link
+    // (2026-10-25: "code usually fails").
     loginMethod: 'qr',
     autoReconnect: true,
     // Keeping this false leaves your phone's presence alone. It stayed false
