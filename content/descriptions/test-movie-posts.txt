@@ -1,0 +1,13 @@
+*#test movie posts*
+
+Testing group for movie file posts. No chatting.
+
+To post: 📎 paperclip → *Document* → pick the movie (under 2GB).
+
+*Test request group:*
+https://chat.whatsapp.com/ExampleInvite10xxxxxxxx
+
+*VLC for iPhone:*
+https://apps.apple.com/us/app/vlc-media-player/id650377962
+
+*💬 Feedback on the groups:* https://forms.gle/ExampleForm02

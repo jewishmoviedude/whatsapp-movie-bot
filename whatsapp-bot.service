@@ -1,0 +1,57 @@
+[Unit]
+Description=WhatsApp movie/TV request bot
+Documentation=https://github.com/your-github-user/whatsapp-bot
+# Wants the network, but does not require it: the bot has its own reconnect
+# backoff and starting a few seconds early is better than not starting at all.
+After=network-online.target
+Wants=network-online.target
+# Never give up after repeated restarts. A WhatsApp outage or a bad patch can
+# easily produce five failures in a row, and the default StartLimit would then
+# leave the bot down until somebody noticed by hand.
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=mommy
+Group=mommy
+WorkingDirectory=/home/mommy/whatsapp-bot
+
+# Pull updates from GitHub before every start: boot, crash restart, or
+# `systemctl restart`. deploy/auto-update.sh only ever fast-forwards, skips a
+# checkout with local edits or local commits, and always exits 0 - the "-"
+# makes even a crash of the script itself no reason not to start. It is run
+# through bash, relative to WorkingDirectory, so this line needs no editing
+# per machine and survives a checkout that lost the executable bit.
+ExecStartPre=-/bin/bash deploy/auto-update.sh
+
+# Absolute path: systemd does not use the login shell's PATH.
+ExecStart=/usr/local/bin/node src/index.js
+
+# The update above counts against the start timeout. Its own limits (four
+# fetch attempts of 45s, npm capped at ten minutes) end well inside this, so
+# a slow dependency install is never killed half-way and retried in a loop.
+TimeoutStartSec=20min
+
+# dotenv reads .env from the working directory, so MASTER_KEY is picked up
+# without listing any secret here - this file is world-readable in
+# /etc/systemd/system, and .env is not.
+
+Restart=always
+RestartSec=10
+
+# A media job can be several gigabytes mid-encode; give it room to finish
+# rather than killing ffmpeg and losing the work.
+TimeoutStopSec=120
+KillSignal=SIGTERM
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=whatsapp-bot
+
+# Modest hardening. NOT ProtectHome, which would hide the bot's own directory.
+NoNewPrivileges=true
+PrivateTmp=false
+ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target

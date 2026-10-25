@@ -1,0 +1,21 @@
+# Installed to /etc/systemd/system by tools/bootstrap.sh, on Hyper-V guests
+# only (NIC driver hv_netvsc). bootstrap.sh substitutes the real interface and
+# ethtool path when they are not eth0 and /usr/sbin/ethtool.
+#
+# Why: with TCP segmentation offload on, this VM handed 64 KB "super-segments"
+# to the Hyper-V virtual switch and some were dropped on the way out - 29% of
+# TCP segments retransmitted and uploads at 1.5 Mbit/s, while downloads ran at
+# 20 MB/s and every other device on the network tested fine. A 1.7 GB film
+# took hours to post. Turning tso and gso off gave 86 Mbit/s. The setting does
+# not survive a reboot on its own, so this re-applies it at every boot.
+[Unit]
+Description=Turn off TCP segmentation offload on eth0 (Hyper-V upload packet-loss workaround)
+After=sys-subsystem-net-devices-eth0.device
+BindsTo=sys-subsystem-net-devices-eth0.device
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/ethtool -K eth0 tso off gso off
+
+[Install]
+WantedBy=multi-user.target

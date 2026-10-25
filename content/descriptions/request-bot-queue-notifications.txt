@@ -1,0 +1,20 @@
+*REQUEST QUEUE NOTIFICATIONS*
+
+Live play-by-play of the bot working through the queue — *both movies and TV*. *Read-only — no chatting.*
+
+You'll see each request move through: queued → downloading → converting → sending → done.
+A whole TV season is ONE request here, not one line per episode.
+
+*Movie request group:*
+https://chat.whatsapp.com/ExampleInvite06xxxxxxxx
+
+*Movies are posted here:*
+https://chat.whatsapp.com/ExampleInvite07xxxxxxxx
+
+*TV request group:*
+https://chat.whatsapp.com/ExampleInvite09xxxxxxxx
+
+*Episodes are posted here:*
+https://chat.whatsapp.com/ExampleInvite04xxxxxxxx
+
+*🤖 Feedback on the bot:* https://forms.gle/ExampleForm03

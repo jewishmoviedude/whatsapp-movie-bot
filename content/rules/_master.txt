@@ -1,0 +1,48 @@
+*📋 MOVIE & TV GROUP RULES*
+
+*THE BASICS — everywhere*
+• Request only in the request groups. *No chatting there.*
+• *One title per message*, text only — no pictures, voice notes or links.
+• No tagging, no replying, no "thank you" — only actual requests.
+• *No rated-R / TV-MA* material anywhere.
+• Repost at most *once every 24 hours*, and not over the weekend.
+• Nobody is getting paid. A correct request doesn't oblige anyone to fill it.
+• *Two strikes and you're removed.*
+
+*HOW TO REQUEST A MOVIE*
+#request The Truman Show 1998
+
+*HOW TO REQUEST TV*
+#request The Boys S01E01 — one episode
+#request The Boys season 1 — the whole season, sent one episode at a time
+
+*RULES FOR YOUR GROUP* — send any of these:
+• *#rules-requests* — Movie request groups
+• *#rules-cam* — Recently released (cam) requests
+• *#rules-posts* — Posts groups
+• *#rules-tv* — TV posts groups
+• *#rules-tvreq* — TV request group
+• *#rules-chat* — Discussion group
+• *#rules-admins* — Admin groups
+
+*WHAT THE REACTIONS MEAN*
+🔍 Researching · 🎬 Added to the queue
+1️⃣2️⃣3️⃣…🔟 Your place in line (updates live) · 🔢 11th or further back
+⬇️ Downloading · ⚙️ Converting · ⬆️ Sending · ✅ Done
+
+If we can't do it:
+⛔ Rated R / NC-17 / X / TV-MA — not allowed
+🎪 Only in theaters — not on the server yet
+📬 Not in the library — tell us here: https://forms.gle/ExampleForm01
+❓ Not a movie we could find — check the spelling. An unofficial film? Request it in group 07
+📅 More than one movie has that name — add the year
+☝️ More than one movie in one message — send each on its own
+❌ An admin cancelled it — it isn't coming
+⏭️ An admin set it aside (usually a huge file)
+⚠️ Something went wrong (the bot usually retries)
+⏸️ On hold — requests are paused for a moment; it runs by itself when they resume, no need to ask again
+📺 Which season? — for TV, say the season (not a year)
+
+*💬 Feedback on the groups:* https://forms.gle/ExampleForm02
+*🤖 Feedback on the bot:* https://forms.gle/ExampleForm03
+*📬 Movie not on the server?* https://forms.gle/ExampleForm01

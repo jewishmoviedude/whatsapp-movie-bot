@@ -1,0 +1,13 @@
+# Installed to /etc/systemd/system by tools/bootstrap.sh. Grows / into unused
+# disk space at every boot, before the bot starts - see deploy/grow-root-disk.
+[Unit]
+Description=Grow the root filesystem into unused disk space
+After=local-fs.target
+Before=whatsapp-bot.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/grow-root-disk
+
+[Install]
+WantedBy=multi-user.target

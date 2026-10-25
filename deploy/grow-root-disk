@@ -1,0 +1,54 @@
+#!/bin/sh
+# Grow the root filesystem into any unused space on its disk.
+#
+# Installed to /usr/local/sbin/grow-root-disk by tools/bootstrap.sh and run at
+# every boot by grow-root-disk.service, before the bot starts.
+#
+# Why: the Ubuntu 24.04 installer gave / only 14.5 GB of a 28.9 GB partition
+# on this bot's first VM, and a film mid-encode needs room for the source AND
+# the output. With this in place, enlarging the VM's virtual disk while it is
+# off is picked up at the next boot with nothing to type.
+#
+# Safe to run on every boot: when there is nothing to grow, every step is a
+# no-op. It only ever grows, and it leaves anything unusual alone - a root that
+# is not on LVM, a volume group that spans more than one disk, or a physical
+# volume that is not a disk partition. That last one is LVM on LUKS (the
+# installer's "Encrypt the LVM group", where the PV is /dev/mapper/...) or a
+# whole-disk PV; this script used to die there under `set -e`, which failed
+# the boot unit every time and stopped tools/bootstrap.sh halfway.
+set -eu
+
+ROOT_DEV=$(findmnt -no SOURCE /)
+if ! command -v lvs >/dev/null 2>&1 || ! lvs "$ROOT_DEV" >/dev/null 2>&1; then
+  echo "grow-root-disk: / ($ROOT_DEV) is not an LVM volume; leaving it alone"
+  exit 0
+fi
+if ! command -v growpart >/dev/null 2>&1; then
+  echo "grow-root-disk: growpart is missing (apt install cloud-guest-utils); leaving it alone"
+  exit 0
+fi
+
+VG=$(lvs --noheadings -o vg_name "$ROOT_DEV" | tr -d ' ')
+PVS=$(pvs --noheadings -o pv_name -S "vg_name=$VG" | tr -d ' ')
+if [ "$(printf '%s\n' "$PVS" | grep -c .)" -ne 1 ]; then
+  echo "grow-root-disk: $VG spans more than one disk; leaving it alone"
+  exit 0
+fi
+PART=$(basename "$(readlink -f "$PVS")")
+DISK=$(lsblk -no pkname "/dev/$PART" 2>/dev/null | head -1 || true)
+if [ ! -r "/sys/class/block/$PART/partition" ] || [ -z "$DISK" ]; then
+  echo "grow-root-disk: the physical volume $PVS is not a disk partition (LUKS, or a whole disk); leaving it alone"
+  exit 0
+fi
+NUM=$(cat "/sys/class/block/$PART/partition")
+
+# Notice a disk that was enlarged while the VM was running.
+echo 1 > "/sys/class/block/$DISK/device/rescan" 2>/dev/null || true
+# growpart exits 1 for NOCHANGE, which is the normal case on most boots.
+growpart "/dev/$DISK" "$NUM" || [ $? -eq 1 ]
+pvresize "$PVS"
+FREE=$(vgs --noheadings -o vg_free_count "$VG" | tr -d ' ')
+if [ "$FREE" -gt 0 ]; then
+  lvextend -r -l +100%FREE "$ROOT_DEV"
+fi
+df -h /

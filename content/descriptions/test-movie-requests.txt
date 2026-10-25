@@ -1,0 +1,28 @@
+*#test movie requests*
+
+Testing group — same rules as the main request group.
+Request in ONE message: *#request* + the correct movie name and year. Text only, one at a time.
+
+*To receive the actual files:*
+https://chat.whatsapp.com/ExampleInvite07xxxxxxxx
+
+*Live queue updates:*
+https://chat.whatsapp.com/ExampleInvite05xxxxxxxx
+
+🔍 Researching · 🎬 Added to the queue
+1️⃣2️⃣3️⃣…🔟 Your place in line (updates live) · 🔢 more than 10 ahead
+⬇️ Downloading · ⚙️ Converting · ⬆️ Sending · ✅ Done
+
+If we can't do it:
+⛔ Rated R / NC-17 / X / TV-MA — not allowed
+🎪 Only in theaters — not on the server yet
+📬 Not in the library — tell us here: https://forms.gle/ExampleForm01
+❓ Couldn't match that title — check the spelling
+📅 More than one movie has that name — add the year
+❌ An admin cancelled it — it isn't coming
+⏭️ An admin set it aside (usually a huge file)
+⚠️ Something went wrong (the bot usually retries)
+
+*🤖 Feedback on the bot:* https://forms.gle/ExampleForm03
+
+*💬 Feedback on the groups:* https://forms.gle/ExampleForm02

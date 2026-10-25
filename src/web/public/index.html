@@ -1,0 +1,1429 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<title>WhatsApp Bot Control</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<!-- ============ GATE: setup / login ============ -->
+<div id="gate" class="gate hidden">
+  <div class="gate-card">
+    <div class="gate-logo">🤖</div>
+    <h1 id="gate-title">Sign in</h1>
+    <p id="gate-sub" class="muted">Enter your control panel password.</p>
+    <!--
+      Password managers need this to look like an ordinary sign-in form.
+      autocomplete="off" on the form was overriding the per-field hints, and
+      `name` attributes are what most managers actually match on - with only
+      ids, 1Password filled the username and left the password alone. The
+      confirm field is disabled while hidden: two password inputs make a form
+      look like a REGISTRATION form, which is why a saved login was not offered.
+    -->
+    <form id="gate-form" method="post" action="#">
+      <input type="text" id="gate-user" name="username" placeholder="Username"
+             autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false">
+      <input type="password" id="gate-pw" name="password" placeholder="Password"
+             autocomplete="current-password" required>
+      <input type="password" id="gate-pw2" name="confirm-password" class="hidden" disabled
+             placeholder="Confirm password" autocomplete="new-password">
+      <button type="submit" class="btn primary block" id="gate-btn">Sign in</button>
+      <div id="gate-err" class="err"></div>
+    </form>
+    <!--
+      Shown instead of the sign-in form when the account's password is a
+      temporary one a super-admin set (the operator, 2026-10-08). Its own form,
+      laid out as a change-password form - username, current, new, confirm - so
+      a password manager offers to save the new password, and the sign-in form
+      above keeps the shape login-autofill.test.mjs pins.
+    -->
+    <form id="chpw-gate-form" class="hidden" method="post" action="#">
+      <input type="text" id="chpw-gate-user" name="username" autocomplete="username" readonly hidden>
+      <input type="password" id="chpw-gate-cur" name="current-password" placeholder="Temporary password"
+             autocomplete="current-password">
+      <input type="password" id="chpw-gate-new" name="new-password" placeholder="New password"
+             autocomplete="new-password" required>
+      <input type="password" id="chpw-gate-new2" name="confirm-new-password" placeholder="Confirm new password"
+             autocomplete="new-password" required>
+      <button type="submit" class="btn primary block" id="chpw-gate-btn">Set my password</button>
+      <button type="button" class="btn ghost block" id="chpw-gate-out" style="margin-top:8px">Sign out</button>
+      <div id="chpw-gate-err" class="err"></div>
+    </form>
+  </div>
+</div>
+
+<!-- ============ APP ============ -->
+<div id="app" class="hidden">
+  <header class="topbar">
+    <div class="brand"><span class="logo">🤖</span><span>Bot Control</span></div>
+    <div class="searchwrap">
+      <input id="gsearch" placeholder="Search settings, groups, members…  (press /)" autocomplete="off" spellcheck="false">
+      <div id="gsearch-results" class="search-results hidden"></div>
+    </div>
+    <div class="topbar-right">
+      <span id="conn-pill" class="pill">…</span>
+      <span id="who" class="muted small"></span>
+      <button class="btn ghost small" id="btn-logout">Sign out</button>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="dashboard">Dashboard</button>
+    <button class="tab" data-tab="settings">Settings</button>
+    <button class="tab" data-tab="groups">Groups</button>
+    <button class="tab" data-tab="members">Members</button>
+    <button class="tab superadmin-only hidden" data-tab="admins">Admins</button>
+    <button class="tab" data-tab="test">Test</button>
+    <button class="tab" data-tab="history">History</button>
+    <button class="tab" data-tab="tickets">Tickets <span id="tix-open-badge" class="badge hidden">0</span></button>
+    <button class="tab" data-tab="logs">Logs</button>
+  </nav>
+
+  <div id="jumpnav" class="jumpnav"></div>
+
+  <main>
+    <!-- ---------- DASHBOARD ---------- -->
+    <section class="panel active" id="tab-dashboard">
+      <div class="grid">
+        <div class="card" id="card-conn">
+          <h2>WhatsApp connection</h2>
+          <div id="conn-body">
+            <div class="status-row">
+              <span class="dot" id="conn-dot"></span>
+              <div>
+                <div id="conn-state" class="status-title">Not connected</div>
+                <div id="conn-detail" class="muted small"></div>
+              </div>
+            </div>
+            <div id="link-area"></div>
+            <div class="row gap wrap" style="margin-top:14px">
+              <button class="btn primary" id="btn-start">Link / Connect</button>
+              <button class="btn" id="btn-stop">Disconnect</button>
+              <button class="btn danger" id="btn-wipe">Unlink &amp; wipe session</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="card-activity">
+          <h2>Now running</h2>
+          <div id="activity"><div class="empty">Nothing in progress.</div></div>
+        </div>
+
+        <div class="card">
+          <h2>Queue <span id="queue-count" class="badge">0</span></h2>
+          <div class="row gap" style="margin-bottom:10px">
+            <button class="btn small" id="btn-pause">Pause</button>
+            <button class="btn small" id="btn-resume">Resume</button>
+            <button class="btn small danger" id="btn-clearq">Clear waiting</button>
+          </div>
+          <div class="row gap wrap" style="margin-bottom:10px">
+            <button class="btn small" id="btn-req-pause" title="Every request from a request group gets ⏸️ and waits, and the queue starts nothing new; what is running finishes. Beta tests, direct links and this panel are not paused.">⏸️ Pause requests</button>
+            <span id="req-pause-note" class="muted small"></span>
+          </div>
+          <div id="queue-paused-note" class="muted small hidden" style="margin-bottom:8px"></div>
+          <div class="row gap" style="margin-bottom:10px">
+            <input id="manual-add" placeholder="add a title to the queue…" class="flex1" style="margin:0">
+            <button class="btn small primary" id="btn-manual-add">Queue</button>
+          </div>
+          <div class="row gap" style="margin-bottom:10px">
+            <input id="q-jf-url" placeholder="…or paste a Jellyfin link, when the title search gets it wrong" class="flex1" style="margin:0">
+            <button class="btn small" id="btn-q-jf">Queue link</button>
+          </div>
+          <div class="row gap" style="margin-bottom:10px">
+            <input id="q-member" list="q-member-list" placeholder="for a member (optional): type a name or number" class="flex1" style="margin:0" autocomplete="off">
+          </div>
+          <datalist id="q-member-list"></datalist>
+          <div id="manual-note" class="muted small" style="margin-bottom:8px"></div>
+          <div id="queue-list" class="list"><div class="empty">Nothing waiting.</div></div>
+          <h3>Recently finished</h3>
+          <div id="queue-recent" class="list"><div class="empty">Nothing finished yet.</div></div>
+        </div>
+
+        <!-- Notices, under the three cards that are always on top. The
+             operator, 2026-10-09: "top of dash should always be connection
+             status, running and queue"; a notice above them pushed them down
+             the page. Requests paused first, beside the queue it is about:
+             every request that arrives meanwhile gets ⏸️ and waits. Filled by
+             renderRequestPause; the nudity-check cards by the content-check
+             health. -->
+        <div class="card req-paused hidden" id="card-req-paused">
+          <h2>⏸️ Requests paused</h2>
+          <div id="req-paused-line"></div>
+          <div id="req-paused-held" class="muted small"></div>
+        </div>
+
+        <div class="card cc-health hidden" id="card-cc-health">
+          <h2>Nudity check not running</h2>
+          <div id="cc-health-dash"></div>
+        </div>
+
+        <div class="card cc-fallback hidden" id="card-cc-fallback">
+          <h2>Nudity check on a fallback provider</h2>
+          <div id="cc-fallback-dash"></div>
+        </div>
+
+        <div class="card" id="card-public-link">
+          <h2>Queue a public link</h2>
+          <p class="hint">A film that is free to download from a public site does not need to be in Jellyfin: paste its direct download link - or its YouTube page, which yt-dlp reads the video out of - name it, and it is downloaded, converted and posted to the movie posts group like any other. No rating check - queuing it here is the approval.</p>
+          <input id="pl-url" placeholder="https://… a direct link to the video file (mp4, mkv…), or a YouTube link" autocomplete="off" spellcheck="false">
+          <!-- What the link is, looked at as it is pasted: "from YouTube via
+               yt-dlp - 1 h 32 min", or a file and its size. -->
+          <div id="pl-about" class="muted small" style="margin-top:6px"></div>
+          <div class="row gap wrap" style="margin-top:8px">
+            <input id="pl-title" placeholder="Title, as it will be posted" class="flex1" style="margin:0">
+            <input id="pl-year" placeholder="Year (optional)" inputmode="numeric" maxlength="4" style="margin:0;width:9em">
+            <button class="btn small primary" id="btn-pl-queue">Queue</button>
+          </div>
+          <input id="pl-member" list="q-member-list" placeholder="for a member (optional): type a name or number" autocomplete="off" style="margin-top:8px">
+          <div id="pl-note" class="muted small" style="margin-top:8px"></div>
+        </div>
+
+        <div class="card" id="card-reactions">
+          <h2>What the reactions mean</h2>
+          <div id="reaction-guide"><div class="empty">Loading…</div></div>
+        </div>
+
+        <div class="card" id="card-dash-log">
+          <h2>Recent activity <a href="#" class="card-link" data-goto="logs">open full log →</a></h2>
+          <pre id="dash-log" class="logbox short"></pre>
+        </div>
+
+        <div class="card" id="card-dash-history">
+          <h2>Recent requests <a href="#" class="card-link" data-goto="history">open history →</a></h2>
+          <div id="dash-history" class="list"><div class="empty">Nothing yet.</div></div>
+        </div>
+
+        <div class="card">
+          <h2>Outbound connectivity</h2>
+          <div id="conncheck" class="list"><div class="empty">Not checked yet.</div></div>
+          <button class="btn small" id="btn-conncheck" style="margin-top:10px">Run check</button>
+        </div>
+
+        <div class="card">
+          <h2>System</h2>
+          <div id="diag" class="kv"><div class="empty">Loading…</div></div>
+          <button class="btn small" id="btn-diag" style="margin-top:10px">Refresh</button>
+        </div>
+        <div class="card" id="card-ollama-agent">
+          <h2>Ollama agent — discussions group</h2>
+          <p class="hint">Answers questions in the discussions group, or passes them to the admins. The AI key and model are in Settings → AI providers.</p>
+          <div id="oa-state" class="verdict">Loading…</div>
+          <div id="oa-stats" class="kv"></div>
+          <div id="oa-recent" class="list"></div>
+          <button class="btn small" id="btn-oa-refresh" style="margin-top:10px">Refresh</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- SETTINGS ---------- -->
+    <section class="panel" id="tab-settings">
+
+      <!--
+        One box over the whole tab. The settings are split into groups the
+        switcher shows one at a time, so a setting whose group nobody could
+        name was effectively hidden — "where does the Groq key go" meant
+        opening groups until it turned up. This filters every group, not the
+        one on screen, and puts back what it hid when the box is cleared.
+      -->
+      <div class="setfind">
+        <input id="set-search" placeholder="Find a setting…  (its name, or a word from its description)"
+               autocomplete="off" spellcheck="false" aria-label="Find a setting">
+        <span id="set-search-count" class="setfind-count"></span>
+        <button class="btn small ghost hidden" id="set-search-clear">Clear</button>
+      </div>
+
+      <!--
+        Outside every settings group on purpose, so it is on screen whichever
+        group is selected; its links switch group (and tab) themselves. Filled
+        in by renderFreshInstall() in app.js.
+      -->
+      <div class="card" id="card-fresh-install">
+        <h2>Fresh install checklist</h2>
+        <p class="hint">Everything a new machine needs before the bot can take requests, in the order to do it. Each link opens the exact setting. Ticks come from the <b>saved</b> settings and the live WhatsApp connection, so save a card before expecting its tick. Click the heading to fold this away once you are done.</p>
+        <div id="fic-summary" class="fic-summary"></div>
+        <div id="fic-list" class="fic-list"><div class="empty">Loading…</div></div>
+        <p class="hint fic-foot">The server side — the system service, the Hyper-V network offload fix, growing the disk, restoring the sealed settings backup and scheduling the nightly one — is done by <code>tools/bootstrap.sh</code>, not from this panel. On a machine set up by hand, start the nightly sealed backup with <code>node tools/backup-secrets.mjs --set-passphrase --install-cron</code>. On any machine, <code>node tools/routines.mjs</code> lists every routine the box should run — the hourly check among them — and what is missing; <code>--fix</code> turns on what needs no password. The full walkthrough is
+          <a href="https://github.com/your-github-user/whatsapp-bot/blob/main/docs/server-setup.md" target="_blank" rel="noopener">docs/server-setup.md</a>.</p>
+      </div>
+
+      <div class="settings-actions">
+        <button class="btn primary" id="btn-save">Save settings</button>
+        <span id="save-note" class="muted small"></span>
+      </div>
+
+      <!--
+        Every API key in one place. They were spread over six cards in four
+        settings groups, so "where is the TMDB key" was a hunt, and the two
+        AI keys sat a whole card apart from the other three. The fields
+        THEMSELVES moved here — the same ids, because the fresh-install
+        checklist, fillForm/collectForm and the tests all address them by id —
+        and each card they came from keeps a line saying where they went.
+
+        The keys this section owns are saved by its own Save (#ak-save), which
+        sends those fields and nothing else; the cards they came from no
+        longer send them, so neither save can undo the other. A login that
+        only makes sense beside its connection settings — Jellyfin, SMTP,
+        Plex, the HTTP index — stayed where it was; this section shows its
+        state and links to it.
+      -->
+      <div class="settings-group hidden" data-group="api-keys" data-label="API keys 🔑">
+<div class="settings-section">
+        <h2 class="section-head">API keys &amp; logins 🔑</h2>
+        <p class="section-hint">Every key the bot needs, what each one is for, and whether it still works.</p>
+      </div>
+
+      <div class="card" id="card-key-omdb">
+        <h2>OMDb <span id="ak-omdb-pill" class="pill">…</span></h2>
+        <p class="hint">Identifies every request and reads the rating the gate depends on. Without it nothing is sent at all.</p>
+        <label>OMDb API key <span class="hint">free key from omdbapi.com</span>
+          <input id="f-omdbkey" type="password" placeholder="not set" autocomplete="off">
+        </label>
+        <label class="check hidden" id="ak-omdb-removewrap"><input type="checkbox" id="ak-omdb-remove"> Remove the saved key</label>
+        <div class="row gap wrap ak-actions">
+          <button class="btn small" id="btn-test-omdb">Test key</button>
+          <a class="ak-get" href="https://www.omdbapi.com/apikey.aspx" target="_blank" rel="noopener">get a key →</a>
+          <span id="omdb-result" class="muted small"></span>
+        </div>
+        <p class="hint">Testing looks up one fixed well-known title, so it spends one of OMDb's lookups for the day.</p>
+      </div>
+
+      <div class="card" id="card-key-tmdb">
+        <h2>TMDB <span id="ak-tmdb-pill" class="pill">…</span></h2>
+        <p class="hint">Turns the theatrical check from a guess into a definite answer — “still in cinemas, ask again later” rather than “we simply don’t have it”. Optional: without it the check falls back to release dates.</p>
+        <label>TMDB API key <span class="hint">optional but recommended</span>
+          <input id="f-tmdbkey" type="password" placeholder="not set" autocomplete="off">
+        </label>
+        <label class="check hidden" id="ak-tmdb-removewrap"><input type="checkbox" id="ak-tmdb-remove"> Remove the saved key</label>
+        <div class="row gap wrap ak-actions">
+          <button class="btn small" id="btn-test-tmdb">Test key</button>
+          <a class="ak-get" href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener">get a key →</a>
+          <span id="tmdb-result" class="muted small"></span>
+        </div>
+        <p class="hint">Testing reads TMDB's public configuration, which costs nothing.
+          The check's own on/off switch is in
+          <a href="#" class="card-link" data-goto="settings" data-target="#f-th-enabled">Movies → Theatrical check →</a></p>
+      </div>
+
+      <div class="card" id="card-key-gemini">
+        <h2>Gemini <span id="ak-gemini-pill" class="pill">…</span></h2>
+        <p class="hint">Works out which film a paraphrase or half-remembered title meant when OMDb draws a blank, and reads the published content advisories for the nudity check. <b>The rating always comes from OMDb</b> — a model can only help a film its rating blocks through, never refuse one.</p>
+        <label>Gemini API key
+          <input id="f-gemini-key" type="password" autocomplete="off" placeholder="AIza…">
+        </label>
+        <label class="check hidden" id="ak-gemini-removewrap"><input type="checkbox" id="ak-gemini-remove"> Remove the saved key</label>
+        <label>Model
+          <input id="f-gemini-model" placeholder="Automatic — the newest Gemini Flash">
+        </label>
+        <div class="row gap wrap ak-actions">
+          <button class="btn small" id="btn-test-gemini">Test key</button>
+          <a class="ak-get" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">get a key →</a>
+          <span id="gemini-result" class="muted small"></span>
+        </div>
+        <p class="hint">Testing only lists Gemini's models, so it spends none of the 20 requests a day the free tier allows.
+          What Gemini is <em>used for</em> is switched on in
+          <a href="#" class="card-link" data-goto="settings" data-target="#f-gemini-on">Movies → Movie data →</a></p>
+      </div>
+
+      <div class="card" id="card-key-share">
+        <h2>Jellyfin share key <span id="ak-direct-links-pill" class="pill">…</span></h2>
+        <p class="hint">Published inside every direct link, so anyone who sees a link can reach the whole Jellyfin API with it. Make a <b>dedicated</b> key in Jellyfin (Dashboard → API Keys) so it can be revoked without breaking the bot.</p>
+        <label>Jellyfin share key
+          <!-- type=password like the other three: this is the one key that is
+               published inside every link, so leaving it legible on screen in
+               a section about key hygiene was the odd one out. -->
+          <input id="f-dl-apikey" type="password" autocomplete="off" placeholder="paste a dedicated Jellyfin API key">
+        </label>
+        <label class="check hidden" id="ak-direct-links-removewrap"><input type="checkbox" id="ak-direct-links-remove"> Remove the saved key</label>
+        <div class="row gap wrap ak-actions">
+          <button class="btn small" id="btn-test-dlkey">Test key</button>
+          <span id="dlkey-result" class="muted small"></span>
+        </div>
+        <p class="hint">Testing asks the configured Jellyfin server who it is, which costs nothing.
+          The rest of the direct-links settings are in
+          <a href="#" class="card-link" data-goto="settings" data-target="#f-dl-enabled">Direct links →</a></p>
+      </div>
+
+      <!--
+        Not .settings-actions: that one is sticky at the top of the tab, and a
+        second sticky bar would sit on top of the first.
+      -->
+      <div class="ak-saverow">
+        <button class="btn primary" id="ak-save">Save API keys</button>
+        <span id="ak-note" class="muted small"></span>
+      </div>
+      <p class="hint ak-foot">Saves the four key boxes above, and Gemini's model. A box left blank, or holding the mask, keeps the key that is already stored — tick <em>Remove the saved key</em> to clear one. The AI providers card below has its own Save.</p>
+
+<div class="card" id="card-ai-providers">
+        <h2>AI providers — when Gemini cannot answer</h2>
+        <p class="hint">Gemini's free tier allows 20 requests a day, which is gone by mid-morning; after that every film was judged on its rating alone. The nudity check and the film lookup now ask these providers, in this order, and the first that answers decides. The switches that turn the film lookup and the nudity check on and off are in Movies → Movie data; this card only chooses who answers.</p>
+        <div class="ai-policy">
+          <strong>The nudity check only ever helps a film through.</strong>
+          <p>It is asked only about a film or episode its rating blocks, and never refuses anything: a “contains nudity” leaves it blocked on its rating, as it would have been anyway. A “no nudity” sends it only from a provider you tick <em>May clear rated films</em> for (and with <em>Also send rated films and episodes with no nudity</em>, in Movies → Movie data, on); a provider without the tick is not asked. Groq, Cerebras, Mistral and OpenRouter run open models that remember particular films less reliably than Gemini.</p>
+        </div>
+        <p class="hint">Keys are stored encrypted and never shown again. Leave a key box blank to keep the saved key. <em>Test</em> tries the key in the box — or the saved one if the box is empty — with the model chosen, without saving anything. A model left on <em>Automatic</em> is picked from the provider's own list once a day, preferring large general-knowledge models (on OpenRouter, its free <code>:free</code> models first).</p>
+        <div id="ai-list" class="list"><div class="empty">Loading…</div></div>
+        <div class="row gap wrap" style="margin-top:12px">
+          <button class="btn small" id="ai-save">Save AI providers</button>
+          <span id="ai-note" class="small"></span>
+        </div>
+      </div>
+      <div class="card" id="card-key-logins">
+        <h2>Logins kept with their settings</h2>
+        <p class="hint">These are not keys on their own — they only mean anything beside the address and the options they belong to, so they stayed there. Their state is here, with a link straight to the field.</p>
+        <div id="ak-logins" class="list"><div class="empty">Loading…</div></div>
+      </div>
+      </div>
+
+
+      <div class="settings-group" data-group="connection" data-label="Connection">
+<div class="settings-section">
+        <h2 class="section-head">Connection</h2>
+        <p class="section-hint">The WhatsApp account the bot runs as, any backup numbers, and the Discord account your support tickets are read from.</p>
+      </div>
+<div class="card">
+        <h2>WhatsApp account</h2>
+        <label>Current WhatsApp connection <span class="hint">which of your numbers the bot is running as</span>
+          <select id="f-phone"></select>
+        </label>
+        <div id="f-phone-note" class="small muted" style="margin:-6px 0 12px"></div>
+        <label>Link method
+          <select id="f-loginmethod">
+            <option value="qr">QR code — scan from the phone</option>
+            <option value="pairing">Pairing code — sent to this number (no QR)</option>
+          </select>
+        </label>
+        <label class="check"><input type="checkbox" id="f-autoreconnect"> Reconnect automatically if dropped</label>
+        <label class="check"><input type="checkbox" id="f-markonline"> Appear online while running
+          <span class="hint">Leave off to keep your phone's presence untouched.</span>
+        </label>
+        <div class="row gap wrap">
+          <label class="flex1">Min delay between actions (ms)<input id="f-mindelay" type="number" min="0"></label>
+          <label class="flex1">Max delay (ms)<input id="f-maxdelay" type="number" min="0"></label>
+        </div>
+        <p class="hint">Pacing stops the bot flooding your own groups and hammering the connection.</p>
+      </div>
+<div class="card">
+        <h2>WhatsApp numbers 📱</h2>
+        <p class="hint">Set up more than one number so a linking problem never leaves the bot with no way back. Each number keeps its own saved session — switching back does <b>not</b> require re-linking.</p>
+        <div id="wa-accounts" class="list"><div class="empty">Loading…</div></div>
+        <div class="row gap wrap" style="margin-top:12px">
+          <input id="acct-label" placeholder="name, e.g. Backup" class="flex1">
+          <input id="acct-number" placeholder="+15551234567" inputmode="tel" class="flex1">
+          <button class="btn small" id="acct-add">Add number</button>
+        </div>
+        <div id="acct-note" class="small" style="margin-top:8px"></div>
+      </div>
+
+      <div class="card">
+        <h2>Automatic failover 🔁</h2>
+        <p class="hint">The numbers are a priority list. If the one in use goes down, the next one that is <b>linked</b> takes over; when a preferred number comes back it is reclaimed — but only once the queue is completely idle, so a switch never interrupts a job. Only one number is ever connected.</p>
+        <label class="row gap" style="margin-bottom:10px">
+          <input type="checkbox" id="fo-enabled">
+          <span>Fail over automatically</span>
+        </label>
+        <div id="fo-list" class="list"><div class="empty">Loading…</div></div>
+        <div class="row gap wrap" style="margin-top:12px">
+          <label class="flex1">Give up after
+            <input id="fo-attempts" type="number" min="1" max="20" class="w-full">
+            <span class="small muted">failed reconnects before waking a spare</span>
+          </label>
+          <label class="flex1">Hold-down
+            <input id="fo-holddown" type="number" min="0" class="w-full">
+            <span class="small muted">minutes stable before a preferred number reclaims</span>
+          </label>
+          <label class="flex1">Cooldown
+            <input id="fo-cooldown" type="number" min="0" class="w-full">
+            <span class="small muted">minutes before retrying a number that failed</span>
+          </label>
+        </div>
+        <div class="row gap" style="margin-top:12px">
+          <button class="btn small" id="fo-save">Save failover</button>
+          <span id="fo-note" class="small"></span>
+        </div>
+      </div>
+
+<!--
+  The operator's own Discord account, read-only (src/core/discord-reader.js,
+  src/core/discord-watch.js, src/web/discord-routes.js; this card's script is
+  discord.js). The operator, 2026-10-11: "create from scratch a way I can
+  connect my discord account to the ubuntu so you can access it", so that the
+  hourly check sees what the Jellyfin host's staff answer in the support
+  tickets. The warning comes before the box on purpose: the token is the whole
+  account. Only the super-admin sees the controls; everyone sees the status.
+-->
+<div class="card" id="card-discord">
+        <h2>Discord (read-only) 🎫 <span id="dc-pill" class="pill">…</span></h2>
+        <p class="hint">Reads the answers to the support tickets you open with the Jellyfin host in their Discord server, so the hourly check can follow them up: every 30 minutes it reads the new messages in your ticket channels (the ones the Ticket Tool bot makes, <code>ticket-0001</code> and so on) and keeps them for 90 days. It only ever reads. It cannot post, react, edit, mark anything read or show you typing, and it asks Discord for a handful of things each time, never more.</p>
+        <div class="dc-warning" id="dc-warning">
+          <b>Before you connect, know this:</b>
+          <ul>
+            <li>Running a personal Discord account from a program is against Discord's terms. Discord can ban the account for it.</li>
+            <li>The token you paste here is <b>full access to your Discord account</b>. It gets past two-factor authentication. Anyone who has it can do anything you can.</li>
+            <li>Changing your Discord password, or Settings → Devices → <b>Log out of all devices</b>, revokes it. Do that if you ever think it has leaked, then connect again with a new one.</li>
+            <li>Never paste the token in a chat, an email or a message to anyone — only in this box.</li>
+          </ul>
+        </div>
+        <div id="dc-status" class="small muted">Loading…</div>
+        <div class="superadmin-only" id="dc-connect-box">
+          <label>Discord token <span class="hint">stored encrypted; never shown again, never logged</span>
+            <input id="dc-token" type="password" autocomplete="off" spellcheck="false" placeholder="paste the &quot;authorization&quot; value here">
+          </label>
+          <details class="small" id="dc-howto">
+            <summary>How to get the token</summary>
+            <ol>
+              <li>On a computer, open <b>discord.com/app</b> in Chrome, Edge or Firefox and sign in.</li>
+              <li>Open the browser's developer tools (<b>F12</b>, or Ctrl+Shift+I; Cmd+Option+I on a Mac) and choose the <b>Network</b> tab.</li>
+              <li>Click any channel in Discord so the app makes some requests. Type <code>api</code> in the Network tab's filter box.</li>
+              <li>Click any request to <code>discord.com/api/…</code> (<code>messages</code> is a good one), and under <b>Request Headers</b> find <b>authorization</b>.</li>
+              <li>Copy its value — one long line of letters, digits and dots, with nothing in front of it — and paste it above. Close the developer tools.</li>
+            </ol>
+          </details>
+          <div class="row gap wrap" style="margin-top:10px">
+            <button class="btn small primary" id="dc-connect">Connect</button>
+            <button class="btn small warn" id="dc-disconnect">Disconnect</button>
+            <span id="dc-note" class="small"></span>
+          </div>
+          <h3>What to read</h3>
+          <p class="hint">Choose the host's server, then which of its channels hold your tickets. Ticket Tool names them <code>ticket-0001</code>; the pattern is a regular expression, <code>^ticket-</code> unless you change it. A channel read once stays read after Ticket Tool renames it <code>closed-0001</code>. Channels that are plainly somebody else's ticket are skipped.</p>
+          <div class="row gap wrap">
+            <button class="btn small" id="dc-load-guilds">Load my servers</button>
+          </div>
+          <div id="dc-guilds" class="group-list" style="margin-top:8px"><div class="empty">Connect, then load your servers.</div></div>
+          <label>Channel names to read <span class="hint">a regular expression</span>
+            <input id="dc-pattern" placeholder="^ticket-" autocomplete="off" spellcheck="false">
+          </label>
+          <label>Also these channels <span class="hint">channel ids, separated by commas — any channel, whatever its name</span>
+            <input id="dc-channels" placeholder="1234567890123456789" autocomplete="off" inputmode="numeric">
+          </label>
+          <div class="row gap wrap">
+            <button class="btn small primary" id="dc-watch-save">Save what to read</button>
+            <button class="btn small" id="dc-preview">Show matching channels</button>
+            <button class="btn small" id="dc-read-now">Read now</button>
+            <span id="dc-watch-note" class="small"></span>
+          </div>
+          <div id="dc-matches" class="list" style="margin-top:8px"></div>
+          <h3>Latest messages read</h3>
+          <div id="dc-recent" class="list"><div class="empty">Nothing read yet.</div></div>
+        </div>
+        <p class="hint">From the box, Claude reads it with <code>node tools/discord.mjs</code> (<code>whoami</code>, <code>guilds</code>, <code>channels</code>, <code>read</code>, <code>tickets</code>) — the same read-only reader. Only the super-admin can connect, disconnect or change what is read; every change is in the audit log.</p>
+        <button class="btn small ghost" id="dc-refresh">Refresh</button>
+      </div>
+      </div>
+
+      <div class="settings-group hidden" data-group="movies" data-label="Movies">
+<div class="settings-section">
+        <h2 class="section-head">Movies</h2>
+        <p class="section-hint">Where movie requests come from, what is allowed, and how titles are identified.</p>
+      </div>
+<div class="card">
+        <h2>Groups</h2>
+        <div class="row gap" style="margin-bottom:10px">
+          <button class="btn small" id="btn-refresh-groups">Refresh group list</button>
+          <span class="muted small" id="groups-note"></span>
+        </div>
+        <label>Request groups <span class="hint">the bot listens for movie titles here</span></label>
+        <div id="group-checks" class="group-list"><div class="empty">Connect to load your groups.</div></div>
+        <label style="margin-top:14px">Posts group <span class="hint">finished files are sent here</span>
+          <select id="f-postsgroup"><option value="">— none —</option></select>
+        </label>
+        <label style="margin-top:14px">Queue notifications group <span class="hint">live text play-by-play is posted here (leave as “none” to disable)</span>
+          <select id="f-notifygroup"><option value="">— none —</option></select>
+        </label>
+        <label class="check"><input type="checkbox" id="f-notifytag"> @-mention the requester when they're a member of that group</label>
+        <label>Never @-tag these numbers <span class="hint">opt-outs — one per line or comma separated; they still get updates, just no ping</span>
+          <textarea id="f-notify-notag" rows="2" placeholder="+15551234567"></textarea>
+        </label>
+      </div>
+<div class="card">
+        <h2>Request rules</h2>
+        <label>Blocked ratings <span class="hint">comma separated</span>
+          <input id="f-blocked" placeholder="R, NC-17, X, TV-MA">
+        </label>
+        <label class="check"><input type="checkbox" id="f-requireprefix"> Only react to messages starting with a prefix</label>
+        <label>Prefix<input id="f-prefix" placeholder="#request"></label>
+        <label class="check"><input type="checkbox" id="f-requireyear"> Ask which one when several films share a title
+          <span class="hint">A title with no year gets a numbered list of every film on the server that starts with it (“Venom” is four films, “Harry Potter” a series), answered with its number. Off: the closest match is sent without asking.</span></label>
+        <label class="check"><input type="checkbox" id="f-replyonblock"> Also send a text reply when blocking <span class="hint">off = react only</span></label>
+        <div class="row gap wrap">
+          <label class="flex1">Max queue length <span class="hint">requests waiting; 0 = no limit</span><input id="f-maxqueue" type="number" min="0"></label>
+          <label class="flex1">Per-user cooldown (s) <span class="hint">3600 (1 hour) by default</span><input id="f-cooldown" type="number" min="0"></label>
+        </div>
+        <p class="hint">Starts only when a member's request is queued - a refused request (rated, not in the library, ...) does not start it. After five answers that queue nothing within ten minutes (refusals, lists, "which season?", failed lookups), the member's next requests meet it until ten minutes have passed. Admins are never held to it; 0 switches it off.</p>
+        <label class="check"><input type="checkbox" id="f-cooldown-others"> Skip the cooldown while nobody else is waiting
+          <span class="hint">a second request inside the cooldown still goes through when nobody else has anything waiting or running (films and TV together); as soon as someone else is waiting, the cooldown applies again</span></label>
+
+        <h3 style="margin-top:22px">⚠️ Rated-R override — films and TV</h3>
+        <div class="ro-warn">
+          <strong>This sends a film or an episode the rating would otherwise block.</strong>
+          <p>Every title added here is one you are personally vouching for. A rating is
+            <em>one letter for the whole film</em> (or TV-MA for a whole episode) — it does not
+            say whether it is for violence, language, or nudity — so the bot cannot tell them
+            apart and blocks all of them. This list is how you say “not that one”.</p>
+          <p><strong>Everything an entry covers is sent, with no AI nudity check.</strong>
+            That is the operator's rule (29 September 2026): a title added here is already
+            vouched for, so it is not put to the AI check at all — whatever its rating, and
+            whatever a model would have said. An entry says <em>send this</em>.</p>
+          <p><strong>A title covers films and TV alike</strong>: the film or show named
+            <em>exactly</em> that, with case, spaces and punctuation ignored, and nothing
+            longer. <code>full metal alchemist</code> covers <em>Fullmetal Alchemist</em>,
+            every episode the rating would hold back, and not <em>Fullmetal Alchemist:
+            Brotherhood</em>, which needs an entry of its own typed in full; <code>Heat</code>
+            covers <em>Heat</em> and not <em>Heat and Dust</em>. Type a name as the
+            library has it, in any script. Add a year to narrow it to that year (a name that
+            ends in one, like <em>Blade Runner 2049</em>, still covers itself), or
+            <code>season 1</code> / <code>S01E14</code> to one season or
+            episode of a show. Or paste a Jellyfin link for exactly one film, series, season
+            or episode. The list shows what an entry matches in the library right now —
+            which is what it sends, so read it after adding one.</p>
+          <p class="ro-warn-last">Added titles are recorded in the audit log with your name
+            against them. Post something to a group that shouldn't be there and it does not
+            come back.</p>
+        </div>
+        <div class="row gap wrap" style="margin-top:10px">
+          <input id="ro-input" class="flex1" placeholder="A title (film or show; a year, season or SxxEyy narrows it), or a Jellyfin link">
+          <button class="btn small primary" id="ro-add">Add override</button>
+        </div>
+        <div class="row gap wrap" style="margin-top:6px">
+          <input id="ro-note" class="flex1" placeholder="why is this one alright? (optional, shown in the list)">
+        </div>
+        <div id="ro-note-msg" class="muted small" style="margin-top:6px"></div>
+        <div id="ro-list" class="list" style="margin-top:10px"><div class="empty">Nothing is overridden.</div></div>
+
+        <h3>Reactions — live lifecycle</h3>
+        <p class="hint">The bot updates one reaction in place as a request moves through these stages.</p>
+        <div class="emoji-grid">
+          <label>Researching<input id="r-researching" class="emoji"></label>
+          <label>Added to queue<input id="r-added" class="emoji"></label>
+          <label>Already asked for<input id="r-duplicate" class="emoji"></label>
+          <label>Downloading<input id="r-downloading" class="emoji"></label>
+          <label>Converting<input id="r-converting" class="emoji"></label>
+          <label>Sending<input id="r-sending" class="emoji"></label>
+          <label>Done<input id="r-done" class="emoji"></label>
+        </div>
+        <label style="margin-top:12px">Queue-position numbers <span class="hint">comma separated; the bot reacts with #1, #2, … as the request waits</span>
+          <input id="r-positions" placeholder="1️⃣, 2️⃣, 3️⃣, …">
+        </label>
+        <label>Overflow (past the list)<input id="r-posoverflow" class="emoji"></label>
+
+        <h3>Reactions — blocked / dead ends</h3>
+        <div class="emoji-grid">
+          <label>Rating blocked<input id="r-rated" class="emoji"></label>
+          <label>Still in theaters<input id="r-theaters" class="emoji"></label>
+          <label>Not found<input id="r-notfound" class="emoji"></label>
+          <label>Not written properly<input id="r-writtenwrong" class="emoji"></label>
+          <label>No year given<input id="r-needyear" class="emoji"></label>
+          <label>Not in library<input id="r-notinlibrary" class="emoji"></label>
+          <label>Failed<input id="r-failed" class="emoji"></label>
+          <label>Skipped<input id="r-skipped" class="emoji"></label>
+        </div>
+      </div>
+<div class="card">
+        <h2>Theatrical check</h2>
+        <p class="hint">This does not block anything. The library is checked first — if a film is
+        on your server it gets sent regardless. This only runs when a title is <em>missing</em>,
+        to tell apart “still in cinemas, ask again later” from “we simply don’t have it”, so the
+        requester gets the right reaction.</p>
+        <label class="check"><input type="checkbox" id="f-th-enabled"> Distinguish “still in theaters” from “not in library”</label>
+        <p class="hint ak-ptr">TMDB API key — <span id="ptr-tmdb">…</span>
+          <a href="#" class="card-link" data-goto="settings" data-target="#f-tmdbkey">API keys &amp; logins 🔑 →</a></p>
+        <label class="check"><input type="checkbox" id="f-th-usedvd"> Trust OMDb's home-release date when present</label>
+        <label>Assume still in cinemas for this many days after release <span class="hint">fallback when no home-release date is known</span>
+          <input id="f-th-window" type="number" min="0">
+        </label>
+      </div>
+<div class="card">
+        <h2>Movie data (OMDb)</h2>
+        <p class="hint ak-ptr">OMDb API key — <span id="ptr-omdb">…</span>
+          <a href="#" class="card-link" data-goto="settings" data-target="#f-omdbkey">API keys &amp; logins 🔑 →</a></p>
+
+        <h3>Gemini — identify a film from a description</h3>
+        <p class="hint">Used only when OMDb draws a blank. OMDb matches titles literally, so a paraphrase or a half-remembered name gets nowhere; Gemini works out which film was meant, and that title is then looked up in OMDb as normal. <b>The rating always comes from OMDb</b> — a model never decides what may be sent.</p>
+        <label class="check"><input type="checkbox" id="f-gemini-on"> Use Gemini when OMDb finds nothing</label>
+        <p class="hint ak-ptr">Gemini API key and model — <span id="ptr-gemini">…</span>
+          <a href="#" class="card-link" data-goto="settings" data-target="#f-gemini-key">API keys &amp; logins 🔑 →</a></p>
+        <label>Minimum confidence <span class="hint">below this it is guessing</span>
+          <input id="f-gemini-conf" type="number" min="0" max="1" step="0.05">
+        </label>
+
+        <h3>Content check — what is actually in the film</h3>
+        <p class="hint">A rating conflates violence, language and sex — which is how an R earned on violence was blocked. For a film or episode its rating blocks, this asks what the published content advisories say, and a sure “no nudity” sends it. A film its rating lets through is sent without asking; unrated films are blocked or not as <em>Block films with no rating at all</em> says; when blocked, they are asked about like a rated film.</p>
+        <label class="check"><input type="checkbox" id="f-gemini-content"> Ask AI about films and episodes their rating blocks <span class="hint">— it only ever helps one through, never refuses anything</span></label>
+        <label class="check"><input type="checkbox" id="f-gemini-allowclean"> Also send rated films and episodes with no nudity <span class="hint">— an R or TV-MA for violence would go out; without this the check has nothing to do</span></label>
+        <label class="check"><input type="checkbox" id="f-block-unrated"> Block films with no rating at all <span class="hint">— "Not Rated" is the absence of a check, not a pass</span></label>
+        <label>Content-check confidence <span class="hint">below this the rating decides instead</span>
+          <input id="f-gemini-cconf" type="number" min="0" max="1" step="0.05">
+        </label>
+        <div id="cc-health-settings" class="muted small" style="margin:6px 0 10px"></div>
+        <p class="hint ak-ptr">Which model answers, and in what order —
+          <a href="#" class="card-link" data-goto="settings" data-target="#card-ai-providers">API keys &amp; logins 🔑 → AI providers →</a></p>
+      </div>
+      </div>
+
+      <div class="settings-group hidden" data-group="tv" data-label="TV">
+<div class="settings-section">
+        <h2 class="section-head">TV</h2>
+        <p class="section-hint">The TV section runs its own groups and queue. Movies always go first.</p>
+      </div>
+<div class="card">
+        <h2>TV section 📺</h2>
+        <p class="hint">TV has its own request and posts groups and its own place in the queue. Movies always go first — no episode starts while any movie is waiting or still running. A season is posted one episode at a time, in order.</p>
+        <label class="check"><input type="checkbox" id="f-tv-enabled"> <b>Enable the TV section</b></label>
+        <label style="margin-top:12px">TV request groups <span class="hint">a message here means “this is a TV request”</span></label>
+        <div id="tv-request-groups" class="group-list"><div class="empty">Connect to load your groups.</div></div>
+        <label style="margin-top:14px">TV posts groups <span class="hint">each finished episode is sent to every group ticked here</span></label>
+        <div id="tv-posts-groups" class="group-list"><div class="empty">Connect to load your groups.</div></div>
+        <div class="row gap wrap" style="margin-top:12px">
+          <label class="flex1">Max episodes per request <span class="hint">10 by default; 0 = no limit; past it, a season goes in parts, and the member is told what to send for the next one</span>
+            <input id="f-tv-maxeps" type="number" min="0">
+          </label>
+          <label class="flex1">Max seasons per request <span class="hint">in one message; 1 by default; 0 = no limit</span>
+            <input id="f-tv-maxseasons" type="number" min="0">
+          </label>
+          <label class="flex1">Cooldown per user (seconds) <span class="hint">3600 (1 hour) by default</span>
+            <input id="f-tv-cooldown" type="number" min="0">
+          </label>
+        </div>
+        <p class="hint">Starts only when a member's request is queued - a refused request (rated, not in the library, ...) does not start it. After five answers that queue nothing within ten minutes (refusals, lists, "which season?", failed lookups), the member's next requests meet it until ten minutes have passed. Admins are never held to it; 0 switches it off.</p>
+        <label class="check"><input type="checkbox" id="f-tv-cooldown-others"> Skip the TV cooldown while nobody else is waiting
+          <span class="hint">as for films: let a request inside the cooldown through when nobody else has anything waiting or running; as soon as someone else is waiting, the cooldown applies again</span></label>
+        <label class="check"><input type="checkbox" id="f-tv-prefix"> Require the request prefix in TV groups</label>
+        <label class="check"><input type="checkbox" id="f-queue-priority"> <b>Movies always before TV</b> <span class="hint">recommended — uncheck to run in plain arrival order</span></label>
+        <label class="check"><input type="checkbox" id="f-queue-fair"> <b>Fair queue</b>
+          <span class="hint">takes turns between members: everyone's first request goes before anyone's second, so each person who asks for one thing goes ahead of someone else's extra requests, however many come. An extra film also waits behind the TV until the film cooldown has passed since it was asked for. Items queued from the panel count as a first request, so they are never bumped back and go ahead of extra requests already waiting. Once you move an item with the arrows, the line keeps the order you leave it in</span></label>
+        <p class="hint" style="margin-top:10px">TV rating overrides — episodes sent despite a TV-MA or other blocked rating — are on the same list as films: <b>Movies → Request rules → Rated-R override</b>. A title there covers the show and film of exactly that name; an episode it covers is sent with no AI check.</p>
+        <button class="btn small primary" id="tv-save" style="margin-top:12px">Save TV settings</button>
+        <span id="tv-save-note" class="muted small"></span>
+      </div>
+      </div>
+
+      <div class="settings-group hidden" data-group="beta" data-label="Beta 🧪">
+<div class="settings-section">
+        <h2 class="section-head">Beta testing</h2>
+        <p class="section-hint">Try a new feature in a test group before it reaches the main groups.</p>
+      </div>
+<div class="card" id="card-beta">
+        <h2>Beta testing 🧪</h2>
+        <p class="hint">A beta group takes <b>tests only</b>, movies and TV. A message there counts only when it starts with the code of a feature on Beta or On — <code>$beta004 #request minority report 2002</code>, or <code>$beta003 #request-tv Loki season 1</code> — or with <code>$stamtest</code>, which tries any request as the main groups would answer it; anything else is ignored. A test runs every check a real request would and, where the request would be queued, answers <b>✅ Test passed</b> with what it would have sent: nothing is downloaded, queued or posted, and its refusals are said in the group it was asked in, never in the main notifications group. If the group is <i>Always locked</i>, only admins can ask there — and admins skip cooldowns and moderation, so have a member test anything members would see.</p>
+        <label>Beta groups <span class="hint">requests here are handled as tests; a group the main service already uses cannot be picked</span></label>
+        <div id="beta-groups" class="group-list"><div class="empty">Connect to load your groups.</div></div>
+        <label style="margin-top:14px">Beta posts group <span class="hint">no longer used: tests deliver nothing (kept for jobs journalled before)</span>
+          <select id="beta-posts"><option value="">— back into the beta group it was asked in —</option></select>
+        </label>
+        <h3>Features in testing</h3>
+        <p class="beta-on-warn">⚠️ <b>On</b> means every group — the main request groups included. <b>Beta</b> means the beta groups only. Leave a feature on Beta until it has been watched working there.</p>
+        <div id="beta-features" class="list"><div class="empty">Loading…</div></div>
+        <div id="beta-warn" class="small" style="margin-top:10px"></div>
+        <div class="row gap" style="margin-top:12px">
+          <button class="btn small primary" id="beta-save">Save beta settings</button>
+          <button class="btn small" id="beta-guide-all" title="Everything saved on Beta, written for the testers - paste it into the beta group">Download testers' guide ⬇</button>
+          <span id="beta-note" class="muted small"></span>
+        </div>
+      </div>
+      </div>
+
+      <div class="settings-group hidden" data-group="moderation" data-label="Moderation">
+<div class="settings-section">
+        <h2 class="section-head">Moderation</h2>
+        <p class="section-hint">What the bot removes automatically, and the rules it serves to members.</p>
+      </div>
+<div class="card">
+        <h2>Request-group enforcement 🧹</h2>
+        <p class="hint">Automatically delete-for-everyone anything in the request groups that isn't a properly formatted request — the same thing an admin would do by hand. Group admins are never touched, and the bot must be an admin in the group.</p>
+        <label class="check"><input type="checkbox" id="f-enf-enabled"> <b>Enable auto-enforcement</b></label>
+        <label class="check"><input type="checkbox" id="f-enf-nonreq"> Delete messages that don't start with the request prefix <span class="hint">(chatting, "thank you", tagging)</span></label>
+        <label class="check"><input type="checkbox" id="f-enf-media"> Delete pictures, screenshots, voice notes and stickers</label>
+        <label class="check"><input type="checkbox" id="f-enf-multi"> Delete requests asking for more than one movie <span class="hint">(e.g. "oceans 11 and 12")</span></label>
+        <label class="check"><input type="checkbox" id="f-enf-admins"> Never auto-moderate group admins <span class="hint">(recommended)</span></label>
+        <label class="check"><input type="checkbox" id="f-enf-dm"> PM the person explaining why their message was removed</label>
+        <button class="btn small primary" id="enf-save" style="margin-top:12px">Save enforcement settings</button>
+        <span id="enf-note" class="muted small"></span>
+      </div>
+<div class="card">
+        <h2>Group rules</h2>
+        <p class="hint">Answered <strong>in groups only</strong>, when someone sends the command below. The bot does not reply to private messages: answering unsolicited PMs is read as spam and got this number flagged. Kept in sync with rules.md in the repo. WhatsApp formatting: *bold*, _italic_.</p>
+        <label>Command<input id="f-rules-cmd" placeholder="#rules"></label>
+        <label>Rules text<textarea id="f-rules" rows="12" placeholder="(rules)"></textarea></label>
+        <div class="row gap" style="margin-top:4px">
+          <button class="btn small primary" id="btn-rules-save">Save rules</button>
+          <span id="rules-note" class="muted small"></span>
+        </div>
+      </div>
+      </div>
+
+      <div class="settings-group hidden" data-group="direct-links" data-label="Direct links">
+<div class="settings-section">
+        <h2 class="section-head">Direct links</h2>
+        <p class="section-hint">A separate group that gets Jellyfin URLs instead of files, for people with no content filter of their own.</p>
+      </div>
+<div class="card">
+        <h2>Direct download links 🔗</h2>
+        <p class="hint">Members post <b>#request-movie name year</b> or <b>#request-tv name S01</b> and the bot replies with the link. Nothing is delivered here, so ratings are <b>not</b> blocked — restricted titles get a disclaimer above the links instead. A whole season comes back in one message.</p>
+        <label class="check"><input type="checkbox" id="f-dl-enabled"> <b>Enable direct links</b></label>
+        <label style="margin-top:12px">Direct-links groups <span class="hint">only these groups answer the commands</span></label>
+        <div id="dl-groups" class="group-list"><div class="empty">Connect to load your groups.</div></div>
+        <div class="row gap wrap" style="margin-top:12px">
+          <label class="flex1">Movie command<input id="f-dl-moviecmd" placeholder="#request-movie"></label>
+          <label class="flex1">TV command<input id="f-dl-tvcmd" placeholder="#request-tv"></label>
+        </div>
+        <p class="hint ak-ptr" style="margin-top:8px">Jellyfin share key — <span id="ptr-dl">…</span>
+          <a href="#" class="card-link" data-goto="settings" data-target="#f-dl-apikey">API keys &amp; logins 🔑 →</a></p>
+        <label>Public address <span class="hint">optional — if the server answers on a different address from outside</span>
+          <input id="f-dl-baseurl" placeholder="https://jf.example.org">
+        </label>
+        <label>Restricted ratings <span class="hint">comma separated — these get the disclaimer, they are never blocked</span>
+          <input id="f-dl-ratings" placeholder="R, NC-17, X, TV-MA">
+        </label>
+        <label>Disclaimer <span class="hint">shown above restricted links; leave blank for the default</span>
+          <textarea id="f-dl-disclaimer" rows="2" placeholder="(default wording)"></textarea>
+        </label>
+        <button class="btn small primary" id="dl-save" style="margin-top:12px">Save direct-link settings</button>
+        <span id="dl-note" class="muted small"></span>
+
+        <h3>Link queue <span id="dl-queue-count" class="badge">0</span></h3>
+        <p class="hint">Link lookups run in their own queue, so a request here never waits behind a movie download or encode.</p>
+        <div id="dl-queue" class="list"><div class="empty">Nothing waiting.</div></div>
+      </div>
+      </div>
+
+      <div class="settings-group hidden" data-group="library-amp-files" data-label="Library &amp; files">
+<div class="settings-section">
+        <h2 class="section-head">Library &amp; files</h2>
+        <p class="section-hint">Where the files come from and how they are prepared for WhatsApp.</p>
+      </div>
+<div class="card">
+        <h2>Library</h2>
+        <label>Provider
+          <select id="f-libprovider">
+            <option value="jellyfin">Jellyfin</option>
+            <option value="plex">Plex</option>
+            <option value="http">Custom HTTP index</option>
+            <option value="local">Local folders</option>
+          </select>
+        </label>
+
+        <div class="lib-section" data-lib="jellyfin">
+          <label>Server URL<input id="f-jf-url" placeholder="http://192.168.1.50:8096"></label>
+
+          <label>Sign in with
+            <select id="f-jf-method">
+              <option value="password">Username &amp; password</option>
+              <option value="quickconnect">Quick Connect PIN</option>
+              <option value="apikey">API key</option>
+            </select>
+          </label>
+
+          <div class="jf-auth" data-jf="password">
+            <div class="row gap wrap">
+              <label class="flex1">Username<input id="f-jf-username" autocomplete="off"></label>
+              <label class="flex1">Password<input id="f-jf-password" type="password" placeholder="not set" autocomplete="new-password"></label>
+            </div>
+            <button class="btn small primary" id="btn-jf-login">Sign in to Jellyfin</button>
+            <p class="hint">Your password is used once to obtain a token, then stored encrypted. The token renews itself if Jellyfin invalidates it.</p>
+          </div>
+
+          <div class="jf-auth hidden" data-jf="quickconnect">
+            <p class="hint">Jellyfin gives you a code. Approve it from any device already signed in to Jellyfin — no password is sent to this server.</p>
+            <button class="btn small primary" id="btn-jf-qc">Get a Quick Connect code</button>
+            <div id="jf-qc-box"></div>
+          </div>
+
+          <div class="jf-auth hidden" data-jf="apikey">
+            <label>API key <span class="hint">Jellyfin → Dashboard → API Keys</span>
+              <input id="f-jf-key" type="password" placeholder="not set">
+            </label>
+          </div>
+
+          <div id="jf-status" class="jf-status"></div>
+          <input type="hidden" id="f-jf-user">
+        </div>
+        <div class="lib-section hidden" data-lib="plex">
+          <label>Server URL<input id="f-plex-url" placeholder="http://192.168.1.50:32400"></label>
+          <label>X-Plex-Token<input id="f-plex-token" type="password" placeholder="not set"></label>
+        </div>
+        <div class="lib-section hidden" data-lib="http">
+          <label>Search URL<input id="f-http-url" placeholder="https://host/api/find"></label>
+          <label>Auth header <span class="hint">e.g. Authorization: Bearer xyz</span><input id="f-http-auth" type="password"></label>
+        </div>
+        <div class="lib-section hidden" data-lib="local">
+          <label>Folders <span class="hint">one per line</span><textarea id="f-local-roots" rows="3" placeholder="/mnt/media/Movies"></textarea></label>
+          <label>Extensions <span class="hint">comma separated</span><input id="f-local-ext" placeholder=".mp4, .mkv"></label>
+        </div>
+
+        <div class="row gap wrap">
+          <label class="flex1">Match threshold <span class="hint">0–1; higher is stricter</span>
+            <input id="f-libthreshold" type="number" step="0.01" min="0" max="1">
+          </label>
+          <label class="flex1">Search timeout (ms) <span class="hint">raise if your server is slow to answer</span>
+            <input id="f-libtimeout" type="number" min="5000" step="1000">
+          </label>
+        </div>
+        <button class="btn small" id="btn-test-lib">Test connection</button>
+        <span id="lib-result" class="muted small"></span>
+      </div>
+<div class="card">
+        <h2>File handling</h2>
+        <p class="hint">WhatsApp rejects documents over 2&nbsp;GB. Anything larger is re-encoded down to fit, trading quality for deliverability.</p>
+        <label>Max output size <span class="hint">bytes — 1932735283 = 1.8&nbsp;GiB</span>
+          <input id="f-maxbytes" type="number">
+        </label>
+        <label>Largest public link <span class="hint">bytes — the most a link queued with “Queue a public link” may download; 21474836480 = 20&nbsp;GiB</span>
+          <input id="f-maxdownload" type="number">
+        </label>
+        <!-- Beside the public-link cap, which it shares: a YouTube link on
+             "Queue a public link" goes through yt-dlp, and YouTube can ask it
+             to sign in (2026-10-11; media/yt-dlp-cookies.js). Not a setting
+             in config.json: a file of its own, uploaded, never sent back. -->
+        <div id="ytdlp-cookies" style="margin:4px 0 16px">
+          <h3 style="margin:10px 0 4px">Cookies for yt-dlp <span class="hint">YouTube links on “Queue a public link”</span></h3>
+          <p class="hint">For when YouTube answers “Sign in to confirm you’re not a bot”, or a video is age-restricted. In a private window, sign in to YouTube with a <strong>secondary Google account, never your main one</strong> (YouTube can ban an account yt-dlp uses, and whoever has this file is signed in as it until the cookies expire), export youtube.com’s cookies with the “Get cookies.txt LOCALLY” extension, close the window, and upload the file here. It stays on this server (mode 0600, carried by the sealed backup) and is never shown again.</p>
+          <div id="ytdlp-status" class="small muted">Not looked at yet.</div>
+          <div class="row gap wrap" style="margin-top:8px">
+            <input type="file" id="ytdlp-cookies-file" accept=".txt,text/plain" style="margin:0">
+            <button class="btn small" id="btn-ytdlp-cookies-upload">Upload cookies.txt</button>
+            <button class="btn small danger" id="btn-ytdlp-cookies-remove">Remove</button>
+          </div>
+          <div id="ytdlp-note" class="small muted" style="margin-top:6px"></div>
+        </div>
+        <label>Strategy
+          <select id="f-strategy">
+            <option value="auto">Auto — copy when it fits, re-encode when it doesn't</option>
+            <option value="always-transcode">Always re-encode</option>
+            <option value="copy-only">Never re-encode — skip files that are too big</option>
+          </select>
+        </label>
+        <label>Encoder <span class="hint">Auto uses the NVIDIA GPU (NVENC) when a test encode shows it works on this box, else the CPU. A GPU encode that fails is done again on the CPU, so a request never fails for it.</span>
+          <select id="f-vencoder">
+            <option value="auto">Auto — GPU if it works, else CPU (default)</option>
+            <option value="nvenc">GPU — NVIDIA NVENC</option>
+            <option value="cpu">CPU — libx264</option>
+          </select>
+        </label>
+        <label>Encode speed <span class="hint">only affects files too big to copy. On the GPU each choice maps to an NVENC preset.</span>
+          <select id="f-encprofile">
+            <option value="fast">Fast — 480p, ~2× quicker, fine on a phone (default)</option>
+            <option value="balanced">Balanced — 720p</option>
+            <option value="quality">Best — 720p, slower &amp; sharper</option>
+            <option value="custom">Custom — use the preset &amp; max-height below</option>
+          </select>
+        </label>
+        <div class="row gap wrap">
+          <label class="flex1">Max height (px)<input id="f-maxheight" type="number"></label>
+          <label class="flex1">Audio bitrate (kbps)<input id="f-abitrate" type="number"></label>
+        </div>
+        <label>x264 preset
+          <select id="f-preset">
+            <option>ultrafast</option><option>superfast</option><option>veryfast</option>
+            <option>faster</option><option>fast</option><option>medium</option><option>slow</option>
+          </select>
+        </label>
+        <label class="check"><input type="checkbox" id="f-deleteafter"> Delete the local copy once it's sent <span class="hint">keeps the disk clear: a job's files - the downloaded original and the converted file - go once it's sent, never before; never touches your library original</span></label>
+        <label>Work directory<input id="f-workdir"></label>
+      </div>
+
+      <!--
+        In Library & files because it is a walk of the library. It was added
+        between two groups, inside none of them, so it showed under whichever
+        group was open - under "My account" and "TV" alike - and no chip led
+        to it.
+      -->
+<div class="card">
+        <h2>Clean-title catalogue 📚</h2>
+        <p class="hint">Every film on the server carrying a rating the bot is allowed to send. Built by walking the whole Jellyfin library, so it is refreshed by hand rather than on every page load. Titles only — no paths, ids, server address or token — and a copy is written to <code>library/clean-titles.md</code> for the repo.</p>
+        <div class="row gap wrap">
+          <button class="btn small" id="btn-cat-refresh">Rebuild the list</button>
+          <span id="cat-status" class="small muted"></span>
+        </div>
+        <div id="cat-outcome"></div>
+        <input id="cat-search" placeholder="filter the list…" style="margin-top:12px">
+        <div id="cat-list" class="list" style="max-height:420px;overflow:auto;margin-top:8px"><div class="empty">Not built yet.</div></div>
+      </div>
+
+<!--
+  Who says when the library is fixed (src/core/library-news.js). The
+  operator, 2026-10-09: "keep tabs on what head admin ... says on discussions
+  group for when issues are fixed so you're aware".
+-->
+<div class="card" id="card-library-news">
+        <h2>Library updates &amp; #issue reports 📣</h2>
+        <p class="hint">What these people write in these groups is kept (90 days), and the hourly check reads it: when one of them says a title was fixed or added, it checks the library and finds the members who were turned away for it. Their other messages are only listed in its report. In these groups, a message from <b>anyone</b> that starts with <code>#issue</code> — <code>#issue #group01 the file sent for … is only 100mb and corrupted</code> — is kept too, and the hourly check researches and fixes each one; <code>#group01</code> means the group whose name starts with 01. Everything else said in these groups is kept as well and read by the hourly check, which looks into a complaint made in passing; <code>#issue</code> gets it the most attention.</p>
+        <label>Numbers <span class="hint">country code first, separated by commas — e.g. 15558100180</span>
+          <input id="f-news-senders" placeholder="15558100180" autocomplete="off" inputmode="tel">
+        </label>
+        <label>In these groups</label>
+        <div id="news-groups" class="group-list"><div class="empty">Connect to load your groups.</div></div>
+        <div class="row gap" style="margin-top:12px">
+          <button class="btn small primary" id="news-save">Save library updates</button>
+          <span id="news-note" class="muted small"></span>
+        </div>
+      </div>
+      </div>
+
+      <div class="settings-group hidden" data-group="account" data-label="My account">
+<div class="settings-section">
+        <h2 class="section-head">My account</h2>
+        <p class="section-hint">Your own sign-in. Every admin can change their own password here.</p>
+      </div>
+      <div class="card">
+        <h2>Password 🔑</h2>
+        <p class="hint">Changing it signs out anyone else who is signed in as you — on any other device — so a password you think has leaked stops working everywhere.</p>
+        <div class="row gap wrap">
+          <label class="flex1">Current<input id="f-pw-cur" type="password" autocomplete="current-password"></label>
+          <label class="flex1">New <span class="hint">at least 8 characters</span><input id="f-pw-new" type="password" autocomplete="new-password"></label>
+          <label class="flex1">Confirm new<input id="f-pw-new2" type="password" autocomplete="new-password"></label>
+        </div>
+        <button class="btn small" id="btn-chpw">Update my password</button>
+        <span id="pw-result" class="muted small"></span>
+      </div>
+      <div class="card">
+        <h2>Sign-out timeout</h2>
+        <p class="hint">How long you can leave the panel open without doing anything before it signs you out. Only the super-admin sets this.</p>
+        <p id="my-idle" class="muted small">—</p>
+      </div>
+      </div>
+
+<div class="settings-group hidden" data-group="system" data-label="System">
+<div class="settings-section">
+        <h2 class="section-head">System</h2>
+        <p class="section-hint">The control panel itself, alerts, and your own account.</p>
+      </div>
+<div class="card">
+        <h2>Control panel</h2>
+        <div class="row gap wrap">
+          <label class="flex1">Port<input id="f-port" type="number"></label>
+        <label>Sign out after (minutes idle) <span class="hint">the default for every admin — background polling does not count as activity, 0 disables. Each admin can be given their own in the Admins tab.</span>
+          <input id="f-idle" type="number" min="0" max="1440" step="1">
+          <span id="f-idle-lock" class="hint hidden">Only the super-admin can change this.</span>
+        </label>
+          <label class="flex1">Bind address<input id="f-bind" placeholder="0.0.0.0"></label>
+        </div>
+        <p class="hint">Changing port or bind address needs a restart. <strong>0.0.0.0</strong> exposes the panel to your whole LAN — never port-forward it without HTTPS in front.</p>
+        <label>Log level
+          <select id="f-loglevel"><option>debug</option><option>info</option><option>warn</option><option>error</option></select>
+        </label>
+
+      </div>
+<div class="card">
+        <h2>Email alerts</h2>
+        <p class="hint">Sends debug logs and error alerts to your inbox. Gmail and Outlook need an
+        <strong>app password</strong> — not your normal password — which requires two-factor to be
+        switched on. Generate one at
+        <span class="mono">myaccount.google.com → Security → App passwords</span>.</p>
+
+        <label class="check"><input type="checkbox" id="f-em-enabled"> Enable email</label>
+
+        <label>Provider
+          <select id="f-em-provider">
+            <option value="gmail">Gmail</option>
+            <option value="outlook">Outlook / Hotmail</option>
+            <option value="yahoo">Yahoo</option>
+            <option value="custom">Custom SMTP</option>
+          </select>
+        </label>
+
+        <div id="em-custom" class="hidden">
+          <div class="row gap wrap">
+            <label class="flex1">SMTP host<input id="f-em-host" placeholder="smtp.example.com"></label>
+            <label style="width:110px">Port<input id="f-em-port" type="number"></label>
+          </div>
+          <label class="check"><input type="checkbox" id="f-em-secure"> Use TLS on connect (port 465)</label>
+        </div>
+
+        <div class="row gap wrap">
+          <label class="flex1">Email address<input id="f-em-user" type="email" placeholder="you@gmail.com" autocomplete="off"></label>
+          <label class="flex1">App password<input id="f-em-pass" type="password" placeholder="not set" autocomplete="new-password"></label>
+        </div>
+        <label>Send alerts to <span class="hint">leave blank to send to yourself</span>
+          <input id="f-em-to" type="email" placeholder="same as above">
+        </label>
+
+        <h3>When to email</h3>
+        <label class="check"><input type="checkbox" id="f-em-onerror"> Email me when an error is logged</label>
+        <label class="check"><input type="checkbox" id="f-em-onfailover"> Email me when the bot changes WhatsApp number <span class="hint">— and when it goes down with no spare to move to</span></label>
+        <label class="check"><input type="checkbox" id="f-em-oncontent"> Email me when the nudity check keeps failing <span class="hint">— films are then judged on their rating alone</span></label>
+        <label>Quiet period between alerts (minutes) <span class="hint">stops a failing loop flooding your inbox</span>
+          <input id="f-em-throttle" type="number" min="1">
+        </label>
+
+        <label class="check"><input type="checkbox" id="f-em-daily"> Email me a daily summary <span class="hint">— including films people asked for that aren't on the server</span></label>
+        <label>Send it at (hour, 24h) <span class="hint">the box's local time</span>
+          <input id="f-em-dailyhour" type="number" min="0" max="23">
+        </label>
+
+        <div class="row gap wrap" style="margin-top:14px">
+          <button class="btn small" id="btn-em-digest">Send the summary now</button>
+          <button class="btn small" id="btn-em-verify">Check credentials</button>
+          <button class="btn small" id="btn-em-test">Send test email</button>
+          <button class="btn small primary" id="btn-em-sendlog">Email me the log now</button>
+        </div>
+        <div id="em-result" class="small" style="margin-top:8px"></div>
+      </div>
+
+<div class="card">
+        <h2>Plugins</h2>
+        <p class="hint">Enabled plugins, one per line. Each maps to a folder in <code>src/plugins/</code>.</p>
+        <textarea id="f-plugins" rows="3"></textarea>
+        <div id="plugin-list" class="kv" style="margin-top:12px"></div>
+      </div>
+      </div>
+
+      </section>
+
+    <!-- ---------- TEST ---------- -->
+    <section class="panel" id="tab-test">
+      <div class="card">
+        <h2>Check a Jellyfin link 🔗</h2>
+        <p class="hint">Looks the item up and reports what it is and whether the bot would send it — without queueing or downloading anything. Paste the Download URL, a stream URL, the <code>/web/#/details?id=…</code> address, or just the item id. To actually queue one, use the box on the Dashboard queue.</p>
+        <div class="row gap wrap">
+          <input id="jf-url" class="flex1" placeholder="https://your-server/Items/…/Download?…">
+          <button class="btn small primary" id="btn-jf-check">Check</button>
+        </div>
+        <div id="jf-result" class="small" style="margin-top:8px"></div>
+      </div>
+
+<div class="card">
+        <h2>Dry-run a request</h2>
+        <p class="hint">Runs the exact checks the bot would, without touching WhatsApp or downloading anything.</p>
+        <div class="row gap">
+          <input id="test-input" placeholder="e.g. jhon wick 4" class="flex1">
+          <button class="btn primary" id="btn-test">Check</button>
+        </div>
+        <div id="test-out" class="steps"></div>
+      </div>
+    </section>
+
+    <!-- ---------- GROUPS ADMIN ---------- -->
+    <section class="panel" id="tab-groups">
+
+
+<div class="card">
+        <h2>Groups <button class="btn small" id="btn-ga-refresh" style="margin-left:auto">Refresh</button></h2>
+        <div id="ga-list" class="list"><div class="empty">Connect WhatsApp to manage groups.</div></div>
+      </div>
+
+<div class="card hidden" id="ga-detail">
+        <h2><span id="ga-name">Group</span> <button class="btn small" id="ga-close" style="margin-left:auto">← back</button></h2>
+        <div id="ga-adminwarn" class="hint" style="margin-bottom:10px"></div>
+
+        <h3>Posting</h3>
+        <div class="row gap wrap" style="align-items:center">
+          <span id="ga-lock-state" class="pill">…</span>
+          <button class="btn small danger" id="ga-lock">🔒 Lock (admins only)</button>
+          <button class="btn small primary" id="ga-unlock">🔓 Unlock (everyone)</button>
+          <span id="ga-lock-note" class="muted small"></span>
+        </div>
+
+        <h3>Description</h3>
+        <textarea id="ga-desc" rows="4" placeholder="(no description)"></textarea>
+        <div class="row gap" style="margin-top:8px">
+          <button class="btn small primary" id="ga-desc-save">Save description</button>
+          <span id="ga-desc-note" class="muted small"></span>
+        </div>
+
+        <h3>Add a member <span class="hint">phone number with + and the country code, e.g. +15551234567</span></h3>
+        <div class="row gap">
+          <input id="ga-add-num" placeholder="+15551234567" inputmode="tel" class="flex1">
+          <button class="btn small primary" id="ga-add-btn">Add</button>
+        </div>
+        <div id="ga-add-note" class="muted small" style="margin-top:6px"></div>
+
+        <h3>Members <span id="ga-count" class="badge">0</span></h3>
+        <input id="ga-member-filter" placeholder="filter members…" style="margin-bottom:10px">
+        <div id="ga-members" class="list"></div>
+      </div>
+
+<div class="card">
+        <h2>Group lockdown 🔒</h2>
+        <div id="lock-status" class="lock-status"><div class="empty">Loading…</div></div>
+        <div class="row gap wrap" style="margin-top:12px">
+          <button class="btn small danger" id="lock-now">🔒 Lock all groups now</button>
+          <button class="btn small primary" id="unlock-now">🔓 Unlock all groups now</button>
+        </div>
+        <div id="lock-run-note" class="small" style="margin-top:8px"></div>
+        <h3>Automatic Shabbos &amp; yom tov lockdown</h3>
+        <p class="hint">Locks at candle-lighting and unlocks at havdalah, each measured in the city chosen below. Manual lock/unlock always overrides.</p>
+        <label class="check"><input type="checkbox" id="f-lock-enabled"> Enable automatic lockdown <span class="hint">— on by default, but on a new install nothing is locked until a group is ticked under <em>Always-locked groups</em> below, or this card is saved: havdalah opens every other group</span></label>
+        <label class="check"><input type="checkbox" id="f-lock-yomtov"> Include yom tov &mdash; Rosh Hashana, Yom Kippur, Sukkos, Shmini Atzeres/Simchas Torah, Pesach, Shavuos</label>
+        <p class="hint">Each end follows its own city&rsquo;s calendar: New York keeps two days of yom tov; Jerusalem follows the Israeli calendar &mdash; one day, except Rosh Hashana, which is two there too. When yom tov runs into Shabbos there is no havdalah between them, so the whole run is <strong>one</strong> lock.</p>
+        <div class="row gap wrap">
+          <label class="flex1">Candle-lighting (lock) in
+            <select id="f-lock-candle-city"><option value="new-york">New York</option><option value="jerusalem">Jerusalem</option></select></label>
+          <label class="flex1">Candle-lighting (min before sunset)<input id="f-lock-candle" type="number" min="0" max="120" step="1"></label>
+        </div>
+        <div class="row gap wrap">
+          <label class="flex1">Havdalah (unlock) in
+            <select id="f-lock-havdalah-city"><option value="new-york">New York</option><option value="jerusalem">Jerusalem</option></select></label>
+          <label class="flex1">Havdalah (min after sunset)<input id="f-lock-havdalah" type="number" min="1" max="120" step="1"></label>
+        </div>
+        <div id="lock-cities-hint" class="small" style="margin-top:8px"></div>
+        <div id="lock-upcoming" class="muted small" style="margin-top:10px"></div>
+        <h3>Always-locked groups <span class="hint">stay admins-only even when everything unlocks</span></h3>
+        <p class="hint">Tick groups that are permanently admin-post-only. Unlock (manual or havdalah) will skip these.</p>
+        <div class="row gap wrap" style="margin-bottom:8px">
+          <button class="btn small" id="al-sync">Sync from WhatsApp</button>
+          <span id="al-sync-note" class="muted small"></span>
+        </div>
+        <div id="al-diff" class="hidden" style="margin-bottom:10px"></div>
+        <div id="always-locked" class="group-list"><div class="empty">Connect WhatsApp to load groups.</div></div>
+        <button class="btn small primary" id="lock-save" style="margin-top:12px">Save lockdown settings</button>
+        <span id="lock-save-note" class="muted small"></span>
+      </div>
+
+<div class="card">
+        <h2>Activity log</h2>
+        <p class="hint">Joins, leaves, removals and admin changes, captured live (from when the bot is running).</p>
+        <div class="row gap" style="margin-bottom:10px">
+          <button class="btn small" id="btn-ga-activity-refresh">Refresh</button>
+          <button class="btn small danger" id="btn-ga-activity-clear">Clear</button>
+        </div>
+        <div id="ga-activity" class="list"><div class="empty">No activity recorded yet.</div></div>
+      </div>
+
+      </section>
+
+    <!-- ---------- HISTORY ---------- -->
+    <section class="panel" id="tab-tickets">
+      <div class="card">
+        <h2>Tickets</h2>
+        <p class="hint">Every ticket that has been opened: a member's <strong>#issue</strong> in the discussions group, and the ones the Ollama agent opened for the admins. Numbered in the order they came. A ticket is open until you resolve it; leave a note saying what was done.</p>
+        <div class="row gap wrap" style="margin-bottom:10px">
+          <div class="seg" id="tix-filter">
+            <button class="seg-btn active" data-tix="open">Open <span id="tix-count-open" class="badge">0</span></button>
+            <button class="seg-btn" data-tix="resolved">Resolved <span id="tix-count-resolved" class="badge">0</span></button>
+            <button class="seg-btn" data-tix="all">All <span id="tix-count-all" class="badge">0</span></button>
+          </div>
+          <button class="btn small" id="btn-tix-refresh">Refresh</button>
+        </div>
+        <div id="tix-list" class="list"><div class="empty">Loading…</div></div>
+      </div>
+    </section>
+
+    <section class="panel" id="tab-history">
+      <div class="card">
+        <h2>Recent requests</h2>
+        <div class="row gap wrap" style="margin-bottom:10px">
+          <button class="btn small" id="btn-hist-refresh">Refresh</button>
+          <button class="btn small primary" id="btn-hist-rerunall">↻ Re-run all pending</button>
+          <button class="btn small danger" id="btn-hist-clear">Clear</button>
+        </div>
+        <div id="hist-note" class="muted small" style="margin-bottom:8px"></div>
+        <div class="seg" id="hist-tabs">
+          <button class="seg-btn active" data-hist="movies">🎬 Movies <span id="hist-movie-count" class="badge">0</span></button>
+          <button class="seg-btn" data-hist="tv">📺 TV shows <span id="hist-tv-count" class="badge">0</span></button>
+        </div>
+
+        <div id="hist-pane-movies">
+          <div id="history-list" class="list"><div class="empty">No movie requests yet.</div></div>
+          <div id="hist-more-movies" class="row gap wrap" style="margin-top:10px"></div>
+        </div>
+
+        <div id="hist-pane-tv" class="hidden">
+          <p class="hint">One row per request — a whole season is one entry, not one per episode.</p>
+          <div id="history-tv" class="list"><div class="empty">No TV requests yet.</div></div>
+          <div id="hist-more-tv" class="row gap wrap" style="margin-top:10px"></div>
+        </div>
+      </div>
+
+      <div class="card" id="card-wanted">
+        <h2>Wanted — asked for, not on the server 📋</h2>
+        <p class="hint">Films that resolved to a real title the server doesn't have. This is the one thing in the day's activity an admin can act on, so it also goes out in the daily summary. Titles in cinemas are kept separate — nobody can add those yet. <b>Mark resolved</b> once a film is dealt with, so the other admins know: it moves to Resolved below, with who and when, for 30 days. The bot resolves a film itself when it finds it on the server. A note is for the other admins and for the hourly check, which reads every new one on the hour and acts on it. <b>Refresh</b> looks every film up in the library first. The bot does that by itself every 30 minutes, and when it finds a film on the server, each request that was answered "not in the library" for it is run again on the member's own message — queued and reacted to, or refused as any request would be. <b>Re-run requests</b> on a resolved film does the same by hand: for one resolved before the bot did this, or by an admin or a new request.</p>
+        <div class="row gap wrap">
+          <button class="btn small" id="btn-wanted-refresh">Refresh</button>
+          <button class="btn small danger" id="btn-wanted-clear">Clear the list</button>
+          <label class="small"><input type="checkbox" id="wanted-rerun-on-arrival" checked> Re-run the requests when a film arrives</label>
+          <span id="wanted-status" class="small muted"></span>
+        </div>
+        <div id="wanted-list" class="list" style="max-height:520px;overflow:auto;margin-top:10px"><div class="empty">Loading…</div></div>
+        <details id="wanted-resolved-box" class="wanted-resolved-box hidden" style="margin-top:10px">
+          <summary>Resolved <span id="wanted-resolved-count" class="badge">0</span></summary>
+          <div id="wanted-resolved" class="list" style="max-height:420px;overflow:auto;margin-top:8px"></div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ---------- MEMBERS (cross-group) ---------- -->
+    <section class="panel" id="tab-members">
+
+
+<div class="card">
+        <h2>All members <span id="mr-count" class="badge">0</span></h2>
+        <p class="hint">Everyone across every group the bot can see, merged into one list. Click someone to see their groups, where they're an admin, how active they are, and when they joined.</p>
+        <div class="row gap wrap" style="margin-bottom:10px">
+          <input id="mr-filter" class="flex1" placeholder="search by name, number or group…">
+          <select id="mr-sort">
+            <option value="active">Most active</option>
+            <option value="groups">Most groups</option>
+            <option value="admin">Admins first</option>
+            <option value="recent">Recently active</option>
+            <option value="name">Name / number</option>
+          </select>
+          <button class="btn small" id="mr-refresh">Refresh</button>
+        </div>
+        <div id="mr-detail" class="hidden"></div>
+        <div id="mr-list" class="list"><div class="empty">Connect WhatsApp to load members.</div></div>
+        <div id="mr-more" class="row gap wrap" style="margin-top:10px"></div>
+      </div>
+
+<div class="card">
+        <h2>Member actions across groups</h2>
+        <label>Phone number <span class="hint">with + and the country code, e.g. +15551234567</span>
+          <input id="mx-num" placeholder="+15551234567" inputmode="tel">
+        </label>
+        <label>Apply to groups</label>
+        <div class="row gap" style="margin-bottom:8px">
+          <button class="btn tiny" id="mx-all">select all</button>
+          <button class="btn tiny" id="mx-none">select none</button>
+        </div>
+        <div id="mx-groups" class="group-list"><div class="empty">Connect WhatsApp to load groups.</div></div>
+        <div class="row gap wrap" style="margin-top:12px">
+          <button class="btn small primary" id="mx-add">Add to selected</button>
+          <button class="btn small" id="mx-promote">Make admin on selected</button>
+          <button class="btn small" id="mx-demote">Remove admin on selected</button>
+        </div>
+        <div id="mx-note" class="small" style="margin-top:8px"></div>
+        <h3>Ban</h3>
+        <p class="hint">Removes the number from every group it's in, deletes any message they posted in the last 2 days (WhatsApp's delete-for-everyone limit), and adds them to the banned list.</p>
+        <button class="btn small danger" id="mx-banall">⛔ Ban from ALL groups</button>
+      </div>
+
+<div class="card">
+        <h2>Banned numbers <span id="banned-count" class="badge">0</span></h2>
+        <div class="row gap" style="margin-bottom:10px">
+          <input id="ban-add-num" placeholder="add a number to the banned list" class="flex1">
+          <button class="btn small" id="ban-add">Add</button>
+        </div>
+        <div id="banned-list" class="list"><div class="empty">No banned numbers.</div></div>
+      </div>
+
+      </section>
+
+    <!-- ---------- ADMINS (super-admin) ---------- -->
+    <section class="panel" id="tab-admins">
+      <div class="card" id="card-admins">
+        <h2>Admin accounts <span class="hint">super-admin only</span></h2>
+        <p class="hint">Each admin signs in with their own login; their portal actions are attributed in the audit log. The super-admin (you) manages accounts here.</p>
+        <p class="hint">"Sign out after" is how many idle minutes each admin gets before the panel signs them out. Leave it empty to use the default from Settings → System → Control panel; <strong>0 means never</strong>. A change reaches sessions that are already open.</p>
+        <div id="admins-list" class="list"></div>
+        <h3>Add an admin</h3>
+        <div class="row gap wrap">
+          <input id="na-user" placeholder="username" class="flex1">
+          <input id="na-pass" type="password" placeholder="password (8+ chars)" class="flex1">
+          <select id="na-role"><option value="admin">admin</option><option value="superadmin">super-admin</option></select>
+          <button class="btn small primary" id="na-add">Add</button>
+        </div>
+        <div id="na-note" class="muted small" style="margin-top:6px"></div>
+      </div>
+
+    </section>
+
+    <!-- ---------- LOGS ---------- -->
+    <section class="panel" id="tab-logs">
+      <div class="card">
+        <h2>Portal audit log</h2>
+        <p class="hint">Every action taken in this portal, with which admin did it.</p>
+        <div class="row gap" style="margin-bottom:10px">
+          <button class="btn small" id="btn-audit-refresh">Refresh</button>
+          <button class="btn small danger superadmin-only hidden" id="btn-audit-clear">Clear</button>
+        </div>
+        <div class="row gap wrap" style="margin-top:10px">
+          <input id="audit-search" class="flex1" placeholder="search the audit log…">
+          <select id="audit-who"><option value="">everyone</option></select>
+        </div>
+        <div id="audit-cats" class="row gap wrap" style="margin-top:8px"></div>
+        <div style="display:none">
+        </div>
+        <div id="audit-list" class="list"><div class="empty">No actions recorded yet.</div></div>
+      </div>
+
+      <!-- ---------- NOT IN LIBRARY ---------- -->
+      <div class="card">
+        <h2>Not in the library <span id="miss-count" class="badge">0</span></h2>
+        <p class="hint">Requests the bot refused for <strong>one reason only</strong> — it could not
+          find them. Everything here passed the rating gate, was not still in cinemas, was a title
+          the bot recognised, and hit no error. If something on this list <em>is</em> on the server,
+          that is a bug in the lookup, and the note under each row says what the lookup actually
+          did.</p>
+        <div class="row gap" style="margin-bottom:10px">
+          <button class="btn small" id="btn-miss-refresh">Refresh</button>
+          <button class="btn small danger" id="btn-miss-clear">Clear</button>
+        </div>
+        <div class="row gap wrap" style="margin-top:6px">
+          <input id="miss-search" class="flex1" placeholder="search what was asked for…">
+        </div>
+        <div id="miss-cats" class="row gap wrap" style="margin-top:8px"></div>
+        <div id="miss-list" class="list"><div class="empty">Nothing has been refused for not being in the library.</div></div>
+      </div>
+
+      <div class="card">
+        <h2>Transfers</h2>
+        <p class="hint">Live download, conversion and upload progress for the job currently running.</p>
+        <div id="transfer-live"><div class="empty">No transfer in progress.</div></div>
+
+        <h3>Completed transfers</h3>
+        <div class="row gap" style="margin-bottom:10px">
+          <button class="btn small" id="btn-transfers-refresh">Refresh</button>
+          <button class="btn small danger" id="btn-transfers-clear">Clear</button>
+        </div>
+        <div id="transfer-history" class="list"><div class="empty">No transfers yet.</div></div>
+      </div>
+
+      <div class="card">
+        <h2>Live log</h2>
+        <div class="row gap wrap" style="margin-bottom:10px">
+          <input id="log-filter" placeholder="filter…" class="flex1" style="margin:0">
+          <select id="log-level" style="width:auto;margin:0">
+            <option value="">all levels</option>
+            <option value="debug">debug+</option>
+            <option value="info">info+</option>
+            <option value="warn">warn+</option>
+            <option value="error">errors only</option>
+          </select>
+          <button class="btn small" id="btn-log-clear">Clear view</button>
+          <label class="check inline"><input type="checkbox" id="log-follow" checked> Follow</label>
+        </div>
+        <pre id="log-out" class="logbox"></pre>
+        <div class="muted small" id="log-count" style="margin-top:6px"></div>
+      </div>
+
+      <div class="card">
+        <h2>Saved debug logs</h2>
+        <p class="hint">Everything is written to disk at debug level, whatever the console is set
+        to, and rotated daily. This is what survives a restart.</p>
+        <div class="row gap wrap" style="margin-bottom:10px">
+          <button class="btn small" id="btn-logfiles-refresh">Refresh</button>
+          <button class="btn small primary" id="btn-logfiles-email">Email me today's log</button>
+        </div>
+        <div id="logfiles" class="list"><div class="empty">Loading…</div></div>
+        <pre id="logfile-view" class="logbox hidden" style="margin-top:12px"></pre>
+      </div>
+
+      <!-- ---------- HOURLY CHECKS (card code: hourly-checks.js) ---------- -->
+      <div class="card" id="card-hourly-checks">
+        <h2>Hourly checks 🩺 <span id="hc-pill" class="pill">…</span></h2>
+        <p class="hint">Every hour on the hour the bot's requests are checked for anything that
+          failed or went unanswered. When something did, Claude Code researches it, fixes the code
+          if it is a bug, restarts the bot so the fix is live, and emails you a report. An hour with
+          nothing new is "all clear": no research, no email, and no restart.</p>
+        <div class="row gap wrap" style="margin-bottom:10px">
+          <button class="btn small" id="btn-hc-refresh">Refresh</button>
+          <label class="check inline"><input type="checkbox" id="hc-all"> Show every all-clear hour</label>
+        </div>
+        <div id="hc-status" class="muted small" style="margin-bottom:8px"></div>
+        <div id="hc-list" class="list"><div class="empty">Open this tab to load.</div></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+</div>
+
+<script src="/app.js"></script>
+<script src="/hourly-checks.js"></script>
+<script src="/wanted.js"></script>
+<script src="/discord.js"></script>
+<script src="/csv-export.js"></script>
+</body>
+</html>

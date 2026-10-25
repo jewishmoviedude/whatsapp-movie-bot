@@ -1,0 +1,32 @@
+*Absolutely no chatting is allowed.*
+Request in ONE message: *#request* + the movie's correct name and year. Text only, one movie at a time.
+
+*Movies are posted only in the Posts group:*
+https://chat.whatsapp.com/ExampleInvite07xxxxxxxx
+
+*Live queue updates:*
+https://chat.whatsapp.com/ExampleInvite05xxxxxxxx
+
+🔍 Researching · 🎬 Added to the queue
+1️⃣2️⃣3️⃣…🔟 Your place in line (updates live) · 🔢 11th or further back
+⬇️ Downloading · ⚙️ Converting · ⬆️ Sending · ✅ Done
+
+If we can't do it:
+⛔ Rated R / NC-17 / X / TV-MA — not allowed
+🎪 Only in theaters — not on the server yet
+📬 Not in the library — tell us here: https://forms.gle/ExampleForm01
+❓ Not a movie we could find — check the spelling. An unofficial film? Request it in group 07
+📅 More than one movie has that name — add the year
+☝️ More than one movie in one message — send each on its own
+✍️ Not written properly — write the season and episode like *#request The Office S01E05* (a zero, not the letter O)
+❌ An admin cancelled it — it isn't coming
+⏭️ An admin set it aside (usually a huge file)
+⚠️ Something went wrong (the bot usually retries)
+⏸️ On hold — requests are paused for a moment; it runs by itself when they resume, no need to ask again
+
+Questions comments or suggestions:
+https://chat.whatsapp.com/ExampleInvite08xxxxxxxx
+
+*🤖 Feedback on the bot:* https://forms.gle/ExampleForm03
+
+*💬 Feedback on the groups:* https://forms.gle/ExampleForm02

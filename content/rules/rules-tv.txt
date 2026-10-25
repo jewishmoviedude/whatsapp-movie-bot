@@ -1,0 +1,15 @@
+# TV posts groups
+# command: #rules-tv
+
+*📋 TV POSTS RULES*
+
+*This group is for posting TV episodes only. No chatting.*
+
+• *No PMing admins with requests.* Use the TV request chat:
+https://chat.whatsapp.com/ExampleInvite09xxxxxxxx
+• Post episodes as a *Document* (paperclip → Document), under 2GB.
+• Name episodes clearly, e.g. *The Boys S01E01 Pilot*.
+• No chatting, no tagging, no replying.
+
+*TO WATCH ON IPHONE* — VLC:
+https://apps.apple.com/us/app/vlc-media-player/id650377962

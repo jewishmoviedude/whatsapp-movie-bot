@@ -1,0 +1,5197 @@
+# Clean titles on the server
+
+5152 of 10000 films carry a rating this bot may send.
+
+Excluded: R, NC-17, X, TV-MA — 3529 title(s).
+Unrated and therefore not listed: 1319 title(s). An unrated file is
+one nobody has checked, so it is left out rather than assumed safe.
+
+Generated 2026-09-09 03:11 UTC. Titles only — no paths, ids, server address or token.
+
+## #
+
+- ¡Casa Bonita Mi Amor! (2024) — NR
+- ...And God Created Woman (1956) — PG
+- '85: The Greatest Team in Football History (2016) — PG-13
+- (500) Days of Summer (2009) — PG-13
+- *batteries not included (1987) — PG
+- 1-800-Hot-Nite (2022) — Not Rated
+- 10 Lives (2024) — TV-G
+- 10 Things I Hate About You (1999) — PG-13
+- 10,000 BC (2008) — PG-13
+- 100 Rifles (1969) — PG
+- 100 Yards (2024) — PG-13
+- 100% Wolf (2020) — PG
+- 101 Dalmatians (1996) — G
+- 101 Dalmatians II: Patch's London Adventure (2003) — G
+- 102 Dalmatians (2000) — G
+- 102 Minutes That Changed America (2008) — NR
+- 11 Flowers (2012) — Not Rated
+- 11 Rebels (2024) — NR
+- 12 Angry Men (1957) — NR
+- 12 Feet Deep (2018) — NR
+- 12 Gifts of Christmas (2015) — G
+- 12 Hour Shift (2020) — NR
+- 12 Mighty Orphans (2021) — PG-13
+- 12 Rounds (2009) — PG-13
+- 12 Rounds 2: Reloaded (2013) — PG-13
+- 13 Going on 30 (2004) — PG-13
+- 13 Minutes (2021) — PG-13
+- 13: The Musical (2022) — PG
+- 1408 (2007) — PG-13
+- 15 Cameras (2023) — NR
+- 16 Blocks (2006) — PG-13
+- 16 Wishes (2010) — G
+- 17 Again (2009) — PG-13
+- 1776 (1972) — G
+- 180° South (2010) — PG
+- 1941 (1979) — PG
+- 1984 (1956) — NR
+- 2 Fast 2 Furious (2003) — PG-13
+- 2 Hearts (2020) — PG-13
+- 2:22 (2017) — PG-13
+- 2.0 (2018) — NR
+- 20 Days in Mariupol (2023) — NR
+- 20 Feet from Stardom (2013) — PG-13
+- 20,000 Days on Earth (2014) — NR
+- 20,000 Leagues Under the Sea (1954) — G
+- 20,000 Leagues Under the Sea (1997) — Not Rated
+- 200 Pounds Beauty (2006) — Not Rated
+- 200% Wolf (2024) — PG
+- 2000 Meters to Andriivka (2025) — NR
+- 2001: A Space Odyssey (1968) — G
+- 2010 (1984) — PG
+- 2012 (2009) — PG-13
+- 2016: Obama's America (2012) — PG
+- 2047: Sights of Death (2014) — TV-14
+- 2067 (2020) — NR
+- 2073 (2024) — NR
+- 21 (2008) — PG-13
+- 21 Years: Richard Linklater (2014) — NR
+- 23 Blast (2014) — PG-13
+- 24: Redemption (2008) — TV-14
+- 27 Dresses (2008) — PG-13
+- 3 Bed, 2 Bath, 1 Ghost (2023) — G
+- 3 Days to Kill (2014) — PG-13
+- 3 Godfathers (1948) — NR
+- 3 Idiots (2009) — PG-13
+- 3 Men and a Baby (1987) — PG
+- 3 Men and a Little Lady (1990) — PG
+- 3 Ninjas (1992) — PG
+- 3 Ninjas Kick Back (1994) — PG
+- 3 Ninjas Knuckle Up (1995) — PG-13
+- 3,000 (2016) — NR
+- 3:10 to Yuma (1957) — NR
+- 37 (2016) — NR
+- 4 for Texas (1963) — NR
+- 4 Horsemen: Apocalypse (2022) — Not Rated
+- 4 Little Girls (1997) — TV-14
+- 4.3.2.1 (2010) — Not Rated
+- 400 Bullets (2021) — Not Rated
+- 400 Days (2015) — Unrated
+- 42 (2013) — PG-13
+- 47 Meters Down (2017) — PG-13
+- 47 Meters Down: Uncaged (2019) — PG-13
+- 47 Ronin (2013) — PG-13
+- 5 Broken Cameras (2011) — NR
+- 5 Centimeters per Second (2007) — PG
+- 5 More Sleeps 'til Christmas (2021) — TV-PG
+- 5 Years Apart (2019) — NR
+- 50 First Dates (2004) — PG-13
+- 5000 Blankets (2022) — PG-13
+- 55 Days at Peking (1963) — NR
+- 5th Passenger (2018) — PG
+- 6 Below: Miracle on the Mountain (2017) — PG-13
+- 6 Days to Air: The Making of South Park (2011) — NR
+- 6 Years (2015) — Not Rated
+- 633 Squadron (1964) — PG
+- 65 (2023) — PG-13
+- 7 Chinese Brothers (2015) — Not Rated
+- 7 Days in Entebbe (2018) — PG-13
+- 7 Faces of Dr. Lao (1964) — NR
+- 7 Guardians of the Tomb (2018) — PG-13
+- 7 Yards: The Chris Norton Story (2021) — TV-PG
+- 76 Days (2020) — Not Rated
+- 77 Minutes (2016) — NR
+- 8 Seconds (1994) — PG-13
+- 8-Bit Christmas (2021) — PG
+- 80 for Brady (2023) — PG-13
+- 9 (2009) — PG-13
+- 9 Songs (2004) — NR
+- 9/11: Inside the President's War Room (2021) — PG-13
+- 90 Minutes in Heaven (2015) — PG-13
+- 964 Pinocchio (1991) — NR
+- Æon Flux (2005) — PG-13
+
+## A
+
+- A Beautiful Day in the Neighborhood (2019) — PG
+- A Beautiful Mind (2001) — PG-13
+- A Beautiful Place to Die: A Martha's Vineyard Mystery (2020) — TV-PG
+- A Better Life (2011) — PG-13
+- A Big Fat Family Christmas (2022) — G
+- A Biltmore Christmas (2023) — G
+- A Blue Ridge Mountain Christmas (2019) — TV-G
+- A Boy Called Christmas (2021) — PG
+- A Boy Named Charlie Brown (1969) — G
+- A Bramble House Christmas (2017) — Not Rated
+- A Bridge Too Far (1977) — PG
+- A Brush with Love (2019) — G
+- A Bug's Life (1998) — G
+- A Carpenter Christmas Romance (2024) — TV-PG
+- A Charlie Brown Christmas (1965) — G
+- A Charlie Brown Thanksgiving (1973) — G
+- A Charlie Brown Valentine (2002) — TV-G
+- A Chorus Line (1985) — PG-13
+- A Christmas Arrangement (2018) — TV-14
+- A Christmas Carol (1938) — NR
+- A Christmas Carol (1984) — PG
+- A Christmas Carol (1999) — PG
+- A Christmas Carol (2009) — PG
+- A Christmas Cookie Catastrophe (2022) — G
+- A Christmas Cruise (2017) — TV-PG
+- A Christmas Eve Miracle (2015) — NR
+- A Christmas Frequency (2023) — G
+- A Christmas Horror Story (2015) — NR
+- A Christmas in Royal Fashion (2018) — TV-PG
+- A Christmas in Tennessee (2018) — TV-PG
+- A Christmas Love Story (2019) — TV-G
+- A Christmas Melody (2015) — G
+- A Christmas Movie Christmas (2019) — G
+- A Christmas Mystery (2022) — PG
+- A Christmas Prince (2017) — PG
+- A Christmas Prince: The Royal Baby (2019) — TV-PG
+- A Christmas Prince: The Royal Wedding (2018) — PG
+- A Christmas Recipe for Romance (2019) — G
+- A Christmas Spark (2022) — G
+- A Christmas Star (2015) — G
+- A Christmas Story (1983) — PG
+- A Christmas Story 2 (2012) — PG
+- A Christmas Story Christmas (2022) — PG
+- A Christmas Tail (2014) — NR
+- A Christmas Tale (2005) — PG-13
+- A Christmas to Remember (2016) — TV-G
+- A Christmas Truce (2015) — PG-13
+- A Christmas Village (2018) — G
+- A Christmas Wish (2019) — PG
+- A Christmas... Present (2022) — G
+- A Cinderella Story (2004) — PG
+- A Cinderella Story: Christmas Wish (2019) — PG
+- A Cinderella Story: If the Shoe Fits (2016) — PG
+- A Cinderella Story: Once Upon a Song (2011) — PG
+- A Cinderella Story: Starstruck (2021) — PG
+- A Civil Action (1998) — PG-13
+- A Close Shave (1996) — NR
+- A Clüsterfünke Christmas (2021) — TV-14
+- A Compton Story (2020) — Not Rated
+- A Connecticut Yankee in King Arthur's Court (1949) — NR
+- A Conspiracy of Faith (2016) — NR
+- A Costa Rican Wedding (2025) — TV-G
+- A Cowboy Christmas Romance (2023) — TV-PG
+- A Cowgirl's Song (2022) — PG
+- A Cowgirl's Story (2017) — PG
+- A Cry in the Wild (1990) — PG
+- A Dance in the Snow (2024) — TV-G
+- A Dark Song (2016) — NR
+- A Dash of Love (2017) — TV-G
+- A Date with Judy (1948) — NR
+- A Date with Miss Fortune (2015) — TV-14
+- A Daughter's Deception (2019) — TV-14
+- A Daughter's Deception (2019) — TV-14
+- A Day Late and a Dollar Short (2014) — TV-14
+- A Deadly Adoption (2015) — TV-14
+- A December Bride (2016) — PG
+- A Desert (2025) — NR
+- A Dog Named Christmas (2009) — PG
+- A Dog Named Duke (2012) — TV-PG
+- A Dog's Journey (2019) — PG
+- A Dog's Purpose (2017) — PG
+- A Dog's Way Home (2019) — PG
+- A Doggone Adventure (2018) — TV-G
+- A Dream of Christmas (2016) — TV-G
+- A Dying King: The Shah of Iran (2017) — TV-PG
+- A Fabled Holiday (2022) — G
+- A Face in the Crowd (1957) — NR
+- A Family Affair (2024) — PG-13
+- A Family Christmas Gift (2019) — Not Rated
+- A Family for the Holidays (2017) — TV-PG
+- A Far Off Place (1993) — PG
+- A Farewell to Arms (1957) — NR
+- A Feeling of Home (2019) — TV-G
+- A Field in England (2013) — NR
+- A Fine Pair (1968) — PG
+- A Flintstones Christmas Carol (1994) — G
+- A Free Soul (1931) — NR
+- A Friend to Die For (1994) — TV-PG
+- A Funny Thing Happened on the Way to the Forum (1966) — Approved
+- A Garfield Christmas (1987) — G
+- A Gathering of Eagles (1963) — NR
+- A Glitch in the Matrix (2021) — Not Rated
+- A Good Woman (2004) — PG
+- A Good Year (2006) — PG-13
+- A Goofy Movie (1995) — G
+- A Gorilla Story: Told by David Attenborough (2026) — PG
+- A Great Awakening (2026) — PG-13
+- A Great Divide (2023) — NR
+- A Greek Recipe for Romance (2024) — G
+- A Guide for the Married Man (1967) — NR
+- A Guy Thing (2003) — PG-13
+- A Hard Day's Night (1964) — G
+- A Harvest Wedding (2017) — TV-G
+- A Haunting at Silver Falls (2013) — NR
+- A Haunting in Saginaw, Michigan (2013) — NR
+- A Haunting in Venice (2023) — PG-13
+- A Haunting on Dice Road: The Hell House (2016) — Not Rated
+- A Haunting on Hamilton Street (2010) — NR
+- A Haunting on Hamilton Street 2: The Stable (2011) — NR
+- A Haunting on Potter Street: The Potter Street Station (2012) — NR
+- A Heavenly Christmas (2016) — TV-G
+- A Heidelberg Holiday (2023) — G
+- A Holiday Chance (2021) — PG-13
+- A Home of Our Own (1993) — PG
+- A Homecoming for the Holidays (2019) — TV-G
+- A House on the Bayou (2021) — NR
+- A Journal for Jordan (2021) — PG-13
+- A-X-L (2018) — PG
+- A.I. Artificial Intelligence (2001) — PG-13
+- a.k.a. Cassius Clay (1970) — PG
+- Abacus: Small Enough to Jail (2017) — Not Rated
+- Abandoned (2016) — PG-13
+- Abandoned (2022) — PG-13
+- Abbott and Costello Go to Mars (1953) — Approved
+- Abbott and Costello Meet Captain Kidd (1952) — Approved
+- Abbott and Costello Meet Dr. Jekyll and Mr. Hyde (1953) — Approved
+- Abbott and Costello Meet the Keystone Kops (1955) — Approved
+- Abbott and Costello Meet the Mummy (1955) — Approved
+- ABCs of Death 2 (2014) — NR
+- Abducted by My Teacher: The Elizabeth Thomas Story (2023) — PG-13
+- Abducted in Plain Sight (2017) — PG-13
+- Abducted: The Carlina White Story (2012) — PG
+- Abduction (2011) — PG-13
+- Abominable (2019) — PG
+- About a Boy (2002) — PG-13
+- About My Father (2023) — PG-13
+- Above Majestic (2018) — NR
+- Above the Shadows (2019) — TV-14
+- AC/DC: Let There Be Rock (1980) — PG
+- Accepted (2006) — PG-13
+- Accidental Love (2015) — PG-13
+- Accidentally in Love (2011) — TV-PG
+- Accused: The Karen Read Story (2026) — NR
+- Ace in the Hole (1951) — NR
+- Ace Ventura Jr: Pet Detective (2009) — PG
+- Ace Ventura: Pet Detective (1994) — PG-13
+- Ace Ventura: When Nature Calls (1995) — PG-13
+- Aces 'N' Eights (2008) — TV-14
+- Acharya (2022) — Not Rated
+- Achmed Saves America (2014) — NR
+- Acidman (2023) — NR
+- Across the Universe (2007) — PG-13
+- Ad Astra (2019) — PG-13
+- Adam (1983) — NR
+- Adam Chaplin (2011) — Not Rated
+- Adam Devine: Best Time of Our Lives (2019) — PG-13
+- Adam Sandler: Funny Guy (2020) — TV-PG
+- Adam's Rib (1949) — NR
+- Addams Family Reunion (1998) — PG
+- Addams Family Values (1993) — PG-13
+- Addicted to Fresno (2015) — NR
+- Adopt a Highway (2019) — Not Rated
+- Adrift (2018) — PG-13
+- Adult Best Friends (2024) — NR
+- Advantageous (2015) — Not Rated
+- Adventure in Baltimore (1949) — Approved
+- Adventures in Babysitting (1987) — PG-13
+- Adventures in Babysitting (2016) — G
+- Adventures in Love & Birding (2025) — TV-G
+- Adventures of Don Juan (1948) — NR
+- Adventures of the Wilderness Family 2 (1978) — G
+- Adventures of the Wilderness Family 3 (1979) — G
+- AEW All In 2023: London (2023) — TV-14
+- AEW Dynasty 2024 (2024) — NR
+- Afraid (2024) — PG-13
+- Africa Screams (1949) — NR
+- African Cats (2011) — G
+- Afro Samurai: Resurrection (2009) — NR
+- After (2019) — PG-13
+- After Death (2023) — PG-13
+- After Midnight (2019) — NR
+- After Sex (2007) — NR
+- After the End (2017) — NR
+- After the Fox (1966) — NR
+- After the Sunset (2004) — PG-13
+- After the Thin Man (1936) — NR
+- After the Wedding (2019) — PG-13
+- After Yang (2022) — PG
+- Against the Ropes (2004) — PG-13
+- Against the Sun (2014) — PG
+- Agatha (1979) — PG
+- Agatha and the Curse of Ishtar (2019) — PG-13
+- Agatha and the Truth of Murder (2018) — PG-13
+- Age Out (2018) — PG-13
+- Agent Cody Banks (2003) — PG
+- Agent Cody Banks 2: Destination London (2004) — PG
+- Agnes of God (1985) — PG-13
+- Agora (2009) — PG-13
+- Aguirre, the Wrath of God (1972) — NR
+- Ahsoka: Sabine's Loth-Cat (2023) — G
+- Ainsley McGregor Mysteries: A Case For the Watchmaker (2026) — TV-PG
+- Air (2015) — PG-13
+- Air Bud (1997) — PG
+- Air Bud: Golden Receiver (1998) — G
+- Air Bud: Seventh Inning Fetch (2002) — G
+- Air Bud: Spikes Back (2003) — G
+- Air Bud: World Pup (2001) — G
+- Air Buddies (2006) — PG
+- Airborne (1993) — PG
+- Airheads (1994) — PG-13
+- Airplane II: The Sequel (1982) — PG
+- Airplane! (1980) — PG
+- Airport (1970) — G
+- Airport '77 (1977) — PG
+- Airport 1975 (1974) — PG
+- Akeelah and the Bee (2006) — PG
+- Alabama Moon (2009) — PG
+- Aladdin (1992) — G
+- Aladdin (2019) — PG
+- Aladdin and the King of Thieves (1996) — G
+- Alan Partridge: Alpha Papa (2013) — PG-13
+- Albert Brooks: Defending My Life (2023) — PG-13
+- Albert Fish: In Sin He Found Salvation (2007) — NR
+- Alcatraz (2018) — Not Rated
+- Alcatraz Escape: The Lost Evidence (2018) — NR
+- Alex Cross (2012) — PG-13
+- Alexander and the Terrible, Horrible, No Good, Very Bad Day (2014) — PG
+- Alexander and the Terrible, Horrible, No Good, Very Bad Road Trip (2025) — PG
+- Alexandra's Project (2003) — NR
+- Alfie (1966) — PG
+- Ali & Ava (2022) — Not Rated
+- Ali Baba Goes to Town (1937) — NR
+- Alice Doesn't Live Here Anymore (1974) — PG
+- Alice in Chains: MTV Unplugged (1996) — G
+- Alice in Wonderland (1951) — G
+- Alice in Wonderland (1999) — PG
+- Alice in Wonderland (2010) — PG
+- Alice is Still Dead (2019) — NR
+- Alice Through the Looking Glass (2016) — PG
+- Alien Code (2017) — PG
+- Alien Planet (2023) — Not Rated
+- Alien Reptilian Legacy (2015) — TV-PG
+- Alien Xmas (2020) — E
+- Alien: Rubicon (2024) — PG-13
+- Alienoid (2022) — NR
+- Aliens in the Attic (2009) — PG
+- Aliens of the Deep (2005) — G
+- Aliens: Zone of Silence (2017) — NR
+- Alita: Battle Angel (2019) — PG-13
+- All About Eve (1950) — PG
+- All About Steve (2009) — PG-13
+- All American Bikini Car Wash (2015) — NR
+- All Cheerleaders Die (2013) — NR
+- All Dogs Go to Heaven (1989) — G
+- All Dogs Go to Heaven 2 (1996) — G
+- All Hallows' Eve 2 (2015) — Unrated
+- All I Need for Christmas (2024) — NR
+- All I Want For Christmas (1991) — G
+- All Is Lost (2013) — PG-13
+- All Is True (2018) — PG-13
+- All Monsters Attack (1969) — G
+- All of My Heart (2015) — G
+- All of My Heart: Inn Love (2017) — PG
+- All of My Heart: The Wedding (2018) — PG
+- All Quiet on the Western Front (1930) — NR
+- All Quiet on the Western Front (1979) — NR
+- All Saints (2017) — PG
+- All Star Comedy Jam (2009) — Not Rated
+- All Star Superman (2011) — PG
+- All Summer Long (2019) — G
+- All That Heaven Allows (1955) — Approved
+- All the Beauty and the Bloodshed (2022) — NR
+- All the Creatures Were Stirring (2018) — Not Rated
+- All the Empty Rooms (2025) — PG-13
+- All the President's Men (1976) — PG
+- All the Pretty Horses (2000) — PG-13
+- All This Mayhem (2014) — Not Rated
+- All Together Now (2020) — PG
+- Allegiant (2016) — PG-13
+- Alleluia! The Devil's Carnival (2016) — Not Rated
+- Alley Cats Strike (2000) — G
+- Almost Angels (1962) — Not Rated
+- Almost Christmas (2016) — PG-13
+- Almost Heroes (1998) — PG-13
+- Aloha (2015) — PG-13
+- Aloha Heart (2023) — G
+- Aloha Scooby-Doo! (2005) — NR
+- Aloha with Love (2022) — G
+- Alone in the Wilderness (2004) — G
+- Alone in the Wilderness: Part II (2011) — G
+- Along Came Polly (2004) — PG-13
+- Along Came the Devil (2018) — NR
+- Along for the Ride (2022) — TV-14
+- Along with the Gods: The Two Worlds (2017) — NR
+- Alpha (2018) — PG-13
+- Alpha House (2014) — NR
+- Already Tomorrow in Hong Kong (2016) — NR
+- Altered (2025) — PG-13
+- Althea (2014) — TV-PG
+- Alvin and the Chipmunks (2007) — PG
+- Alvin and the Chipmunks Meet the Wolfman (2000) — G
+- Alvin and the Chipmunks: Chipwrecked (2011) — G
+- Alvin and the Chipmunks: The Road Chip (2015) — PG
+- Alvin and the Chipmunks: The Squeakquel (2009) — PG
+- Always a Bridesmaid (2019) — TV-PG
+- Always Be My Maybe (2019) — PG-13
+- Am I Racist? (2024) — PG-13
+- Amadeus (1984) — PG
+- Amanda Knox: Murder on Trial in Italy (2011) — TV-14
+- Amazing Grace (2006) — PG
+- Amazing Winter Romance (2020) — TV-G
+- Amber Alert (2024) — PG-13
+- Amber: The Girl Behind the Alert (2023) — PG
+- Amber's Story (2006) — TV-14
+- Amelia (2009) — PG
+- Amen. (2002) — NR
+- AMERICA STRIPPED: Naked Las Vegas (2010) — Unrated
+- America: Imagine the World Without Her (2014) — PG-13
+- America's Heart & Soul (2004) — PG
+- America's Sweethearts (2001) — PG-13
+- American Anthem (1986) — PG-13
+- American Conjuring (2016) — NR
+- American Dreamer (1984) — PG
+- American Factory (2019) — NR
+- American Flyers (1985) — PG-13
+- American Girl: Corinne Tan (2023) — TV-Y7
+- American Graffiti (1973) — PG
+- American Hot Wax (1978) — PG
+- American Muscle (2014) — Not Rated
+- American Nightmare: Becoming Cody Rhodes (2023) — PG-13
+- American Nightmares (2018) — NR
+- American Ninja 5 (1993) — PG-13
+- American Outlaws (2001) — PG-13
+- American Refugee (2021) — NR
+- American Sweatshop (2025) — Not Rated
+- American Swing (2009) — Not Rated
+- American Tragedy (2019) — 13+
+- American Underdog (2021) — PG
+- American Violet (2008) — PG-13
+- American Wrestler: The Wizard (2017) — PG-13
+- Americonned (2023) — NR
+- Amityville Exorcism (2017) — NR
+- Amityville: The Awakening (2017) — PG-13
+- Amityville: Where the Echo Lives (2024) — PG-13
+- Among the Living (2022) — NR
+- Among Wolves (2023) — NR
+- Amos & Andrew (1993) — PG-13
+- Amphetamine (2010) — NR
+- Amphibian Man (1961) — Not Rated
+- An Actor Prepares (2018) — TV-14
+- An Affair to Remember (1957) — NR
+- An All Dogs Christmas Carol (1998) — G
+- An Almost Christmas Story (2024) — G
+- An American Christmas Carol (1979) — NR
+- An American Dream (1966) — NR
+- An American Ghost Story (2012) — Not Rated
+- An American Girl Story: Summer Camp, Friends For Life (2017) — NR
+- An American Girl: Chrissa Stands Strong (2009) — G
+- An American Girl: Grace Stirs Up Success (2015) — G
+- An American Girl: Isabelle Dances Into the Spotlight (2014) — TV-G
+- An American Girl: Lea to the Rescue (2016) — Not Rated
+- An American Girl: McKenna Shoots for the Stars (2012) — TV-G
+- An American Girl: Saige Paints the Sky (2013) — G
+- An American Haunting (2005) — PG-13
+- An American in Paris (1951) — G
+- An American Pickle (2020) — PG-13
+- An American Story (1992) — PG
+- An American Tail (1986) — G
+- An American Tail: Fievel Goes West (1991) — G
+- An Amish Sin (2022) — PG-13
+- An Education (2009) — PG-13
+- An Elf's Story (2011) — G
+- An English Haunting (2020) — PG-13
+- An Extremely Goofy Movie (2000) — G
+- An Honest Liar (2014) — Not Rated
+- An Ice Palace Romance (2023) — G
+- An Interview with God (2018) — NR
+- Anaconda (1997) — PG-13
+- Anaconda (2025) — PG-13
+- Anacondas: The Hunt for the Blood Orchid (2004) — PG-13
+- Anastasia (1956) — NR
+- Anastasia (1997) — G
+- Anatahan (1953) — PG
+- Anatomy of a Murder (1959) — NR
+- Anchorage (2023) — NR
+- Anchorman 2: The Legend Continues (2013) — PG-13
+- Anchorman: The Legend of Ron Burgundy (2004) — PG-13
+- And So It Goes (2014) — PG-13
+- And the Oscar Goes To... (2014) — NR
+- And the Sea Will Tell (1991) — Not Rated
+- And Then There Were None (1945) — NR
+- And Then There Were None (1974) — PG
+- Andover (2018) — TV-14
+- Andre (1994) — PG
+- Andre the Giant (2018) — PG
+- Android (1982) — PG
+- Andy Hardy Meets Debutante (1940) — NR
+- Angel (1937) — Approved
+- Angel and the Badman (1947) — NR
+- Angel Face (1953) — NR
+- Angel Falls Christmas (2021) — G
+- Angel Falls: A Novel Holiday (2019) — TV-G
+- Angel in the Family (2004) — NR
+- Angel's Egg (1985) — NR
+- Angela (1996) — NR
+- Angela's Christmas (2017) — G
+- Angela's Christmas Wish (2020) — G
+- Angels & Demons (2009) — PG-13
+- Angels Fallen: Warriors of Peace (2024) — NR
+- Angels in the Endzone (1997) — G
+- Angels in the Infield (2000) — PG
+- Angels in the Outfield (1951) — Approved
+- Angels in the Outfield (1994) — PG
+- Angels Sing (2013) — PG
+- Angels with Dirty Faces (1938) — NR
+- Anger Management (2003) — PG-13
+- Angus (1995) — PG-13
+- Angus, Thongs and Perfect Snogging (2008) — PG-13
+- Animal Crackers (1930) — G
+- Animal Crackers (2017) — PG
+- Animal Farm (1954) — G
+- Animal Farm (1999) — PG
+- Animal Farm (2026) — PG
+- Animaniacs: Wakko's Wish (1999) — NR
+- Anna and the King (1999) — PG-13
+- Anna Nicole (2013) — Not Rated
+- Annapolis (2006) — PG-13
+- Anne of Green Gables (1985) — PG
+- Anne of Green Gables: A New Beginning (2008) — PG
+- Anne of Green Gables: Fire & Dew (2017) — Not Rated
+- Anne of Green Gables: The Good Stars (2017) — G
+- Anne of Green Gables: The Sequel (1987) — G
+- Annie (1982) — PG
+- Annie (1999) — PG
+- Annie (2014) — PG
+- Annie Claus Is Coming to Town (2011) — PG
+- Annie Hall (1977) — PG
+- Another Body (2023) — NR
+- Another Cinderella Story (2008) — PG
+- Another Country (1984) — PG
+- Another Round (2020) — NR
+- Another Stakeout (1993) — PG-13
+- Another Thin Man (1939) — NR
+- Another Year (2010) — PG-13
+- Ant-Man (2015) — PG-13
+- Ant-Man and the Wasp (2018) — PG-13
+- Ant-Man and the Wasp: Quantumania (2023) — PG-13
+- Antboy: Revenge of the Red Fury (2014) — PG
+- Anti-Social (2015) — Not Rated
+- Antichrist (2009) — NR
+- Ants on a Shrimp (2017) — Not Rated
+- Antwone Fisher (2002) — PG-13
+- Antz (1998) — PG
+- Anuja (2024) — PG-13
+- Any Which Way You Can (1980) — PG
+- Anything for Jackson (2020) — NR
+- Anywhere but Here (1999) — PG-13
+- Apache Warrior (2017) — Not Rated
+- Apex (2021) — PG-13
+- Apocalyptic (2014) — PG-13
+- Apollo 11 (2019) — G
+- Apollo 13 (1995) — PG
+- Apollo 13: Survival (2024) — PG-13
+- Applesauce (2015) — Not Rated
+- Appleseed: Ex Machina (2007) — PG-13
+- Appointment with Death (1988) — PG
+- April in Paris (1952) — NR
+- Aquaman (2018) — PG-13
+- Aquaman and the Lost Kingdom (2023) — PG-13
+- Aquamarine (2006) — PG
+- Arabesque (1966) — Approved
+- Arachnophobia (1990) — PG-13
+- Arahan (2004) — Not Rated
+- Arco (2025) — PG
+- Arctic (2018) — PG-13
+- Arctic Dogs (2019) — PG
+- Are We Done Yet? (2007) — PG
+- Are We There Yet? (2005) — PG
+- Are You Being Served? The Movie (1977) — Not Rated
+- Are You There God? It's Me, Margaret. (2023) — PG-13
+- Argylle (2024) — PG-13
+- Ari Shaffir: JEW (2022) — NR
+- Aries Spears: Comedy Blueprint (2016) — Not Rated
+- Aristotle and Dante Discover the Secrets of the Universe (2023) — PG-13
+- Arizona (1940) — NR
+- Armadillo (2010) — NR
+- Armageddon (1998) — PG-13
+- Armed and Dangerous (1986) — PG-13
+- Armored (2009) — PG-13
+- Armour of God 3: Chinese Zodiac (2012) — PG-13
+- Army Dog (2016) — PG
+- Arn: The Knight Templar (2007) — PG-13
+- Arnez J: Racially Motivated (2013) — Not Rated
+- Around the World in 80 Days (1956) — G
+- Around the World in 80 Days (2004) — PG
+- Arrival (2016) — PG-13
+- Arrowhead (2017) — TV-14
+- Arsenic and Old Lace (1944) — NR
+- Art of Falling in Love (2019) — G
+- Art of Love (2024) — PG-13
+- Artemis Fowl (2020) — PG
+- Arthur (1981) — PG
+- Arthur (2011) — PG-13
+- Arthur 3: The War of the Two Worlds (2010) — G
+- Arthur and the Invisibles (2006) — PG
+- Arthur and the Revenge of Maltazard (2009) — PG
+- Arthur Christmas (2011) — PG
+- Arthur the King (2024) — PG-13
+- Arthur's Perfect Christmas (2000) — TV-Y
+- As Good as It Gets (1997) — PG-13
+- As the Earth Turns (1934) — Passed
+- As Young as You Feel (1951) — NR
+- Assassin's Creed (2016) — PG-13
+- Assassin's Creed: Ascendance (2010) — Not Rated
+- Assimilate (2019) — PG-13
+- Asterix vs. Caesar (1985) — Not Rated
+- Asteroid City (2023) — PG-13
+- Astral (2018) — NR
+- Astro Boy (2009) — PG
+- Astro Kid (2019) — PG
+- Asylum (1972) — Not Rated
+- At Eternity's Gate (2018) — PG-13
+- At Long Last Love (1975) — G
+- At the Earth's Core (1976) — PG
+- At the Sinatra Club (2010) — Not Rated
+- At War with the Army (1950) — NR
+- ATL (2006) — PG-13
+- Atlantis: Milo's Return (2003) — G
+- Atlantis: The Lost Empire (2001) — PG
+- Atlas (1961) — NR
+- Atlas (2024) — PG-13
+- Atlas Shrugged: Part I (2011) — PG-13
+- Atlas Shrugged: Part II (2012) — PG-13
+- Atlas Shrugged: Part III (2014) — PG-13
+- Atomica (2017) — Not Rated
+- Attack (1956) — NR
+- Attack Force Z (1982) — NR
+- Attack of the Doc! (2023) — NR
+- Attack of the Killer Tomatoes! (1978) — PG
+- Attack on the Iron Coast (1968) — PG
+- Attack on Titan (2015) — NR
+- Attack on Titan: THE LAST ATTACK (2024) — NR
+- Audrie & Daisy (2016) — TV-14
+- August Rush (2007) — PG
+- August Underground's Penance (2007) — NR
+- AUM: The Cult at the End of the World (2025) — NR
+- Auntie Edna (2018) — PG
+- Auntie Mame (1958) — NR
+- Aurora Teagarden Mysteries: A Lesson in Murder (2024) — TV-PG
+- Aurora Teagarden Mysteries: Death at the Diner (2024) — PG
+- Aurora Teagarden Mysteries: Heist and Seek (2020) — TV-G
+- Aurora Teagarden Mysteries: Something New (2023) — PG
+- Austin Powers in Goldmember (2002) — PG-13
+- Austin Powers: International Man of Mystery (1997) — PG-13
+- Austin Powers: The Spy Who Shagged Me (1999) — PG-13
+- Australia (2008) — PG-13
+- Autumn at Apple Hill (2024) — TV-G
+- Autumn Dreams (2015) — G
+- Autumn in New York (2000) — PG-13
+- Autumn in the City (2022) — G
+- Ava (2017) — Not Rated
+- Avalanche (1978) — PG
+- Avalon (1990) — PG
+- Avatar (2009) — PG-13
+- Avatar: Fire and Ash (2025) — PG-13
+- Avatar: The Deep Dive - A Special Edition of 20/20 (2022) — NR
+- Avatar: The Way of Water (2022) — PG-13
+- Avengement (2019) — NR
+- Avengers Confidential: Black Widow & Punisher (2014) — PG-13
+- Avengers Grimm (2015) — NR
+- Avengers Grimm: Time Wars (2018) — NR
+- Avengers: Age of Ultron (2015) — PG-13
+- Avengers: Endgame (2019) — PG-13
+- Avengers: Infinity War (2018) — PG-13
+- Average Joe (2024) — PG-13
+- Avicii: True Stories (2017) — Not Rated
+- AVP: Alien vs. Predator (2004) — PG-13
+- Awake (2019) — NR
+- Awakenings (1990) — PG-13
+- Awarapan (2007) — NR
+- Ayla: The Daughter of War (2017) — PG-13
+- Aziz Ansari: Buried Alive (2013) — NR
+- Aziz Ansari: Dangerously Delicious (2012) — PG-13
+
+## B
+
+- B.A.P.S (1997) — PG-13
+- B.O.B.'s Big Break (2009) — PG
+- Baaghi (2016) — NR
+- Baaghi 3 (2020) — Not Rated
+- Baasha (1995) — Not Rated
+- Baba Yaga (1973) — Unrated
+- Babe (1995) — G
+- Babe: Pig in the City (1998) — G
+- Babes in Toyland (1934) — NR
+- Babes in Toyland (1961) — G
+- Babes in Toyland (1997) — G
+- Babes on Broadway (1941) — Approved
+- Baby Assassins (2021) — Not Rated
+- Baby Assassins: 2 Babies (2023) — M
+- Baby Assassins: Nice Days (2024) — NR
+- Baby Blue (2025) — NR
+- Baby Boom (1987) — PG
+- Baby Bootcamp (2014) — Not Rated
+- Baby Face (1933) — Approved
+- Baby Geniuses (1999) — PG
+- Baby Mama (2008) — PG-13
+- Baby Take a Bow (1934) — PG
+- Baby's Day Out (1994) — PG
+- Babylon 5: The Road Home (2023) — PG-13
+- Babylon A.D. (2008) — PG-13
+- Babysitters Beware (2009) — PG
+- Babyteeth (2020) — MA-17
+- Bachelor in Paradise (1961) — Not Rated
+- Bachelor Mother (1939) — NR
+- Bachelor Night (2014) — NR
+- Back in Action (2025) — PG-13
+- Back in the Day (2016) — Unrated
+- Back in Time (2015) — PG
+- Back to Bataan (1945) — PG-13
+- Back to School (1986) — PG-13
+- Back to the Beach (1987) — PG
+- Back to the Future (1985) — PG
+- Back to the Future Part II (1989) — PG
+- Back to the Future Part III (1990) — PG
+- Back to the Outback (2021) — PG
+- Back to the Titanic (2020) — PG
+- Back When We Were Grownups (2004) — PG
+- Backwards (2012) — PG
+- Bacurau (2019) — Not Rated
+- Bad Behind Bars: Jodi Arias (2023) — PG-13
+- Bad Biology (2008) — Not Rated
+- Bad Candy (2021) — NR
+- Bad Company (2002) — PG-13
+- Bad Counselors (2026) — PG-13
+- Bad Day at Black Rock (1955) — NR
+- Bad Genius (2017) — PG-13
+- Bad Girl (2016) — Not Rated
+- Bad Hair Day (2015) — G
+- Bad Influence (2022) — TV-14
+- Bad Johnson (2014) — NR
+- Bad Man (2025) — NR
+- Bad News Bears (2005) — PG-13
+- Bad Romance: The Vicky White Story (2023) — TV-14
+- Bad Ronald (1974) — NR
+- Bad Roomies (2015) — Not Rated
+- Bad Shabbos (2025) — NR
+- Bad Sister (2015) — PG-13
+- Badges of Fury (2013) — Not Rated
+- Badland (2019) — PG-13
+- Badlands (1974) — PG
+- Baggage Claim (2013) — PG-13
+- Baghead (2023) — PG-13
+- Bagman (2024) — PG-13
+- Bah, Humduck!: A Looney Tunes Christmas (2006) — NR
+- Bāhubali: The Beginning (2015) — NR
+- Bait (2019) — NR
+- Ball of Fire (1941) — NR
+- Ballerina (2016) — PG
+- Ballet Shoes (2008) — PG
+- Ballistic (2026) — NR
+- Balls of Fury (2007) — PG-13
+- Balto (1995) — G
+- Bambi (1942) — G
+- Bambi II (2006) — G
+- Bambi: The Reckoning (2025) — NR
+- Band of Rebels (2022) — NR
+- Bandits (2001) — PG-13
+- Bandolero! (1968) — PG-13
+- Bank of Dave (2023) — PG-13
+- Bao (2018) — G
+- Baraka (1992) — NR
+- Barb & Star Go to Vista Del Mar (2021) — PG-13
+- Barbara Walters: Tell Me Everything (2025) — TV-PG
+- Barbarella (1968) — PG
+- Barbarosa (1982) — PG
+- Barbershop (2002) — PG-13
+- Barbershop 2: Back in Business (2004) — PG-13
+- Barbershop: The Next Cut (2016) — PG-13
+- Barbie (2023) — PG-13
+- Barbie & Her Sisters in A Pony Tale (2013) — G
+- Barbie & Her Sisters in the Great Puppy Adventure (2015) — G
+- Barbie & Kendra Save the Tiger King (2020) — Not Rated
+- Barbie & Kendra Storm Area 51 (2020) — Not Rated
+- Barbie and the Diamond Castle (2008) — G
+- Barbie and the Magic of Pegasus (2005) — G
+- Barbie and the Secret Door (2014) — G
+- Barbie and the Three Musketeers (2009) — G
+- Barbie as Rapunzel (2002) — G
+- Barbie as The Princess & the Pauper (2004) — G
+- Barbie Fairytopia: Magic of the Rainbow (2007) — G
+- Barbie Fairytopia: Mermaidia (2006) — G
+- Barbie in 'A Christmas Carol' (2008) — G
+- Barbie in A Mermaid Tale (2010) — G
+- Barbie in A Mermaid Tale 2 (2012) — G
+- Barbie in Rock 'N Royals (2015) — PG
+- Barbie in the 12 Dancing Princesses (2006) — G
+- Barbie in the Nutcracker (2001) — G
+- Barbie in the Pink Shoes (2013) — G
+- Barbie Mariposa (2008) — G
+- Barbie Mariposa & the Fairy Princess (2013) — G
+- Barbie of Swan Lake (2003) — G
+- Barbie Presents: Thumbelina (2009) — G
+- Barbie Video Game Hero (2017) — Not Rated
+- Barbie: A Fairy Secret (2011) — G
+- Barbie: A Fashion Fairytale (2010) — G
+- Barbie: A Perfect Christmas (2011) — G
+- Barbie: Fairytopia (2005) — G
+- Barbie: Princess Charm School (2011) — G
+- Barbie: Spy Squad (2016) — G
+- Barbie: Star Light Adventure (2016) — G
+- Barbie: The Pearl Princess (2014) — G
+- Barbie: The Princess & the Popstar (2012) — G
+- Barbra: The Music ... The Mem'ries ... The Magic! (2017) — TV-14
+- Bardelys the Magnificent (1926) — Passed
+- Barefoot Gen (1983) — TV-PG
+- Barefoot in the Park (1967) — NR
+- Barely Legal (2011) — NR
+- Barely Lethal (2015) — PG-13
+- Barney: Big World Adventure - The Movie (2011) — Not Rated
+- Barney's Great Adventure (1998) — G
+- Barnyard (2006) — PG
+- Barry Lyndon (1975) — PG
+- Bartok the Magnificent (1999) — G
+- Basket Case (1982) — NR
+- Baskin (2015) — Not Rated
+- Batch '81 (1982) — TV-14
+- Bathing Beauty (1944) — NR
+- Batman (1943) — Approved
+- Batman (1966) — PG
+- Batman (1989) — PG-13
+- Batman & Mr. Freeze: SubZero (1998) — NR
+- Batman & Robin (1997) — PG-13
+- Batman and Harley Quinn (2017) — PG-13
+- Batman and Superman: Battle of the Super Sons (2022) — PG-13
+- Batman Begins (2005) — PG-13
+- Batman Beyond: Return of the Joker (2000) — PG
+- Batman Forever (1995) — PG-13
+- Batman Ninja (2018) — PG-13
+- Batman Ninja vs. Yakuza League (2025) — PG-13
+- Batman Returns (1992) — PG-13
+- Batman Unlimited: Animal Instincts (2015) — NR
+- Batman Unlimited: Monster Mayhem (2015) — PG
+- Batman v Superman: Dawn of Justice (2016) — PG-13
+- Batman vs Teenage Mutant Ninja Turtles (2019) — PG-13
+- Batman vs. Robin (2015) — PG-13
+- Batman vs. Two-Face (2017) — PG
+- Batman: Assault on Arkham (2014) — PG-13
+- Batman: Bad Blood (2016) — PG-13
+- Batman: Gotham Knight (2008) — PG-13
+- Batman: Hush (2019) — PG-13
+- Batman: Mask of the Phantasm (1993) — PG
+- Batman: Mystery of the Batwoman (2003) — PG
+- Batman: Return of the Caped Crusaders (2016) — PG
+- Batman: The Dark Knight Returns (2013) — PG-13
+- Batman: The Dark Knight Returns, Part 1 (2012) — PG-13
+- Batman: The Dark Knight Returns, Part 2 (2013) — PG-13
+- Batman: The Doom That Came to Gotham (2023) — PG-13
+- Batman: The Long Halloween, Part One (2021) — PG-13
+- Batman: Under the Red Hood (2010) — PG-13
+- Batman: Year One (2011) — PG-13
+- Bats (1999) — PG-13
+- Battle Beyond the Stars (1980) — PG
+- Battle Beyond the Stars (1980) — PG
+- Battle Drone (2018) — PG-13
+- Battle For SkyArk (2015) — PG-13
+- Battle for the Planet of the Apes (1973) — G
+- Battle of Britain (1969) — G
+- Battle of Little Bighorn (2020) — TV-PG
+- Battle of the Bulge (1965) — NR
+- Battle of the Sexes (2017) — PG-13
+- Battle Royale (2000) — NR
+- Battle: Los Angeles (2011) — PG-13
+- Battlefield Earth (2000) — PG-13
+- Battles Without Honor and Humanity: Deadly Fight in Hiroshima (1973) — Not Rated
+- Battleship (2012) — PG-13
+- Battleship Potemkin (1925) — NR
+- Battlestar Galactica (1978) — PG
+- Battlestar Galactica: Razor (2007) — PG
+- Battlestar Galactica: The Plan (2009) — NR
+- Bau, Artist at War (2025) — PG-13
+- Be Cool (2005) — PG-13
+- Be Happy (2026) — TV-14
+- Be Here to Love Me (2004) — Not Rated
+- Be Kind Rewind (2008) — PG-13
+- Be My Cat: A Film for Anne (2015) — NR
+- Beach Red (1967) — NR
+- Beaches (1988) — PG-13
+- Bean (1997) — PG-13
+- Bear Island (1979) — PG
+- BearCity (2010) — NR
+- BearCity 2: The Proposal (2012) — NR
+- Bears (2014) — G
+- Beastly (2011) — PG-13
+- Beastmaster 2: Through the Portal of Time (1991) — PG-13
+- Beasts of the Southern Wild (2012) — PG-13
+- Beat Street (1984) — PG
+- Beat the Devil (1953) — NR
+- Beats (2019) — NR
+- Beaufort (2007) — Unrated
+- Beautiful Creatures (2013) — PG-13
+- Beautiful Darling (2010) — Not Rated
+- Beauty and the Beast (1991) — G
+- Beauty and the Beast (2017) — PG
+- Beauty and the Beast: The Enchanted Christmas (1997) — G
+- Beauty Shop (2005) — PG-13
+- Beavis and Butt-Head Do America (1996) — PG-13
+- Beavis and Butt-Head Do the Universe (2022) — PG-13
+- Bebe's Kids (1992) — PG-13
+- Because I Said So (2007) — PG-13
+- Because of Cupid (2026) — TV-G
+- Because of Winn-Dixie (2005) — PG
+- Because They're Young (1960) — NR
+- Becoming (2020) — PG
+- Becoming Led Zeppelin (2025) — PG-13
+- Bedazzled (1967) — Approved
+- Bedazzled (2000) — PG-13
+- Bedevilled (2010) — NR
+- Bedknobs and Broomsticks (1971) — G
+- Bedtime for Bonzo (1951) — NR
+- Bedtime Stories (2008) — PG
+- Bedtime Story (1964) — NR
+- Bee Gees: In Our Own Time (2010) — Not Rated
+- Bee Movie (2007) — PG
+- Beef (2014) — Unrated
+- Beer for My Horses (2008) — PG-13
+- Beethoven (1992) — PG
+- Beethoven's 2nd (1993) — PG
+- Beethoven's 3rd (2000) — G
+- Beethoven's 4th (2001) — G
+- Beethoven's 5th (2003) — G
+- Beethoven's Christmas Adventure (2011) — PG
+- Beetlejuice (1988) — PG
+- Beetlejuice Beetlejuice (2024) — PG-13
+- Before I Disappear (2014) — Unrated
+- Before I Fall (2017) — PG-13
+- Before I Wake (2016) — PG-13
+- Before the Fall (2017) — NR
+- Before We Go (2014) — PG-13
+- Begotten (1991) — NR
+- Behind Enemy Lines (2001) — PG-13
+- Behind the Curve (2018) — TV-14
+- Behind the Movement (2018) — PG
+- Being Canadian (2015) — Not Rated
+- Being Elmo: A Puppeteer's Journey (2011) — PG
+- Being There (1979) — PG
+- Belfast (2021) — PG-13
+- Believe in Christmas (2024) — TV-G
+- Believe Me: The Abduction of Lisa McVey (2018) — PG-13
+- Bell, Book and Candle (1958) — NR
+- Belle (2013) — PG
+- Belle (2013) — PG
+- Belle Starr (1941) — NR
+- Belle's Magical World (1998) — G
+- Below Her Mouth (2017) — Not Rated
+- Below the Surface (2016) — Unrated
+- Belzebuth (2019) — NR
+- Ben 10: Alien Swarm (2009) — PG
+- Ben 10: Race Against Time (2008) — TV-PG
+- Ben 10: Secret of the Omnitrix (2007) — PG
+- Ben-Hur (1959) — G
+- Ben-Hur (2016) — PG-13
+- Bend It Like Beckham (2002) — PG-13
+- Beneath (2013) — Not Rated
+- Beneath the Planet of the Apes (1970) — G
+- Benedetta (2021) — NR
+- Benji the Hunted (1987) — G
+- Bennett's War (2019) — PG-13
+- Benny & Joon (1993) — PG
+- Benny's Video (1992) — Not Rated
+- Beowulf (2007) — PG-13
+- Berberian Sound Studio (2012) — Not Rated
+- Bernie (2012) — PG-13
+- Berserk: The Golden Age Arc III - The Advent (2013) — Not Rated
+- Best Christmas Party Ever (2014) — TV-G
+- Best in Show (2000) — PG-13
+- Best Man Down (2012) — PG-13
+- Best of the Best (1989) — PG-13
+- Best. Christmas. Ever! (2023) — PG
+- Beta Test (2016) — NR
+- Bette Midler: Diva Las Vegas (1997) — G
+- Better Off Dead... (1985) — PG
+- Betting on Zero (2016) — NR
+- Betty and Coretta (2013) — TV-14
+- Beverly Hills Chihuahua (2008) — PG
+- Beverly Hills Chihuahua 2 (2011) — G
+- Beverly Hills Chihuahua 3: Viva la Fiesta! (2012) — G
+- Beverly Hills Ninja (1997) — PG-13
+- Beware of Mr. Baker (2012) — NR
+- Beware the Slenderman (2016) — TV-14
+- Bewitched (2005) — PG-13
+- Beyond a Reasonable Doubt (2009) — PG-13
+- Beyond the Hills (2012) — Not Rated
+- Beyond the Law (2019) — Not Rated
+- Beyond the Lights (2014) — PG-13
+- Beyond the Mask (2015) — PG
+- Beyond the Neon (2022) — NR
+- Beyond the Sea (2004) — PG-13
+- Beyond The Sky (2018) — Not Rated
+- Beyond Utopia (2023) — PG-13
+- Bhool Chuk Maaf (2025) — PG-13
+- Bhooth Bangla (2026) — PG-13
+- Bhowani Junction (1956) — Approved
+- Bicentennial Man (1999) — PG
+- Bicycle Thieves (1948) — NR
+- Big (1988) — PG
+- Big Ass Spider! (2013) — PG-13
+- Big Bad Wolves (2013) — NR
+- Big Brother (2018) — TV-14
+- Big Business (1988) — PG
+- Big City Greens the Movie: Spacecation (2024) — PG
+- Big Daddy (1999) — PG-13
+- Big Eyes (2014) — PG-13
+- Big Fat Liar (2002) — PG
+- Big Fish (2003) — PG-13
+- Big Game (2014) — PG-13
+- Big George Foreman (2023) — PG-13
+- Big Girls Don't Cry... They Get Even (1992) — PG
+- Big Gold Brick (2022) — NR
+- Big Hero 6 (2014) — PG
+- Big Jake (1971) — PG-13
+- Big Man on Campus (1989) — PG-13
+- Big Momma's House (2000) — PG-13
+- Big Momma's House 2 (2006) — PG-13
+- Big Mommas: Like Father, Like Son (2011) — PG-13
+- Big Red (1962) — PG
+- Big Sky (2015) — Not Rated
+- Big Sky River (2022) — TV-G
+- Big Sky River: The Bridal Path (2023) — TV-G
+- Big Time Movie (2012) — G
+- Big Top Pee-wee (1988) — PG
+- Big Top Scooby-Doo! (2012) — G
+- Big Trouble (2002) — PG-13
+- Big Trouble in Little China (1986) — PG-13
+- Big Wednesday (1978) — PG
+- Bigger Fatter Liar (2017) — G
+- Biker Boyz (2003) — PG-13
+- Bikini Model Academy (2015) — PG-13
+- Bikini Warriors (2011) — Not Rated
+- Bilal: A New Breed of Hero (2016) — PG-13
+- Bill & Ted Face the Music (2020) — PG-13
+- Bill & Ted's Bogus Journey (1991) — PG
+- Bill & Ted's Excellent Adventure (1989) — PG
+- Bill Bailey: Part Troll (2004) — PG-13
+- Bill Burr: Let It Go (2010) — Not Rated
+- Bill Burr: Why Do I Do This? (2008) — Not Rated
+- Bill Engvall: Here's Your Sign, It's Finally Time My Last Show (2023) — NR
+- Billboard Dad (1998) — G
+- Billie Eilish - Hit Me Hard and Soft: The Tour (Live in 3D) (2026) — PG-13
+- Billion Dollar Heist (2023) — NR
+- Billy & Mandy's Big Boogey Adventure (2007) — TV-Y7-FV
+- Billy & Molly: An Otter Love Story (2024) — G
+- Billy Elliot (2000) — PG-13
+- Billy Jack (1971) — PG
+- Billy Liar (1963) — Not Rated
+- Billy Madison (1995) — PG-13
+- Biloxi Blues (1988) — PG-13
+- Bingo (1991) — PG
+- Bingo Hell (2021) — NR
+- Bio-Dome (1996) — PG-13
+- Bionic Ever After? (1994) — NR
+- Bionic Showdown: The Six Million Dollar Man and the Bionic Woman (1989) — PG
+- Birdemic: Shock and Terror (2010) — NR
+- Birdman of Alcatraz (1962) — NR
+- Birds of Passage (2018) — Not Rated
+- Birth of the Dragon (2017) — PG-13
+- Birthright Outlaw (2023) — PG
+- Bite (2015) — Not Rated
+- Bite the Bullet (1975) — PG
+- Bizarre (2015) — Unrated
+- Black Adam (2022) — PG-13
+- Black as Night (2021) — NR
+- Black Beauty (1994) — G
+- Black Butterfly (2006) — Not Rated
+- Black Christmas (2019) — PG-13
+- Black Clover: Sword of the Wizard King (2023) — PG-13
+- Black Dog (1998) — PG-13
+- Black Ice (2013) — PG
+- Black Jack: The Movie (1996) — NR
+- Black Knight (2001) — PG-13
+- Black Mountain Side (2016) — NR
+- Black or White (2014) — PG-13
+- Black Panther (2018) — PG-13
+- Black Panther: Wakanda Forever (2022) — PG-13
+- Black Sabbath (1963) — Approved
+- Black Sabbath: Live... Gathered In Their Masses (2013) — G
+- Black Sabbath: The End of The End (2017) — Not Rated
+- Black Sheep (1996) — PG-13
+- Black Water: Abyss (2020) — NR
+- Black Widow (2021) — PG-13
+- Blackbeard's Ghost (1968) — G
+- Blackfish (2013) — PG-13
+- Blacklight (2022) — PG-13
+- Blackwater Lane (2024) — PG-13
+- Blades of Glory (2007) — PG-13
+- Blame It on the Bellboy (1992) — PG-13
+- Blank (2022) — NR
+- Blank Check (1994) — PG
+- Blankman (1994) — PG-13
+- Blast from the Past (1999) — PG-13
+- Bleach the Movie: Fade to Black (2008) — PG-13
+- Bleach the Movie: Hell Verse (2010) — PG-13
+- Bleach the Movie: Memories of Nobody (2006) — NR
+- Bleach the Movie: The DiamondDust Rebellion (2007) — PG-13
+- Bleed (2016) — NR
+- Blended (2014) — PG-13
+- Bless Me, Ultima (2013) — PG-13
+- Bless the Beasts & Children (1971) — GP
+- Blind Date (1987) — PG-13
+- Blind Date Book Club (2024) — TV-G
+- Blind Spot (1993) — PG-13
+- Blind Vaysha (2016) — PG-13
+- Blinded by the Light (2019) — PG-13
+- Blink of an Eye (2019) — Not Rated
+- Blinky Bill the Movie (2015) — G
+- Blippi's Big Dino Adventure (2023) — G
+- Blithe Spirit (2020) — PG-13
+- Blitz (2024) — PG-13
+- Blonde Venus (1932) — Passed
+- Blood and Chocolate (2007) — PG-13
+- Blood Brothers: Malcolm X & Muhammad Ali (2021) — PG-13
+- Blood Done Sign My Name (2010) — PG-13
+- Blood Fest (2018) — Not Rated
+- Blood from the Mummy's Tomb (1971) — PG
+- Blood Harvest (1987) — Not Rated
+- Blood Moon River (2017) — NR
+- Blood Punch (2014) — Not Rated
+- Blood Quantum (2019) — NR
+- Blood River (2009) — Not Rated
+- Bloodrunners (2017) — Not Rated
+- Bloodshot (2020) — PG-13
+- Bloodsucking Bastards (2015) — NR
+- Blow-Up (1966) — NR
+- Blowing Wild (1953) — NR
+- Blue Beetle (2023) — PG-13
+- Blue Chips (1994) — PG-13
+- Blue Crush (2002) — PG-13
+- Blue Crush 2 (2011) — PG-13
+- Blue Denim (1959) — Approved
+- Blue Film (2026) — NR
+- Blue Hawaii (1961) — PG
+- Blue Iguana (2018) — Not Rated
+- Blue Jasmine (2013) — PG-13
+- Blue Jay (2016) — NR
+- Blue Jean (2023) — NR
+- Blue Lagoon: The Awakening (2012) — PG-13
+- BLUE LOCK THE MOVIE -EPISODE NAGI- (2024) — PG-13
+- Blue Miracle (2021) — NR
+- Blue Ridge (2020) — TV-PG
+- Blue Sky (1994) — PG-13
+- Blue Smoke (2007) — TV-14
+- Blue Streak (1999) — PG-13
+- Blueback (2022) — PG
+- Blues Brothers 2000 (1998) — PG-13
+- blur: To the End (2024) — NR
+- Blurt! (2018) — G
+- Blurt! (2018) — G
+- BMF: The Rise and Fall of a Hip-Hop Drug Empire (2012) — Not Rated
+- BMX Bandits (1983) — PG
+- Boar (2018) — Not Rated
+- Bob Lazar: Area 51 and Flying Saucers (2018) — Not Rated
+- Bob Marley: One Love (2024) — PG-13
+- Bob Trevino Likes It (2025) — PG-13
+- Bobby Deerfield (1977) — PG
+- Bobby Jones: Stroke of Genius (2004) — PG
+- Bobi Wine: The People's President (2023) — PG-13
+- BoBoiBoy: Elemental Heroes (2019) — G
+- Body Rock (1984) — PG-13
+- Bodyguards and Assassins (2009) — PG-13
+- Boggy Creek II: And the Legend Continues (1984) — PG
+- Bogus (1996) — PG
+- Bohemian Rhapsody (2018) — PG-13
+- Boiling Pot (2015) — Not Rated
+- Bolt (2008) — PG
+- Bombshell: The Hedy Lamarr Story (2018) — PG-13
+- Bon Voyage, Charlie Brown (and Don't Come Back!) (1980) — G
+- Bon Voyage! (1962) — Not Rated
+- Bone Tomahawk (2015) — NR
+- Bonhoeffer: Agent of Grace (2000) — Not Rated
+- Bonhoeffer: Pastor. Spy. Assassin (2024) — PG-13
+- Bonjour Tristesse (2025) — NR
+- Bono & The Edge: A Sort of Homecoming with Dave Letterman (2023) — TV-14
+- Boo 2! A Madea Halloween (2017) — PG-13
+- Boo! A Madea Halloween (2016) — PG-13
+- Boogeyman (2005) — PG-13
+- Boogeyman 2 (2007) — NR
+- Boogeyman 3 (2008) — NR
+- Book Club (2018) — PG-13
+- Book Club: The Next Chapter (2023) — PG-13
+- Book of Love (1990) — PG-13
+- Books of Blood (2020) — NR
+- Boone: The Bounty Hunter (2017) — TV-14
+- Boonie Bears: The Wild Life (2021) — TV-Y
+- Borderlands (2024) — PG-13
+- Borley Rectory: The Awakening (2025) — NR
+- Born Free (1966) — PG
+- Born Reckless (1930) — NR
+- Born to Dance (1936) — NR
+- Born Yesterday (1950) — NR
+- Born Yesterday (1993) — PG
+- Borrowed Hearts (1997) — Not Rated
+- Boruto: Naruto the Movie (2015) — PG-13
+- Boss Nigger (1975) — PG
+- Bottle Shock (2008) — PG-13
+- Bottled with Love (2019) — TV-G
+- Bounce (2000) — PG-13
+- Bound to Vengeance (2015) — Not Rated
+- Boundless (2024) — Not Rated
+- Boy Culture (2006) — NR
+- Boy Meets Boy (2021) — NR
+- Boys and Girls (2000) — PG-13
+- Boys from County Hell (2021) — NR
+- Brahms: The Boy II (2020) — PG-13
+- Brainstorm (1983) — PG
+- Brannigan (1975) — PG
+- Bratz (2007) — PG
+- Brave (2012) — PG
+- Brave Archer and His Mate (1982) — Not Rated
+- Brave the Dark (2025) — PG-13
+- BraveStarr: The Legend (1988) — PG
+- Brawl in Cell Block 99 (2017) — NR
+- Bray Wyatt: Becoming Immortal (2024) — PG-13
+- Breach (2007) — PG-13
+- Break Every Chain (2021) — PG
+- Breakaway (2011) — PG-13
+- Breakfast at Tiffany's (1961) — NR
+- Breakin' (1984) — PG
+- Breakin' 2: Electric Boogaloo (1984) — PG
+- Breakin' All the Rules (2004) — PG-13
+- Breaking (2022) — PG-13
+- Breaking Away (1979) — PG
+- Breaking In (2018) — PG-13
+- Breakthrough (2019) — PG
+- Breathe (2024) — PG-13
+- Brené Brown: The Call to Courage (2019) — NR
+- Brewster's Millions (1985) — PG
+- Brexit: The Uncivil War (2019) — TV-14
+- Brian and Charles (2022) — PG
+- Brian Banks (2019) — PG-13
+- Brian Regan: Live From Radio City Music Hall (2015) — Unrated
+- Brian Regan: Nunchucks and Flamethrowers (2017) — NR
+- Brian Regan: The Epitome of Hyperbole (2008) — Not Rated
+- Brian Wilson: Long Promised Road (2021) — TV-14
+- Brian's Song (1971) — G
+- Brick Mansions (2014) — PG-13
+- Bridal Wave (2015) — TV-G
+- Bride of Frankenstein (1935) — NR
+- Bride Wars (2009) — PG
+- Bridge of Spies (2015) — PG-13
+- Bridge to Terabithia (2007) — PG
+- Brief Encounter (1945) — NR
+- Bright Eyes (1934) — NR
+- Bright Lights: Starring Carrie Fisher and Debbie Reynolds (2017) — TV-14
+- Brighton Beach Memoirs (1986) — PG-13
+- Brigsby Bear (2017) — PG-13
+- Bring It On (2000) — PG-13
+- Bring It On Again (2004) — PG-13
+- Bring It On: All or Nothing (2006) — PG-13
+- Bring It On: Fight to the Finish (2009) — PG-13
+- Bring It On: In It to Win It (2007) — PG-13
+- Bring It On: Worldwide #Cheersmack (2017) — PG-13
+- Bringing Down the House (2003) — PG-13
+- Brink! (1998) — G
+- BRO (2023) — Not Rated
+- Broadway Danny Rose (1984) — PG
+- Broadway Melody of 1938 (1937) — NR
+- Broke Sky (2007) — Unrated
+- Brokedown Palace (1999) — PG-13
+- Broken Arrow (1950) — Approved
+- Broken Bridges (2006) — PG-13
+- Brooklyn (2015) — PG-13
+- Brooklyn Bridge (1981) — G
+- Brother Bear (2003) — G
+- Brother Bear 2 (2006) — G
+- Brotherhood (2016) — Not Rated
+- Brothers of War (2015) — Not Rated
+- Brown Sugar (2002) — PG-13
+- Bruce Almighty (2003) — PG-13
+- Brush with Fate (2003) — PG
+- Bubble Boy (2001) — PG-13
+- Buck Privates (1941) — NR
+- Buck Privates Come Home (1947) — NR
+- Buck Rogers in the 25th Century (1979) — PG
+- Bud Abbott and Lou Costello in Hollywood (1945) — Approved
+- Bud Abbott and Lou Costello in the Foreign Legion (1950) — NR
+- Bud Abbott and Lou Costello Meet Frankenstein (1948) — Approved
+- Bud Abbott and Lou Costello Meet the Invisible Man (1951) — Approved
+- Bud Abbott and Lou Costello Meet the Killer, Boris Karloff (1949) — Approved
+- Buena Vista Social Club (1999) — G
+- Buffaloed (2020) — NR
+- Buffet Infinity (2026) — NR
+- Buffy the Vampire Slayer (1992) — PG-13
+- Bugs Bunny's Looney Christmas Tales (1979) — G
+- Bugsy Malone (1976) — G
+- Bullet in the Head (1990) — NR
+- Bullet Train Down (2022) — Unrated
+- Bullet Train Explosion (2025) — PG-13
+- Bulletproof Monk (2003) — PG-13
+- Bullitt (1968) — PG
+- Bully (2001) — NR
+- Bumblebee (2018) — PG-13
+- Bunny Lake Is Missing (1965) — NR
+- Buoyancy (2019) — Not Rated
+- Buried Alive (2007) — NR
+- Buried Alive and Survived (2024) — TV-14
+- Buried Alive II (1997) — PG-13
+- Buried in Barstow (2022) — PG-13
+- Burlesque (2010) — PG-13
+- Burn Notice: The Fall of Sam Axe (2011) — PG
+- Burning Bright (2010) — PG-13
+- Burnt Offerings (1976) — PG
+- Bury My Heart at Wounded Knee (2007) — NR
+- Bus Stop (1956) — Approved
+- Bushwhacked (1995) — PG
+- Butch Cassidy and the Sundance Kid (1969) — PG
+- Butlers in Love (2022) — G
+- BUtterfield 8 (1960) — PG
+- Butterflies Are Free (1972) — PG
+- Buy Now! The Shopping Conspiracy (2024) — PG-13
+- Buying Back My Daughter (2023) — TV-14
+- Buzz Lightyear of Star Command: The Adventure Begins (2000) — NR
+- By Dawn's Early Light (1990) — PG
+- By the Light of the Silvery Moon (1953) — NR
+- Bye Bye Birdie (1963) — G
+- Bye Bye Love (1995) — PG-13
+
+## C
+
+- Cabaret (1972) — PG
+- Cabin Boy (1994) — PG-13
+- Cabin in the Sky (1943) — Approved
+- Cabrini (2024) — PG-13
+- Caddo Lake (2024) — PG-13
+- Caddy Hack (2023) — Unrated
+- Caddyshack II (1988) — PG
+- Cadence (1990) — PG-13
+- Cadet Kelly (2002) — G
+- Café Society (2016) — PG-13
+- Cahill: United States Marshal (1973) — PG
+- Calamity Jane (1953) — NR
+- Calendar Girl (1993) — PG-13
+- Calendar Girls (2003) — PG-13
+- California King (2025) — NR
+- California Suite (1978) — PG
+- Call Northside 777 (1948) — NR
+- Call of Heroes (2016) — Not Rated
+- Calm at Sunset (1996) — PG
+- Camelot (1967) — G
+- Camp Crasher (2024) — PG-13
+- Camp Nowhere (1994) — PG
+- Camp Rock (2008) — G
+- Camp Rock 2: The Final Jam (2010) — PG
+- Camp Rock 3 (2026) — G
+- Can You Feel the Beat: The Lisa Lisa Story (2025) — PG-13
+- Can-Can (1960) — NR
+- Can't Buy Me Love (1987) — PG-13
+- Can't Hardly Wait (1998) — PG-13
+- Can't Stop, Won't Stop: A Bad Boy Story (2017) — TV-14
+- Can't Take It Back (2017) — NR
+- Canadian Bacon (1995) — PG
+- Candleshoe (1977) — G
+- Candy Cane Lane (2023) — PG
+- Cannibal Ferox (1981) — NR
+- Cannibal Holocaust (1980) — NR
+- Cannonball Run II (1984) — PG
+- Cape Fear (1962) — PG
+- Caprice (1967) — NR
+- Capricorn One (1977) — PG
+- Captain America (1990) — PG-13
+- Captain America: Brave New World (2025) — PG-13
+- Captain America: Civil War (2016) — PG-13
+- Captain America: The First Avenger (2011) — PG-13
+- Captain America: The Winter Soldier (2014) — PG-13
+- Captain Blood (1935) — NR
+- Captain January (1936) — G
+- Captain Lightfoot (1955) — NR
+- Captain Marvel (2019) — PG-13
+- Captain Newman, M.D. (1963) — NR
+- Captain Phillips (2013) — PG-13
+- Captain Ron (1992) — PG-13
+- Captain Underpants: The First Epic Movie (2017) — PG
+- Captains Courageous (1937) — G
+- Captivated: The Trials of Pamela Smart (2014) — TV-14
+- Captive (2015) — PG-13
+- Captive Heart: The James Mink Story (1996) — NR
+- Captive State (2019) — PG-13
+- Capturing the Friedmans (2003) — NR
+- Capturing the Killer Nurse (2022) — PG-13
+- Car Wash (1976) — PG
+- Caramelo (2025) — PG-13
+- Caravan to Vaccarès (1974) — PG
+- Carbon Copy (1981) — PG
+- Cardboard Boxer (2016) — Not Rated
+- Career Opportunities (1991) — PG-13
+- Cargo (2017) — NR
+- Caribbean Summer (2022) — G
+- Carl's Date (2023) — G
+- Carlito's Way: Rise to Power (2005) — PG-13
+- Carlos (2010) — NR
+- Carlos Mencia: Not for the Easily Offended (2005) — Not Rated
+- Carmen: A Hip Hopera (2001) — PG-13
+- Carnival of Souls (1962) — NR
+- Caroline? (1990) — Not Rated
+- Carpool (1996) — PG
+- Carrie (2002) — NR
+- Carriers (2009) — PG-13
+- Carrot Cake Murder: A Hannah Swensen Mystery (2023) — PG
+- Carry On Cruising (1962) — Not Rated
+- Carry On England (1976) — Not Rated
+- Carry-On (2024) — PG-13
+- Cars (2006) — G
+- Cars 2 (2011) — G
+- Cars 3 (2017) — G
+- Carson City (1952) — NR
+- Carter High (2015) — PG-13
+- Carts of Darkness (2008) — Not Rated
+- Casablanca (1943) — PG
+- Cash McCall (1960) — Approved
+- Casino Royale (1967) — PG
+- Casino Royale (2006) — PG-13
+- Casper (1995) — PG
+- Casper Meets Wendy (1998) — PG
+- Casper's First Christmas (1979) — G
+- Casper's Haunted Christmas (2000) — G
+- Cassino in Ischia (2024) — NR
+- Cast a Dark Shadow (1955) — NR
+- Cast a Giant Shadow (1966) — Approved
+- Cast Away (2000) — PG-13
+- Casting JonBenet (2017) — TV-14
+- Castle Falls (2021) — NR
+- Castle in the Sky (1986) — PG
+- Cat Daddies (2022) — NR
+- Cat on a Hot Tin Roof (1958) — NR
+- Cat Person (2023) — NR
+- Cat Shit One (2010) — TV-14
+- Cat's Eye (1985) — PG-13
+- Catch 22: Based on the Unwritten Story by Seanie Sugrue (2016) — NR
+- Catch and Release (2006) — PG-13
+- Catch Me If You Can (2002) — PG-13
+- Catch Me If You Claus (2023) — G
+- Catch Me... If You Can (1989) — PG
+- Catch That Kid (2004) — PG
+- Catch the Fair One (2022) — NR
+- Catching Faith (2015) — Not Rated
+- Catching Faith 2: The Homecoming (2019) — Not Rated
+- Category 6: Day of Destruction (2004) — Unrated
+- Catfish (2010) — PG-13
+- Catfish Killer (2022) — TV-14
+- Catherine Called Birdy (2022) — PG-13
+- Catlow (1971) — PG-13
+- Cats & Dogs (2001) — PG
+- Cats Don't Dance (1997) — G
+- Catwoman (2004) — PG-13
+- Catwoman: Hunted (2022) — PG-13
+- Caught in the Draft (1941) — NR
+- Cause for Alarm! (1951) — NR
+- Cave of Forgotten Dreams (2010) — G
+- Cave Rescue (2019) — PG-13
+- Caveat (2021) — NR
+- Caveman (1981) — PG
+- Celebrity Sex Tape (2012) — NR
+- Celia (1989) — Not Rated
+- Cellular (2004) — PG-13
+- Celtic Pride (1996) — PG-13
+- Cemetery Without Crosses (1969) — Not Rated
+- Censor (2021) — NR
+- Center Stage (2000) — PG-13
+- Central Airport (1933) — NR
+- Central Intelligence (2016) — PG-13
+- Chain Lightning (1950) — NR
+- Chained (1934) — NR
+- Champagne Problems (2025) — PG-13
+- Champions (2023) — PG-13
+- Chan Is Missing (1982) — Not Rated
+- Chances Are (1989) — PG
+- Chandler (1971) — PG
+- Chang Can Dunk (2023) — PG
+- Change of Habit (1969) — G
+- Change of Heart (1934) — NR
+- Chaos Theory (2007) — PG-13
+- Chaos Walking (2021) — PG-13
+- Chappaquiddick (2018) — PG-13
+- Charade (1963) — NR
+- Chariots of Fire (1981) — PG
+- Charley Varrick (1973) — PG
+- Charlie and the Chocolate Factory (2005) — PG
+- Charlie Brown's Christmas Tales (2002) — NR
+- Charlie Chan at Monte Carlo (1937) — Approved
+- Charlie Chan at the Circus (1936) — Approved
+- Charlie Chan at the Olympics (1937) — NR
+- Charlie Chan at the Opera (1936) — NR
+- Charlie Chan at Treasure Island (1939) — NR
+- Charlie Chan in Egypt (1935) — NR
+- Charlie Chan in Honolulu (1938) — Approved
+- Charlie Chan in London (1934) — NR
+- Charlie Chan in Panama (1940) — NR
+- Charlie Chan in Paris (1935) — NR
+- Charlie Chan in Reno (1939) — NR
+- Charlie Chan in Rio (1941) — NR
+- Charlie Chan in Shanghai (1935) — NR
+- Charlie Chan on Broadway (1937) — Approved
+- Charlie St. Cloud (2010) — PG-13
+- Charlie the Wonderdog (2025) — PG
+- Charlie's Angels (2000) — PG-13
+- Charlie's Angels (2019) — PG-13
+- Charlie's Angels: Full Throttle (2003) — PG-13
+- Charlie's Farm (2014) — NR
+- Charlotte's Web (1973) — G
+- Charlotte's Web (2006) — G
+- Charly (1968) — PG
+- Charming Christmas (2015) — G
+- Chasing Liberty (2004) — PG-13
+- Chasing Mavericks (2012) — PG
+- Chasing Trane (2017) — Not Rated
+- Chastity (1969) — PG
+- Chato's Land (1972) — PG
+- Chattanooga Choo Choo (1984) — PG
+- Che: Part One (2008) — NR
+- Che: Part Two (2008) — NR
+- Cheap Thrills (2013) — Not Rated
+- Cheaper by the Dozen (1950) — G
+- Cheaper by the Dozen (2003) — PG
+- Cheaper by the Dozen (2022) — PG
+- Cheaper by the Dozen 2 (2005) — PG
+- Cheats (2002) — PG-13
+- Checkin' It Twice (2023) — G
+- Cheech & Chong's The Corsican Brothers (1984) — PG
+- Chernobyl: Abyss (2021) — PG
+- Cherry 2000 (1987) (2000) — PG-13
+- Chevalier (2023) — PG-13
+- Cheyenne Autumn (1964) — Approved
+- Chicago (2002) — PG-13
+- Chicago Syndicate (1955) — NR
+- Chicken Little (2005) — G
+- Chicken Run (2000) — G
+- Chicken Run: Dawn of the Nugget (2023) — PG
+- Chickenhare and the Hamster of Darkness (2022) — PG
+- Chief of Station (2024) — NR
+- Children of the Corn (2009) — TV-14
+- Chill Out, Scooby-Doo! (2007) — NR
+- Chillerama (2011) — NR
+- China Gate (1957) — NR
+- Chip 'n Dale: Rescue Rangers (2022) — PG
+- Chisum (1970) — G
+- Chitty Chitty Bang Bang (1968) — G
+- Chloe and Theo (2015) — PG-13
+- Chocolat (2000) — PG-13
+- Choose Love (2023) — PG
+- Choose or Die (2022) — NR
+- Chop (2011) — Not Rated
+- Chris Farley: Anything for a Laugh (2019) — TV-14
+- Chris Porter: Ugly and Angry (2014) — NR
+- Chris Rock: Never Scared (2004) — Not Rated
+- Christmas 9 to 5 (2019) — TV-G
+- Christmas All Over Again (2016) — PG
+- Christmas Around the Corner (2018) — PG
+- Christmas As Usual (2023) — PG-13
+- Christmas at Cartwright's (2014) — TV-G
+- Christmas at Castle Hart (2021) — G
+- Christmas at Dollywood (2019) — TV-G
+- Christmas at Graceland (2018) — TV-G
+- Christmas at Grand Valley (2018) — G
+- Christmas at Pemberley Manor (2018) — G
+- Christmas at Plumhill Manor (2024) — TV-PG
+- Christmas at the Plaza (2019) — G
+- Christmas Belle (2013) — TV-PG
+- Christmas Bells Are Ringing (2018) — TV-G
+- Christmas Bloody Christmas (2022) — Not Rated
+- Christmas Bounty (2013) — NR
+- Christmas by Candlelight (2023) — TV-G
+- Christmas by Design (2023) — G
+- Christmas by Starlight (2020) — TV-G
+- Christmas Camp (2018) — G
+- Christmas Carol: The Movie (2001) — PG
+- Christmas Catch (2018) — TV-PG
+- Christmas Cookies (2016) — G
+- Christmas Do-Over (2006) — PG
+- Christmas Eve in Miller's Point (2024) — PG-13
+- Christmas Eve on Sesame Street (1978) — TV-Y
+- Christmas Everlasting (2018) — TV-PG
+- Christmas Festival of Ice (2017) — TV-G
+- Christmas Hotel (2019) — TV-G
+- Christmas Icetastrophe (2014) — PG
+- Christmas in Angel Falls (2017) — G
+- Christmas in Big Sky Country (2023) — NR
+- Christmas in Connecticut (1945) — NR
+- Christmas in Connecticut (1992) — Not Rated
+- Christmas in Homestead (2016) — TV-G
+- Christmas in Louisiana (2019) — TV-PG
+- Christmas in Love (2018) — TV-G
+- Christmas in Montana (2019) — Not Rated
+- Christmas in Paradise (2022) — PG
+- Christmas in Paris (2019) — G
+- Christmas in Rockwell (2022) — G
+- Christmas in Rome (2019) — G
+- Christmas in Scotland (2023) — NR
+- Christmas in the Air (2017) — G
+- Christmas in the Smokies (2015) — TV-G
+- Christmas in the Spotlight (2024) — TV-PG
+- Christmas in Toyland (2022) — G
+- Christmas Incorporated (2015) — TV-G
+- Christmas Island (2023) — G
+- Christmas Joy (2018) — TV-G
+- Christmas Keepsake (2025) — G
+- Christmas Lost and Found (2018) — PG
+- Christmas Love Letter (2019) — TV-PG
+- Christmas Made to Order (2018) — TV-G
+- Christmas Next Door (2017) — G
+- Christmas On Call (2024) — TV-G
+- Christmas on Cherry Lane (2023) — PG
+- Christmas on Mistletoe Farm (2022) — G
+- Christmas on the Coast (2018) — TV-G
+- Christmas Oranges (2012) — PG
+- Christmas Pen Pals (2018) — PG
+- Christmas Perfection (2018) — TV-PG
+- Christmas Reservations (2019) — TV-PG
+- Christmas Scavenger Hunt (2019) — TV-G
+- Christmas Time (2023) — G
+- Christmas Town (2019) — TV-G
+- Christmas Under Wraps (2014) — TV-G
+- Christmas Unleashed (2019) — TV-G
+- Christmas Vacation 2: Cousin Eddie's Island Adventure (2003) — TV-14
+- Christmas Waltz (2020) — TV-G
+- Christmas with a Kiss (2023) — G
+- Christmas with a Prince (2018) — TV-PG
+- Christmas with a Prince: Becoming Royal (2019) — G
+- Christmas with a View (2018) — TV-PG
+- Christmas with Holly (2012) — Not Rated
+- Christmas with the Campbells (2022) — NR
+- Christmas with The Chosen: Holy Night (2023) — PG
+- Christmas with The Chosen: The Messengers (2021) — NR
+- Christmas with the Darlings (2020) — TV-G
+- Christmas with the Knightlys (2023) — NR
+- Christmas with the Kranks (2004) — PG
+- Christmas with the Singhs (2024) — G
+- Christmas with Tucker (2013) — G
+- Christmas with You (2022) — PG
+- Christmas...Again?! (2021) — G
+- Christopher Robin (2018) — PG
+- Christspiracy (2024) — NR
+- Chronicle (2012) — PG-13
+- Chronos (1985) — Not Rated
+- Chum (2026) — NR
+- Chungking Express (1994) — PG-13
+- Chupa (2023) — PG
+- Churchill's Secret (2016) — TV-PG
+- Cicada (2021) — Unrated
+- Cinderella (1950) — G
+- Cinderella (1965) — G
+- Cinderella (1997) — G
+- Cinderella (2015) — PG
+- Cinderella (2021) — PG
+- Cinderella II: Dreams Come True (2002) — G
+- Cinderella III: A Twist in Time (2007) — G
+- Cinderella Man (2005) — PG-13
+- Cinderella's Curse (2024) — Not Rated
+- Cinderfella (1960) — NR
+- Cinema Paradiso (1988) — PG
+- Circle (2015) — NR
+- Circus of Books (2019) — Not Rated
+- Circus World (1964) — NR
+- Citizen Ashe (2021) — PG-13
+- Citizen Kane (1941) — NR
+- City Heat (1984) — PG
+- City Hunter (1993) — PG-13
+- City Lights (1931) — G
+- City Limits (1985) — PG-13
+- City of Angels (1998) — PG-13
+- City of Ember (2008) — PG
+- City Slickers (1991) — PG-13
+- City Slickers II: The Legend of Curly's Gold (1994) — PG-13
+- Civil: Ben Crump (2022) — PG-13
+- Clan of the White Lotus (1980) — PG-13
+- Clara (2018) — Not Rated
+- Clash by Night (1952) — NR
+- Clash of the Thundermans (2026) — G
+- Clash of the Titans (1981) — PG
+- Clash of the Titans (2010) — PG-13
+- Class Act (1992) — PG-13
+- Class Action Park (2020) — NR
+- Clean (2022) — Not Rated
+- Clear and Present Danger (1994) — PG-13
+- Cleopatra (1963) — G
+- Cleveland Abduction (2015) — TV-14
+- Click (2006) — PG-13
+- Click & Collect (2018) — Not Rated
+- Clifford (1994) — PG
+- Clifford the Big Red Dog (2021) — PG
+- Cloak & Dagger (1984) — PG
+- Clockstoppers (2002) — PG
+- Close (2022) — PG-13
+- Close Encounters of the Fifth Kind (2020) — PG
+- Close Encounters of the Third Kind (1977) — PG
+- Close to You (2024) — NR
+- Closet Monster (2016) — Not Rated
+- Cloudy with a Chance of Meatballs (2009) — PG
+- Cloudy with a Chance of Meatballs 2 (2013) — PG
+- Clover (2020) — PG-13
+- Cloverfield (2008) — PG-13
+- Club Paradise (1986) — PG-13
+- Clue (1985) — PG
+- Clueless (1995) — PG-13
+- Coach Carter (2005) — PG-13
+- Coal Miner's Daughter (1980) — PG
+- Cobain: Montage of Heck (2015) — NR
+- Cocaine Godmother (2017) — TV-14
+- Cocaine Shark (2023) — NR
+- Cocaine: One Man's Seduction (1983) — NR
+- Cockneys vs Zombies (2012) — NR
+- Coco (2017) — PG
+- Cocoon (1985) — PG-13
+- Cocoon: The Return (1988) — PG
+- CODA (2021) — PG-13
+- Code 8 (2019) — NR
+- Code Geass: Lelouch of the Re;surrection (2019) — Not Rated
+- Code Name Banshee (2022) — NR
+- Code Name: The Cleaner (2007) — PG-13
+- Code Two (1953) — NR
+- Codename: Kids Next Door: Operation Z.E.R.O. (2006) — TV-Y7
+- Coffee Town (2013) — NR
+- Coherence (2014) — NR
+- Coin Heist (2017) — PG
+- Cold Prey (2006) — Not Rated
+- Cold Skin (2017) — TV-14
+- Collapse (2009) — NR
+- Collateral Beauty (2016) — PG-13
+- College Coach (1933) — NR
+- Colombiana (2011) — PG-13
+- Color My World with Love (2022) — TV-G
+- COLORFUL STAGE! The Movie: A Miku Who Can't Sing (2025) — PG
+- Colossus: The Forbin Project (1970) — PG
+- Columbus (2017) — PG-13
+- Come and See (1985) — NR
+- Come As You Are (2020) — Not Rated
+- Come Back Home (2022) — Not Rated
+- Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean (1982) — PG
+- Come from Away (2021) — PG-13
+- Come Live with Me (1941) — NR
+- Come Out Fighting (2023) — NR
+- Come Play (2020) — PG-13
+- Come September (1961) — NR
+- Come True (2020) — Unrated
+- Comeback Dad (2014) — Not Rated
+- Comedy Central Presents: Mitch Hedberg (1999) — TV-PG
+- Comedy Central Roast of Justin Bieber (2015) — NR
+- Comedy Central Roast of Rob Lowe (2016) — PG-13
+- Coming 2 America (2021) — PG-13
+- Coming Home for Christmas (2013) — Not Rated
+- Coming Home for Christmas (2017) — G
+- Coming Through the Rye (2016) — PG-13
+- Coming To My Senses (2017) — Not Rated
+- Complete Strangers (2020) — Not Rated
+- Compulsion (1959) — Approved
+- Comrade X (1940) — NR
+- Conagher (1991) — M
+- Conan the Destroyer (1984) — PG
+- Conclave (2024) — PG
+- Concrete Evidence: A Fixer Upper Mystery (2017) — G
+- Concrete Utopia (2023) — NR
+- Concussion (2015) — PG-13
+- Condorman (1981) — PG
+- Coneheads (1993) — PG
+- Confessions (2010) — Not Rated
+- Confessions of a Christmas Letter (2024) — TV-G
+- Confessions of a Shopaholic (2009) — PG
+- Confessions of a Young American Housewife (1974) — NR
+- Conflicted (2021) — NR
+- Congo (1995) — PG-13
+- Connie and Carla (2004) — PG-13
+- Conquest of the Planet of the Apes (1972) — PG
+- Conrack (1974) — PG
+- Consumed (2015) — Unrated
+- Contact (1997) — PG
+- Contagion (2011) — PG-13
+- Contract on Cherry Street (1977) — Not Rated
+- Contracted: Phase II (2015) — Not Rated
+- Control Room (2004) — Not Rated
+- Convict (2014) — Not Rated
+- Convoy (1978) — PG
+- Cooking with Love (2018) — TV-G
+- Cool as Ice (1991) — PG
+- Cool Hand Luke (1967) — PG
+- Cool Runnings (1993) — PG
+- Cool World (1992) — PG-13
+- Cooley High (1975) — PG
+- Coolie (2025) — NR
+- Copenhagen (2014) — Not Rated
+- Cops and Robbers (1973) — PG
+- Copying Beethoven (2006) — PG-13
+- Copyright Criminals (2009) — PG-13
+- Coraline (2009) — PG
+- Corky Romano (2001) — PG-13
+- Cornbread, Earl and Me (1975) — PG
+- Corner Office (2023) — PG-13
+- Coroner Creek (1948) — NR
+- Corpse Bride (2005) — PG
+- Corpus Christi (2019) — Unrated
+- Corrina, Corrina (1994) — PG
+- Corvette Summer (1978) — PG
+- Cosmic Dawn (2022) — NR
+- Cottonpickin' Chickenpickers (1967) — NR
+- Countdown (2019) — PG-13
+- Countdown to WWE Clash at the Castle: Scotland (2024) — PG
+- Country Doctor (2025) — PG-13
+- Country Roads Christmas (2022) — G
+- County Line (2017) — TV-PG
+- Couples Retreat (2009) — PG-13
+- Courageous (2011) — PG-13
+- Cow Belles (2006) — G
+- Coward of the County (1981) — Not Rated
+- Cowboy (1958) — NR
+- Cowboys & Aliens (2011) — PG-13
+- Cowgirls n' Angels (2012) — PG
+- Coyote (2023) — TV-14
+- Coyote Ugly (2000) — PG-13
+- Coyote vs. Acme (2026) — PG
+- Craig Before the Creek (2023) — PG
+- Crazy Love (2007) — PG-13
+- Crazy Rich Asians (2018) — PG-13
+- Crazy, Stupid, Love. (2011) — PG-13
+- Crazy/Beautiful (2001) — PG-13
+- Creature from the Black Lagoon (1954) — G
+- Creed (2015) — PG-13
+- Creed II (2018) — PG-13
+- Creed III (2023) — PG-13
+- Crime Busters (1977) — PG
+- Crime Wave (1953) — NR
+- Crime Wave (1985) — PG-13
+- Crimes and Misdemeanors (1989) — PG-13
+- Crimes of Fashion (2004) — Not Rated
+- Crimes of Fashion: Killer Clutch (2024) — PG
+- CrimeTime: Freefall (2024) — PG
+- Crips and Bloods: Made in America (2009) — Not Rated
+- Critters (1986) — PG-13
+- Critters 2 (1988) — PG-13
+- Critters 3 (1991) — PG-13
+- Critters 4 (1992) — PG-13
+- Crocodile Dundee (1986) — PG-13
+- Crocodile Dundee II (1988) — PG
+- Crocodile Dundee in Los Angeles (2001) — PG
+- Cromwell (1970) — G
+- Crooked House (2017) — PG-13
+- Crooklyn (1994) — PG-13
+- Crossfire Trail (2001) — Not Rated
+- Crossroads (2002) — PG-13
+- Crossroads - A Story of Forgiveness (2007) — PG-13
+- Crossword Mysteries: A Puzzle to Die For (2019) — TV-G
+- Crossword Mysteries: Abracadaver (2020) — PG
+- Crossword Mysteries: Proposing Murder (2019) — PG
+- Crossword Mysteries: Riddle Me Dead (2021) — TV-G
+- Crossword Mysteries: Terminal Descent (2021) — PG
+- Crouching Tiger, Hidden Dragon (2000) — PG-13
+- Crouching Tiger, Hidden Dragon (2000) — PG-13
+- Crouching Tiger, Hidden Dragon: Sword of Destiny (2016) — PG-13
+- Crown for Christmas (2015) — G
+- Cruel Instruction (2022) — PG-13
+- Cruella (2021) — PG-13
+- Crush (2013) — PG-13
+- Crusoe (1988) — PG-13
+- Cry Freedom (1987) — PG
+- Cry Macho (2021) — PG-13
+- Cry of the City (1948) — NR
+- Cry Terror! (1958) — NR
+- Cry_Wolf (2005) — PG-13
+- Cry-Baby (1990) — PG-13
+- Crying Ladies (2003) — Not Rated
+- Cryo (2022) — PG-13
+- Cryptozoo (2021) — Unrated
+- Crystal Lake Memories: The Complete History of Friday the 13th (2013) — NR
+- CSI: Immortality (2015) — TV-14
+- Cure (1997) — NR
+- Curious Caterer: Dying for Chocolate (2022) — PG
+- Curious Caterer: Fatal Vows (2023) — TV-G
+- Curious Caterer: Foiled Plans (2024) — G
+- Curious Caterer: Forbidden Fruit (2024) — TV-PG
+- Curious Caterer: Grilling Season (2023) — PG
+- Curious George (2006) — G
+- Curious George 2: Follow That Monkey! (2009) — G
+- Curious George 3: Back to the Jungle (2015) — G
+- Curious George Swings into Spring (2013) — Not Rated
+- Curious George: A Halloween Boo Fest (2013) — G
+- Curious George: A Very Monkey Christmas (2009) — Not Rated
+- Curious George: Go West, Go Wild (2020) — G
+- Curious George: Royal Monkey (2019) — G
+- Curly Sue (1991) — PG
+- Curly Top (1935) — G
+- Curse of the Blair Witch (1999) — NR
+- Curse of the Man Who Sees UFOs (2016) — Not Rated
+- Curse of the Mayans (2017) — Not Rated
+- Cursed (2005) — PG-13
+- Cursed Friends (2022) — PG-13
+- Custody (2023) — Not Rated
+- Cyberbunker: The Criminal Underworld (2023) — PG-13
+- Cyrano (2021) — PG-13
+- Cyrano de Bergerac (1990) — PG-13
+- Cyst (2020) — NR
+
+## D
+
+- D-Day (2019) — Not Rated
+- D.A.R.Y.L. (1985) — PG
+- D.C. Sniper: 23 Days of Fear (2003) — TV-14
+- D2: The Mighty Ducks (1994) — PG
+- D3: The Mighty Ducks (1996) — PG
+- Daddy Daughter Trip (2022) — PG
+- Daddy Day Camp (2007) — PG
+- Daddy Day Care (2003) — PG
+- Daddy Longlegs (2010) — TV-14
+- Daddy's Home (2015) — PG-13
+- Daddy's Home (2015) — PG-13
+- Daddy's Home 2 (2017) — PG-13
+- Daddy's Home 2 (2017) — PG-13
+- Daddy's Little Girl (2014) — Unrated
+- Daddy's Perfect Little Girl (2021) — TV-PG
+- Daffy Duck's Movie: Fantastic Island (1983) — G
+- Daffy Duck's Quackbusters (1988) — G
+- Dahmer on Dahmer: A Serial Killer Speaks (2017) — TV-14
+- Dakota (2022) — Approved
+- Dakota's Summer (2014) — PG
+- Dalíland (2022) — NR
+- Damsel (2024) — PG-13
+- Dan in Real Life (2007) — PG-13
+- Dance Flick (2009) — PG-13
+- Dance of the Drunk Mantis (1979) — Not Rated
+- Dance to Life (2018) — TV-G
+- Dance with Me (1998) — PG
+- Dance with Me, Henry (1956) — Not Rated
+- Dances with Wolves (1990) — PG-13
+- Dancing at Lughnasa (1998) — PG
+- Dancing Lady (1933) — NR
+- Danger One (2018) — Not Rated
+- Danger Route (1967) — Approved
+- Danger Signal (1945) — NR
+- Dangerous Waters (2023) — NR
+- Dangerous Years (1947) — Approved
+- Daniel (2023) — PG
+- Daniel Isn't Real (2019) — NR
+- Daniel Tosh: Happy Thoughts (2011) — NR
+- Dante's Peak (1997) — PG-13
+- Darby and the Dead (2022) — PG-13
+- Darby O'Gill and the Little People (1959) — G
+- Daredevil (2003) — PG-13
+- Dark Angel (2019) — TV-14
+- Dark Days (2000) — NR
+- Dark Girls (2011) — Not Rated
+- Dark Moon Rising (2015) — Not Rated
+- Dark Mountain (2013) — Not Rated
+- Dark Night of the Scarecrow (1981) — NR
+- Dark of the Sun (1968) — NR
+- Dark Passage (1947) — NR
+- Dark Phoenix (2019) — PG-13
+- Dark River (2017) — NR
+- Dark Shadows (2012) — PG-13
+- Dark Skies (2013) — PG-13
+- Dark Star (1974) — G
+- Dark Summer (2015) — Not Rated
+- Dark Was the Night (2018) — NR
+- Dark Water (2002) — PG-13
+- Dark Waters (1993) — NR
+- Dark Waters (2019) — PG-13
+- Darkest Hour (2017) — PG-13
+- Darkness (2002) — PG-13
+- Darkness Before Dawn (1993) — Not Rated
+- Darkness Falls (2003) — PG-13
+- Darling Lili (1970) — G
+- Daruma (2024) — NR
+- Dashing Through the Snow (2023) — PG
+- Date Movie (2006) — PG-13
+- Date Night (2010) — PG-13
+- Date with Love (2016) — G
+- Dating & New York (2021) — PG-13
+- Dating Amber (2020) — Not Rated
+- Daughter (2023) — NR
+- Daughters (2024) — PG-13
+- Daughters of the Dust (1991) — TV-PG
+- Dave (1993) — PG-13
+- Dave Chappelle: The Bird Revelation (2017) — NR
+- Dave Chappelle: The Closer (2021) — NR
+- Dave Made a Maze (2017) — NR
+- Dave Not Coming Back (2020) — TV-PG
+- David (1997) — NR
+- David (2025) — PG
+- David Attenborough: A Life on Our Planet (2020) — PG
+- David Blaine: Real or Magic (2013) — TV-14
+- David Blaine: What Is Magic? (2010) — Not Rated
+- David Brent: Life on the Road (2016) — Not Rated
+- David Cross: Bigger and Blackerer (2010) — Unrated
+- David Holmes: The Boy Who Lived (2023) — PG-13
+- Davy Crockett and the River Pirates (1956) — G
+- Dawn of the Dead (1978) — NR
+- Dawn of the Planet of the Apes (2014) — PG-13
+- Dawn of the Planet of the Apes (2014) — PG-13
+- Dawn Raid (2021) — NR
+- Day of the Dead (1985) — NR
+- Day of the Fight (2024) — NR
+- Daylight (1996) — PG-13
+- Daylight's End (2016) — Not Rated
+- Days of Heaven (1978) — PG
+- Days of Thunder (1990) — PG-13
+- Days of Wine and Roses (1963) — Approved
+- DC Films Presents Dawn of the Justice League (2016) — PG
+- DC League of Super-Pets (2022) — PG
+- DC Showcase: Adam Strange (2020) — PG-13
+- DC Showcase: Catwoman (2011) — PG-13
+- DC Showcase: Death (2019) — PG-13
+- DC Showcase: Green Arrow (2010) — PG-13
+- DC Showcase: Jonah Hex (2010) — PG-13
+- DC Showcase: Jonah Hex (2010) — PG-13
+- DC Showcase: Sgt. Rock (2019) — PG-13
+- DC Showcase: The Losers (2021) — Not Rated
+- DC Showcase: The Phantom Stranger (2020) — PG-13
+- DC Showcase: The Spectre (2010) — PG-13
+- De-Lovely (2004) — PG-13
+- Dead 7 (2016) — TV-14
+- Dead End (1937) — NR
+- Dead Man's Cards (2006) — PG-13
+- Dead Man's Folly (1986) — Not Rated
+- Dead Men Don't Wear Plaid (1982) — PG
+- Dead Night (2018) — Not Rated
+- Dead of Night (1945) — NR
+- Dead on Arrival (2017) — Not Rated
+- Dead Poets Society (1989) — PG
+- Dead Rising: Endgame (2016) — Not Rated
+- Dead Sexy (2018) — Not Rated
+- Dead Snow (2009) — NR
+- Dead Within (2014) — NR
+- Deadbeat at Dawn (1988) — NR
+- Deadly Cheers (2022) — NR
+- Deadly Daycare (2014) — TV-14
+- Deadly Deed: A Fixer Upper Mystery (2018) — TV-PG
+- Deadly Ex Next Door (2022) — TV-14
+- Deadly Pickup (2016) — NR
+- Deadly Pursuits (1996) — Not Rated
+- Deadpool: No Good Deed (2017) — Not Rated
+- Deadstream (2022) — NR
+- DeadTectives (2019) — NR
+- Dear Basketball (2017) — NR
+- Dear Brigitte (1965) — NR
+- Dear Christmas (2020) — TV-G
+- Dear David (2023) — PG-13
+- Dear Dictator (2018) — NR
+- Dear Evan Hansen (2021) — PG-13
+- Dear Frankie (2004) — PG-13
+- Dear God (1996) — PG
+- Dear John (2010) — PG-13
+- Dear Santa (2024) — PG-13
+- Dear Zachary: A Letter to a Son About His Father (2008) — NR
+- Dearest Sister (2017) — Not Rated
+- Death Al Dente: A Gourmet Detective Mystery (2016) — TV-G
+- Death Becomes Her (1992) — PG-13
+- Death in Venice (1971) — GP
+- Death of a Nation (2018) — PG-13
+- Death of a Salesman (1985) — PG
+- Death on the Nile (1978) — PG
+- Death on the Nile (2022) — PG-13
+- Death Race (1973) — Not Rated
+- Deathgasm (2015) — NR
+- Deathtrap (1982) — PG
+- Deathwoods (2026) — NR
+- Debug (2014) — PG-13
+- Decay (2015) — Not Rated
+- Deceptive Practice: The Mysteries and Mentors of Ricky Jay (2012) — Not Rated
+- Decision to Leave (2022) — NR
+- Deck the Halls (2006) — PG
+- Deck the Walls (2024) — TV-G
+- Decoration Day (1990) — PG
+- Decoy (1946) — NR
+- Deep Impact (1998) — PG-13
+- Deep in the Heart: A Texas Wildlife Story (2022) — PG
+- Deep Water (1981) — Not Rated
+- Deep Water (2006) — PG
+- Deepsea Challenge 3D (2014) — PG
+- Deepwater Horizon (2016) — PG-13
+- Defending Your Life (1991) — PG
+- Definitely, Maybe (2008) — PG-13
+- Defying Gravity (1997) — NR
+- Defying Gravity: The Curtain Rises on Wicked (2024) — PG
+- Defying the Nazis: The Sharps' War (2016) — NR
+- Déjà Vu (2006) — PG-13
+- Deli Man (2015) — PG-13
+- Deliberate Intent (2000) — PG-13
+- Delirious (1991) — PG
+- Deliver Us (2023) — NR
+- Delivery Man (2013) — PG-13
+- Delta Farce (2007) — PG-13
+- Demetri Martin: Standup Comedian (2012) — TV-14
+- Demetri Martin. Person. (2007) — NR
+- Demons (1985) — NR
+- Denial (2016) — PG-13
+- Dennis the Menace (1993) — PG
+- Denzel Washington: Falling Forward (2025) — PG
+- Depeche Mode: Live in Berlin (2014) — Not Rated
+- Depeche Mode: Touring the Angel — Live in Milan (2006) — Not Rated
+- Deported (2020) — G
+- Descendant (2022) — PG
+- Descendants (2015) — G
+- Descendants 2 (2017) — G
+- Descendants 3 (2019) — PG
+- Descendants Wicked Wonderland (2026) [tmdbid-1318621] (2026) — G
+- Descendants: The Rise of Red (2024) — G
+- Desert Dancer (2014) — PG-13
+- Designing Woman (1957) — Approved
+- Desire (1936) — NR
+- Desire (2010) — Not Rated
+- Desk Set (1957) — NR
+- Desolation (2017) — Not Rated
+- Desperate Riders (2022) — PG-13
+- Desperate Trails (1939) — NR
+- Desperately Seeking Susan (1985) — PG-13
+- Despicable Me (2010) — PG
+- Despicable Me 2 (2013) — PG
+- Despicable Me 3 (2017) — PG
+- Despicable Me 4 (2024) — PG
+- Despicable Me Presents: Minion Madness (2010) — NR
+- Destination Tokyo (1943) — NR
+- Destino (2003) — PG
+- Destroy All Monsters (1968) — G
+- Destry (1954) — NR
+- Destry Rides Again (1939) — NR
+- Detachment (2011) — NR
+- Detective Conan: Captured in Her Eyes (2000) — PG-13
+- Detective Conan: Crossroad in the Ancient Capital (2003) — PG-13
+- Detective Conan: Full Score of Fear (2008) — PG-13
+- Detective Conan: One-Eyed Flashback (2025) — Not Rated
+- Detective Conan: Quarter of Silence (2011) — PG-13
+- Detective Conan: Strategy Above the Depths (2005) — PG-13
+- Detective Conan: The Eleventh Striker (2012) — PG-13
+- Detective Conan: The Phantom of Baker Street (2002) — PG-13
+- Detective Conan: The Phantom of Baker Street (2002) — PG-13
+- Detective Conan: The Private Eyes' Requiem (2006) — PG-13
+- Detective Conan: The Raven Chaser (2009) — PG-13
+- Devara: Part 1 (2024) — PG-13
+- Devil (2010) — PG-13
+- Devil Beneath (2023) — PG-13
+- Devil's Gate (2018) — Not Rated
+- Devotion (2022) — PG-13
+- Diabolic (2025) — NR
+- Dial Code Santa Claus (1990) — Not Rated
+- Dial M for Murder (1954) — PG
+- Diamonds Are Forever (1971) — PG
+- Diamonds of Kilimandjaro (1983) — Not Rated
+- Diana (2013) — PG-13
+- Diana, Our Mother: Her Life and Legacy (2017) — TV-G
+- Diane Warren: Relentless (2025) — NR
+- Diary of a Mad Black Woman (2005) — PG-13
+- Diary of a Madman (1963) — PG
+- Diary of a Wimpy Kid (2010) — PG
+- Diary of a Wimpy Kid (2021) — PG
+- Diary of a Wimpy Kid Christmas: Cabin Fever (2023) — PG
+- Diary of a Wimpy Kid: Dog Days (2012) — PG
+- Diary of a Wimpy Kid: Rodrick Rules (2011) — PG
+- Diary of a Wimpy Kid: Rodrick Rules (2022) — PG
+- Diary of a Wimpy Kid: The Last Straw (2025) — PG
+- Diary of a Wimpy Kid: The Long Haul (2017) — PG
+- Dick (1999) — PG-13
+- Dick Tracy (1990) — PG
+- Dickie Roberts: Former Child Star (2003) — PG-13
+- Dickshark (2016) — NR
+- Diddy: Summit to Plummet (2024) — TV-14
+- Die Another Day (2002) — PG-13
+- Die Fighting (2014) — Not Rated
+- Die'ced: Reloaded (2025) — NR
+- Diego Maradona (2019) — TV-14
+- Dig Two Graves (2014) — Not Rated
+- Digging Up the Marrow (2015) — NR
+- Digimon Adventure: Last Evolution Kizuna (2020) — G
+- Digimon: The Movie (2000) — PG
+- Dill Scallion (1999) — PG-13
+- Dilwale Dulhania Le Jayenge (1995) — G
+- Dimples (1936) — PG
+- Dina (2017) — Not Rated
+- Dinner at Eight (1933) — NR
+- Dinner for Schmucks (2010) — PG-13
+- Dinosaur (2000) — PG
+- Dinosaurus! (1960) — Approved
+- Dirty 30 (2016) — PG-13
+- Dirty Dancing (1987) — PG-13
+- Dirty Dancing: Havana Nights (2004) — PG-13
+- Dirty Dingus Magee (1970) — PG-13
+- Dirty Little Deeds (2021) — TV-14
+- Dirty Mary Crazy Larry (1974) — PG
+- Dirty Rotten Scoundrels (1988) — PG
+- Dirty Work (1998) — PG-13
+- Disappearance (2002) — PG-13
+- Disappearance at Clifton Hill (2020) — Unrated
+- Disaster Holiday (2024) — PG
+- Disaster Movie (2008) — PG-13
+- Disclosure Day (2026) — PG-13
+- Disenchanted (2022) — PG
+- Disney Princess Enchanted Tales: Follow Your Dreams (2007) — G
+- Disneyland Handcrafted (2026) — TV-G
+- Disorderlies (1987) — PG
+- Disturbia (2007) — PG-13
+- Divergent (2014) — PG-13
+- Divine Secrets of the Ya-Ya Sisterhood (2002) — PG-13
+- Divorce American Style (1967) — Approved
+- Dixieland (2015) — Unrated
+- Django (1966) — NR
+- Do I Say I Do? (2017) — TV-PG
+- Do Not Disturb (1965) — NR
+- Do Revenge (2022) — NR
+- Do You Believe? (2015) — PG-13
+- DOA: Dead or Alive (2006) — PG-13
+- Doc Hollywood (1991) — PG-13
+- Doc Savage: The Man of Bronze (1975) — G
+- Doctor Dolittle (1967) — G
+- Doctor Dolittle (1998) — PG-13
+- Doctor Strange (2016) — PG-13
+- Doctor Strange in the Multiverse of Madness (2022) — PG-13
+- Doctor Zhivago (1965) — PG-13
+- Dodge City (1939) — NR
+- DodgeBall: A True Underdog Story (2004) — PG-13
+- Dog (2022) — PG-13
+- Dog 51 (2025) — NR
+- Dog Days (2018) — PG
+- Dog Gone (2023) — PG
+- Dog Man (2025) — PG
+- Dog Pound (2010) — NR
+- Dogboys (1998) — PG-13
+- Doghouse (2009) — Not Rated
+- Dogman (2012) — TV-14
+- Dognapped: Hound for the Holidays (2022) — G
+- Dogtooth (2009) — NR
+- Dogtown and Z-Boys (2002) — PG-13
+- Doin' It (2025) — NR
+- Dolittle (2020) — PG
+- Dolly Parton's Christmas of Many Colors: Circle of Love (2016) — TV-G
+- Dolly Parton's Coat of Many Colors (2015) — G
+- Dolly Parton's Mountain Magic Christmas (2022) — PG
+- Dolphin Boy (2022) — PG
+- Dolphin Island (2021) — TV-Y7
+- Dolphin Tale (2011) — PG
+- Dolphin Tale 2 (2014) — PG
+- Domestic Disturbance (2001) — PG-13
+- Don Juan (1926) — NR
+- Don Juan DeMarco (1994) — PG-13
+- Don Quixote (2000) — NR
+- Don't Blink (2014) — Not Rated
+- Don't Bother to Knock (1952) — Approved
+- Don't Die: The Man Who Wants to Live Forever (2025) — PG-13
+- Don't Give Up the Ship (1959) — NR
+- Don't Go (2018) — Unrated
+- Don't Look at the Demon (2022) — NR
+- Don't Look Under the Bed (1999) — PG
+- Don't Say Good Luck (2026) — PG-13
+- Don't Tell Her It's Me (1990) — PG-13
+- Don't Tell Mom the Babysitter's Dead (1991) — PG-13
+- Donald in Mathmagic Land (1959) — NR
+- Donald Trump's The Art of the Deal: The Movie (2016) — NR
+- Donkey's Christmas Shrektacular (2010) — TV-PG
+- Donovan's Reef (1963) — NR
+- Door in the Woods (2019) — NR
+- Door to Door (2002) — PG
+- Dora and the Lost City of Gold (2019) — PG
+- Dora and the Search for Sol Dorado (2025) — PG
+- Dora: Say Hola to Adventure! (2023) — G
+- Dorm Daze 2 (2006) — NR
+- Dory's Reef Cam (2020) — G
+- Double Double Trouble (2026) — NR
+- Double Dragon (1994) — PG-13
+- Double Indemnity (1944) — NR
+- Double Life (2023) — PG-13
+- Double Take (2001) — PG-13
+- Double Teamed! (2002) — G
+- Double Threat (2023) — PG-13
+- Double Trouble (1967) — NR
+- Double Wedding (1937) — NR
+- Double, Double, Toil and Trouble (1993) — TV-Y7
+- Doubt (2008) — PG-13
+- Doug's 1st Movie (1999) — G
+- Down a Dark Hall (2018) — PG-13
+- Down Periscope (1996) — PG-13
+- Down to Earth (2001) — PG-13
+- Down with Love (2003) — PG-13
+- Downhill Racer (1969) — PG
+- Downrange (2018) — Not Rated
+- Downton Abbey (2019) — PG
+- Downton Abbey: A New Era (2022) — PG
+- Downton Abbey: The Grand Finale (2025) — PG
+- Dr. Cabbie (2014) — NR
+- Dr. Dolittle 2 (2001) — PG
+- Dr. Dolittle 3 (2006) — PG
+- Dr. Dolittle: Tail to the Chief (2008) — PG
+- Dr. Jekyll and Ms. Hyde (1995) — PG-13
+- Dr. No (1962) — PG
+- Dr. Phibes Rises Again (1972) — PG
+- Dr. Seuss on the Loose (1973) — NR
+- Dr. Seuss' The Grinch Musical (2020) — TV-PG
+- Dr. Seuss's The Sneetches (2025) — G
+- Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964) — PG
+- Dr. Who and the Daleks (1965) — NR
+- Dracula (1931) — Passed
+- Dracula (2025) — NR
+- Dracula Untold (2014) — PG-13
+- Dracula: Dead and Loving It (1995) — PG-13
+- Draft Day (2014) — PG-13
+- Drag Me to Hell (2009) — PG-13
+- Dragnet (1954) — NR
+- Dragon Ball DAIMA (2024) — NR
+- Dragon Ball Super: Broly (2018) — PG
+- Dragon Ball Super: Super Hero (2022) — PG-13
+- Dragon Ball Z: Bardock - The Father of Goku (1990) — NR
+- Dragon Ball Z: Battle of Gods (2013) — PG-13
+- Dragon Ball Z: Bojack Unbound (1993) — PG
+- Dragon Ball Z: Broly - The Legendary Super Saiyan (1993) — TV-PG
+- Dragon Ball Z: Cooler's Revenge (1991) — PG
+- Dragon Ball Z: Dead Zone (1989) — PG
+- Dragon Ball Z: Fusion Reborn (1995) — PG
+- Dragon Ball Z: Lord Slug (1991) — Not Rated
+- Dragon Ball Z: Resurrection 'F' (2015) — NR
+- Dragon Ball Z: The History of Trunks (1993) — NR
+- Dragon Ball Z: The Return of Cooler (1992) — NR
+- Dragon Ball Z: The Tree of Might (1990) — Not Rated
+- Dragon Ball Z: The World's Strongest (1990) — PG
+- Dragon Inn (1992) — NR
+- Dragon Nest: Warriors' Dawn (2014) — G
+- Dragon: The Bruce Lee Story (1993) — PG-13
+- Dragonball Evolution (2009) — PG
+- Dragonfly (2002) — PG-13
+- DragonHeart (1996) — PG-13
+- Dragonheart 3: The Sorcerer's Curse (2015) — PG-13
+- DragonHeart: A New Beginning (2000) — PG
+- Dragonheart: Battle for the Heartfire (2017) — PG-13
+- Dragonheart: Vengeance (2021) — PG-13
+- Dragonkeeper (2024) — PG
+- Dragons Forever (1988) — TV-14
+- Dragonslayer (1981) — PG
+- Drain Alcatraz (2017) — TV-14
+- Drake & Josh Go Hollywood (2006) — PG
+- Dream Eater (2025) — NR
+- Dream Horse (2021) — PG
+- Dreamer: Inspired By a True Story (2005) — PG
+- Dreamgirls (2006) — PG-13
+- Dreamin' Wild (2023) — PG
+- Dreams (2025) — NR
+- Dreamscape (1984) — PG-13
+- Dreamworks Holiday Classics (2012) — G
+- Dressed to Kill (1946) — NR
+- Drillbit Taylor (2008) — PG-13
+- Drinking Games (2012) — Not Rated
+- Drive (2019) — Not Rated
+- Drive Me Crazy (1999) — PG-13
+- Drive My Car (2021) — NR
+- Driven (2001) — PG-13
+- Driving Miss Daisy (1989) — PG
+- Drone (2017) — NR
+- Drop (2025) — PG-13
+- Drop Dead Fred (1991) — PG-13
+- Drop Dead Gorgeous (1999) — PG-13
+- Drowning Mona (2000) — PG-13
+- Drumline (2002) — PG-13
+- Drunken Master (1978) — PG-13
+- Duck Soup (1933) — NR
+- Duck the Halls: A Mickey Mouse Christmas Special (2016) — G
+- Duck, You Sucker (1971) — PG
+- DuckTales: The Movie - Treasure of the Lost Lamp (1990) — G
+- Dude, Where's My Car? (2000) — PG-13
+- Dudley Do-Right (1999) — PG
+- Due Season (2022) — TV-14
+- Duel (1971) — PG
+- Dug's Special Mission (2009) — G
+- Duma (2005) — PG
+- Dumb and Dumber (1994) — PG-13
+- Dumb and Dumber To (2014) — PG-13
+- Dumb and Dumberer: When Harry Met Lloyd (2003) — PG-13
+- Dumbo (1941) — G
+- Dumbo (2019) — PG
+- Dumplin' (2018) — PG-13
+- Dune (1984) — PG-13
+- Dune (2021) — PG-13
+- Dune: Part Two (2024) — PG-13
+- Dungeons & Dragons (2000) — PG-13
+- Dungeons & Dragons: Honor Among Thieves (2023) — PG-13
+- Dungeons & Dragons: The Book of Vile Darkness (2012) — PG-13
+- Dungeons & Dragons: Wrath of the Dragon God (2005) — NR
+- Dunki (2023) — Not Rated
+- Dunkirk (2017) — PG-13
+- Dunston Checks In (1996) — PG
+- Duplex (2003) — PG-13
+- Durango (1999) — TV-PG
+- Dusk (2015) — Not Rated
+- Dutch (1991) — PG-13
+- Dylan Dog: Dead of Night (2011) — PG-13
+
+## E
+
+- E.T. the Extra-Terrestrial (1982) — PG
+- Eagle Eye (2008) — PG-13
+- Eames: The Architect and the Painter (2011) — Not Rated
+- Early Man (2018) — PG
+- Earth Girls Are Easy (1988) — PG
+- Earth to Echo (2014) — PG
+- Earthquake (1974) — PG
+- East Lake Meadows: A Public Housing Story (2020) — Not Rated
+- East of Eden (1955) — PG
+- East Side Sushi (2014) — PG
+- Easter Parade (1948) — NR
+- Easter Sunday (2022) — PG-13
+- Easter Under Wraps (2019) — TV-G
+- Eastern Western (2025) — PG
+- Easy A (2010) — PG-13
+- Easy Come, Easy Go (1967) — PG
+- Easy to Wed (1946) — NR
+- Easy Virtue (2008) — PG-13
+- Eat Drink Man Woman (1994) [tmdbid-10451] (1994) — NR
+- Eat My Dust (1976) — PG
+- Eat Pray Bark (2026) — PG-13
+- Eat Pray Love (2010) — PG-13
+- Echelon Conspiracy (2009) — PG-13
+- Ecstasy of Order: The Tetris Masters (2012) — NR
+- Ed Gein (2000) — Not Rated
+- Ed, Edd n Eddy's Big Picture Show (2009) — NR
+- Ed, Edd n Eddy's Boo Haw Haw (2005) — NR
+- Eddie (1996) — PG-13
+- Eddie and the Cruisers (1983) — PG
+- Eddie and the Cruisers II: Eddie Lives! (1989) — PG-13
+- Eddie the Eagle (2016) — PG-13
+- Edge of America (2003) — PG
+- Edge of Tomorrow (2014) — PG-13
+- Edge of Tomorrow (2014) — PG-13
+- Edie (2018) — NR
+- EDtv (1999) — PG-13
+- Edward Scissorhands (1990) — PG-13
+- Eephus (2025) — NR
+- Effie Gray (2014) — PG-13
+- Egyptian Melodies (1931) — NR
+- Eight Below (2006) — PG
+- Eight Crazy Nights (2002) — PG-13
+- Eight Legged Freaks (2002) — PG-13
+- Eight Men Out (1988) — PG
+- Einstein and Eddington (2008) — PG-13
+- Einstein and the Bomb (2024) — PG-13
+- Ek Tha Tiger (2012) — NR
+- El Cid (1961) — NR
+- El Diablo (1990) — PG-13
+- El Dorado (1966) — G
+- El Topo (1970) — NR
+- Eleanor the Great (2025) — PG-13
+- Electra Woman and Dyna Girl (2016) — PG-13
+- Electroma (2006) — NR
+- Elektra (2005) — PG-13
+- Elemental (2023) — PG
+- Eleni (1985) — PG
+- Elephant Walk (1954) — NR
+- Elevator (2013) — Not Rated
+- Elevator to the Gallows (1958) — NR
+- Elf (2003) — PG
+- Elf Pets: Santa's St. Bernards Save Christmas (2018) — G
+- Elf: Buddy's Musical Christmas (2014) — TV-G
+- Elio (2025) — PG
+- Elite Squad: The Enemy Within (2010) — Not Rated
+- Elizabeth: The Golden Age (2007) — PG-13
+- Elizabethtown (2005) — PG-13
+- Ella Enchanted (2004) — PG
+- Ella McCay (2025) — PG-13
+- Elle: A Modern Cinderella Tale (2010) — G
+- Elliot: The Littlest Reindeer (2018) — PG
+- Elton John Live: Farewell from Dodger Stadium (2022) — PG
+- Elvira: Mistress of the Dark (1988) — PG-13
+- Elvira's Haunted Hills (2002) — PG-13
+- Elvis (1979) — PG
+- Elvis (2022) — PG-13
+- Elvis on Tour (1972) — G
+- Embrace of the Serpent (2015) — Not Rated
+- Emelie (2016) — NR
+- Emil and the Detectives (1964) — PG
+- Emma Fielding Mysteries: More Bitter Than Death (2019) — TV-G
+- Emma. (2020) — PG
+- Emmanuelle (1974) — NR
+- Emmanuelle (1974) — NR
+- Empire of the Air: The Men Who Made Radio (1991) — G
+- Empire of the Ants (1977) — PG
+- Empire of the Sun (1987) — PG
+- Empire Records (1995) — PG-13
+- Empire Waist (2024) — PG-13
+- Employee of the Month (2006) — PG-13
+- Encanto (2021) — PG
+- Enchanted (2007) — PG
+- Encino Man (1992) — PG
+- Encounter (2018) — NR
+- End of the Rope (2023) — PG-13
+- Ender's Game (2013) — PG-13
+- Endless Love (2014) — PG-13
+- Endurance (2024) — PG-13
+- Enemies of the People (2009) — Not Rated
+- Enemy Mine (1985) — PG-13
+- Engaging Father Christmas (2017) — TV-G
+- English Vinglish (2012) — PG
+- Enola Holmes (2020) — PG-13
+- Enola Holmes 2 (2022) — PG-13
+- Enola Holmes 3 (2026) — PG-13
+- Enough (2002) — PG-13
+- Enough Said (2013) — PG-13
+- Enter the Fat Dragon (2020) — TV-14
+- Enter the Void (2010) — NR
+- Entertaining Christmas (2018) — TV-G
+- Entrapment (1999) — PG-13
+- Envy (2004) — PG-13
+- Enys Men (2023) — NR
+- Epic (2013) — PG
+- Epic Movie (2007) — PG-13
+- EPiC: Elvis Presley in Concert (2026) — PG-13
+- Equal Standard (2021) — NR
+- Equal Standard (2021) — NR
+- Equals (2015) — PG-13
+- Equinox Flower (1958) — G
+- Eragon (2006) — PG
+- Eraserhead (1977) — NR
+- Erasing Hate (2011) — NR
+- Ernest Goes to Africa (1997) — PG
+- Ernest Goes to Camp (1987) — PG
+- Ernest Goes to Jail (1990) — PG
+- Ernest Goes to School (1994) — PG
+- Ernest Rides Again (1993) — PG
+- Ernest Saves Christmas (1988) — PG
+- Ernest Scared Stupid (1991) — PG
+- Ernest's Greatest Hits Volume 2 (1992) — Unrated
+- Escaflowne: The Movie (2000) — PG-13
+- Escanaba in da Moonlight (2001) — PG-13
+- Escape from Alcatraz (1979) — PG
+- Escape from Planet Earth (2013) — PG
+- Escape from Planet Earth (2013) — PG
+- Escape from Pretoria (2020) — PG-13
+- Escape from Sobibor (1987) — Not Rated
+- Escape from the Planet of the Apes (1971) — G
+- Escape from Tomorrow (2013) — NR
+- Escape Room (2019) — PG-13
+- Escape Room: Tournament of Champions (2021) — PG-13
+- Escape to Witch Mountain (1975) — G
+- Escape to Witch Mountain (1995) — PG
+- Esther (1999) — PG-13
+- Estranged (2015) — Not Rated
+- Eternals (2021) — PG-13
+- Eternity (2025) — PG-13
+- Eurovision Song Contest: The Story of Fire Saga (2020) — PG-13
+- Evan Almighty (2007) — PG
+- Evangelion: 1.0 You Are (Not) Alone (2007) — PG-13
+- Evangelion: 2.0 You Can (Not) Advance (2009) — NR
+- Evangelion: 3.0 You Can (Not) Redo (2012) — PG-13
+- Evelyn Prentice (1934) — NR
+- Even Lambs Have Teeth (2015) — Unrated
+- Ever After (2019) — Not Rated
+- EverAfter (1998) — PG-13
+- Everest (2015) — PG-13
+- Every Day (2018) — PG-13
+- Every Day Is Christmas (2018) — TV-PG
+- Every Other Holiday (2018) — Unrated
+- Every Which Way but Loose (1978) — PG
+- Everybody Loves Chris Rock (2021) — TV-PG
+- Everybody Loves Somebody (2017) — PG-13
+- Everybody's Fine (2009) — PG-13
+- Everyone's Hero (2006) — G
+- Everything Beautiful Is Far Away (2017) — Not Rated
+- Everything Is Illuminated (2005) — PG-13
+- Everything, Everything (2017) — PG-13
+- Evil Angels (1988) — PG-13
+- Evil Bong: High-5! (2016) — Not Rated
+- Evil Under the Sun (1982) — PG
+- Evita (1996) — PG
+- Evolution (2001) — PG-13
+- Ewoks: The Battle for Endor (1985) — NR
+- Exam (2009) — NR
+- Excess Baggage (1997) — PG-13
+- Excision (2012) — NR
+- Exhibit A (2007) — Not Rated
+- Exhuma (2024) — NR
+- Exit 8 (2025) — NR
+- EXmas (2023) — PG-13
+- Exodus (1960) — Approved
+- Exodus: Gods and Kings (2014) — PG-13
+- Exodus: Gods and Kings (2014) — PG-13
+- Exodus: Gods and Kings (2014) — PG-13
+- Expelled (2014) — PG-13
+- Experiment in Terror (1962) — Approved
+- Experimenter (2015) — PG-13
+- Explorers (1985) — PG
+- Extinction (2014) — Not Rated
+- Extraordinary Measures (2010) — PG
+- Extraterrestrial (2011) — Not Rated
+- Extraterrestrial (2014) — NR
+- Extreme Job (2019) — Not Rated
+- Extremely Loud & Incredibly Close (2011) — PG-13
+- Eye for an Eye (2025) — Not Rated
+- Eye for an Eye 2 (2024) — NR
+- Eye of the Cat (1969) — M
+- Eyes on the Prize: Hallowed Ground (2021) — PG-13
+
+## F
+
+- F for Fake (1973) — PG
+- F.I.S.T. (1978) — PG
+- F/X2 (1991) — PG-13
+- F+ (2025) — PG
+- F1 (2025) — PG-13
+- F9 (2021) — PG-13
+- Fab Five: The Texas Cheerleader Scandal (2008) — TV-14
+- Face to Face (1990) — PG
+- Faces (1968) — PG-13
+- Faces of Death II (1981) — NR
+- Faces of Death III (1985) — Not Rated
+- Faces of Death IV (1990) — NR
+- Faces Places (2017) — PG
+- Facing Nolan (2022) — TV-14
+- Facing the Giants (2006) — PG
+- Fahrenheit 451 (2018) — PG-13
+- Failure to Launch (2006) — PG-13
+- Faith Like Potatoes (2006) — PG
+- Faith of Angels (2024) — PG
+- Faith of Our Fathers (2015) — PG-13
+- Faith, Hope & Love (2019) — PG
+- Fall (2022) — PG-13
+- Fallen Angel (1945) — NR
+- Fallen Angel (2003) — PG
+- Fallen Angels (1995) — NR
+- Fallen Hearts (2019) — TV-14
+- Falling for Christmas (2022) — PG
+- Falling for You (2018) — TV-G
+- Falling Inn Love (2019) — PG
+- Falling Together (2024) — TV-G
+- Family Camp (2022) — PG
+- Family Guy Presents: Blue Harvest (2007) — PG-13
+- Family Guy Presents: It's a Trap! (2010) — PG-13
+- Family Guy Presents: Something, Something, Something, Dark Side (2009) — PG-13
+- Family Pack (2024) — PG-13
+- Family Possessions (2016) — Not Rated
+- Family Practice Mysteries: Coming Home (2024) — TV-PG
+- Family Switch (2023) — PG
+- Fanboys (2009) — PG-13
+- Fancy Pants (1950) — Approved
+- Fantasia (1940) — G
+- Fantasia 2000 (2000) — G
+- Fantastic Beasts and Where to Find Them (2016) — PG-13
+- Fantastic Beasts The Crimes of Grindelwald (2018) (2018) — PG-13
+- Fantastic Beasts: The Secrets of Dumbledore (2022) — PG-13
+- Fantastic Beasts: The Secrets of Dumbledore (2022) — PG-13
+- Fantastic Beasts: The Secrets of Dumbledore (2022) — PG-13
+- Fantastic Four (2005) — PG-13
+- Fantastic Four (2015) — PG-13
+- Fantastic Four: Rise of the Silver Surfer (2007) — PG
+- Fantastic Fungi (2019) — NR
+- Fantastic Mr. Fox (2009) — PG
+- Fantastic Planet (1973) — PG
+- Fantastic Voyage (1966) — PG
+- Fantasy Football (2022) — PG
+- Fantasy Island (2020) — PG-13
+- Far and Away (1992) — PG-13
+- Far and Away (1992) — PG-13
+- Far and Away (1992) — PG-13
+- Far from Heaven (2002) — PG-13
+- Far from the Madding Crowd (2015) — PG-13
+- Fast & Furious (2009) — PG-13
+- Fast & Furious 6 (2013) — PG-13
+- Fast & Furious Presents: Hobbs & Shaw (2019) — PG-13
+- Fast Charlie (2023) — Not Rated
+- Fast Color (2019) — PG-13
+- Fast Five (2011) — PG-13
+- Fast Getaway (1991) — PG-13
+- Fast Getaway II (1994) — PG-13
+- Fast X (2023) — PG-13
+- Fastball (2016) — Not Rated
+- Fasting (2017) — NR
+- Fat Head (2009) — Not Rated
+- Fat Man and Little Boy (1989) — PG-13
+- Fatal Affair (2020) — TV-14
+- Fatbelly: Chopper...Unchopped (2009) — NR
+- Father Christmas Is Back (2021) — PG-13
+- Father Goose (1964) — Approved
+- Father Hood (1993) — PG-13
+- Father of the Bride (1950) — NR
+- Father of the Bride (1991) — PG
+- Father of the Bride (2022) — PG-13
+- Father of the Bride Part II (1995) — PG
+- Father of the Year (2018) — TV-14
+- Father's Little Dividend (1951) — NR
+- Fatherhood (2021) — PG-13
+- Fathers' Day (1997) — PG-13
+- Fatima (2020) — PG-13
+- Fear X (2003) — PG-13
+- Fearless (2006) — PG-13
+- Fearless (2020) — PG
+- Fearless Hyena 2 (1983) — Not Rated
+- Fed Up (2014) — PG
+- Feeling Butterflies (2022) — G
+- Félicité (2017) — Not Rated
+- Felicity: An American Girl Adventure (2005) — Not Rated
+- Felipe Esparza: They're Not Gonna Laugh At You (2012) — Not Rated
+- Felix the Cat Saves Christmas (2004) — TV-Y
+- Feliz NaviDAD (2020) — TV-PG
+- Felony (2014) — NR
+- Female Prisoner Scorpion: Jailhouse 41 (1972) — NR
+- Female Vampire (1975) — NR
+- Fences (2016) — PG-13
+- Ferdinand (2017) — PG
+- FernGully: The Last Rainforest (1992) — G
+- Ferris Bueller's Day Off (1986) — PG-13
+- Fever Pitch (2005) — PG-13
+- Fiddler on the Roof (1971) — G
+- Field Day (2023) — G
+- Field of Dreams (1989) — PG
+- Field of Lost Shoes (2015) — PG-13
+- Fiend (1980) — Not Rated
+- Fight Back to School (1991) — Not Rated
+- Fighter (2024) — NR
+- Fighter Squadron (1948) — NR
+- Fighting (2009) — PG-13
+- Fighting with My Family (2019) — PG-13
+- Filmed in Supermarionation (2014) — PG
+- Filmworker (2018) — Not Rated
+- Final Fantasy VII: Advent Children (2005) — PG-13
+- Final Fantasy: The Spirits Within (2001) — PG-13
+- Finch (2021) — PG-13
+- Finding Dory (2016) — PG
+- Finding Emily (2026) — PG-13
+- Finding Father Christmas (2016) — TV-G
+- Finding Forrester (2000) — PG-13
+- Finding John Christmas (2003) — PG
+- Finding Michael (2023) — PG-13
+- Finding Nemo (2003) — G
+- Finding Neverland (2004) — PG
+- Finding Normal (2013) — Not Rated
+- Finding You (2021) — PG
+- Finding Your Feet (2017) — PG-13
+- Fir Crazy (2013) — TV-G
+- Fire (1997) — PG-13
+- Fire and Ice (1983) — PG
+- Fire Down Below (1957) — NR
+- Fire in the Sky (1993) — PG-13
+- Fire of Love (2022) — PG
+- Fire with Fire (1986) — PG-13
+- Fire! (1977) — NR
+- Firebreather (2010) — PG
+- Firecreek (1968) — NR
+- Firefox (1982) — PG
+- Fireheart (2022) — G
+- Firehouse Dog (2007) — PG
+- Fireproof (2008) — PG
+- First Cow (2020) — PG-13
+- First Daughter (2004) — PG
+- First Girl I Loved (2016) — Not Rated
+- First Kid (1996) — PG
+- First Knight (1995) — PG-13
+- First Love (2019) — NR
+- First Man (2018) — PG-13
+- First Men in the Moon (1964) — NR
+- First Shift (2024) — Not Rated
+- First Sunday (2008) — PG-13
+- Firstborn (1984) — PG-13
+- Fish Tank (2009) — NR
+- Fisherman's Friends (2019) — PG-13
+- Fishing Naked (2015) — Not Rated
+- Fist of the North Star (1986) — NR
+- Fit for Christmas (2022) — G
+- Five and Ten (1931) — NR
+- Five Feet Apart (2019) — PG-13
+- Five Fighters from Shaolin (1984) — NR
+- Five Nights at Freddy's (2023) — PG-13
+- Five Nights at Freddy's (2023) — PG-13
+- Five Nights at Freddy's 2 (2025) — PG-13
+- Five Weeks in a Balloon (1962) — NR
+- Flame of Barbary Coast (1945) — NR
+- Flamin' Hot (2023) — PG-13
+- Flaming Star (1960) — PG
+- Flamingo Road (1949) — NR
+- Flareup (1969) — PG-13
+- Flash Gordon (1980) — PG
+- Flash of Genius (2008) — PG-13
+- Flatliners (2017) — PG-13
+- Flawless (2007) — PG-13
+- Fletch (1985) — PG
+- Fletch Lives (1989) — PG
+- Flight 7500 (2014) — PG-13
+- Flight 93 (2006) — PG-13
+- Flight of the Navigator (1986) — PG
+- Flight of the Phoenix (2004) — PG-13
+- Flight/Risk (2022) — PG
+- Flightplan (2005) — PG-13
+- Flintstone Family Christmas (1993) — NR
+- Flip That Romance (2019) — TV-G
+- Flipped (2010) — PG
+- Flipper (1996) — PG
+- Flipping for Christmas (2023) — G
+- Float (2019) — PG
+- Float (2024) — PG-13
+- Floating Weeds (1959) — Not Rated
+- Flora (2017) — Not Rated
+- Flora & Ulysses (2021) — PG
+- FLOW (2024) — PG
+- Flower Shop Mystery: Dearly Depotted (2016) — TV-G
+- Flower Shop Mystery: Mum's the Word (2016) — TV-G
+- Flower Shop Mystery: Snipped in the Bud (2016) — TV-G
+- Flowers (2015) — NR
+- Flowers and Trees (1932) — NR
+- Flowers in the Attic (2014) — NR
+- Flubber (1997) — PG
+- Flushed Away (2006) — PG
+- Flux Gourmet (2022) — NR
+- Fly Away Home (1996) — PG
+- Fly Away With Me (2022) — G
+- Fly Me to the Moon (2024) — PG-13
+- Flyboys (2006) — PG-13
+- Flywheel (2003) — NR
+- Folks! (1992) — PG-13
+- Follow Her (2022) — NR
+- Follow Me to Daisy Hills (2020) — TV-G
+- Follow Me, Boys! (1966) — Approved
+- Follow That Bird (1985) — G
+- Follow That Dream (1962) — NR
+- Follow the Stars Home (2001) — PG
+- Following Yonder Star (2024) — TV-G
+- Food, Inc. (2008) — PG
+- Food, Inc. 2 (2024) — PG
+- Fool's Gold (2008) — PG-13
+- Fool's Gold (2008) — PG-13
+- Fools (1970) — NR
+- Fools Rush In (1997) — PG-13
+- Footloose (1984) — PG
+- Footloose (2011) — PG-13
+- For Better or Worse (2023) — PG
+- For Keeps (1988) — PG-13
+- For Love of the Game (1999) — PG-13
+- For Love or Money (1993) — PG
+- For Me and My Gal (1942) — NR
+- For Pete's Sake (1974) — PG
+- For Richer or Poorer (1997) — PG-13
+- For Sama (2019) — TV-PG
+- For the Birds (2000) — G
+- For the Love of Spock (2016) — Not Rated
+- For Those in Peril (2013) — Not Rated
+- For Your Consideration (2006) — PG-13
+- For Your Eyes Only (1981) — PG
+- Forbidden Planet (1956) — G
+- Force 10 from Navarone (1978) — PG
+- Force of Evil (1950) — NR
+- Ford v Ferrari (2019) — PG-13
+- Foreman (2017) — PG-13
+- Forever My Girl (2018) — PG
+- Forever Strong (2008) — PG-13
+- Forever Young (1992) — PG
+- Forget Paris (1995) — PG-13
+- Forgiven (2016) — TV-14
+- Forgotten Love (2023) — PG-13
+- Forks Over Knives (2011) — PG
+- Forrest Gump (1994) — PG-13
+- Forsaking All Others (1934) — NR
+- Fort Apache (1948) — Approved
+- Foul Play (1978) — PG
+- Found (2012) — NR
+- Fountain of Youth (2025) — PG-13
+- Four Christmases (2008) — PG-13
+- Four Flies on Grey Velvet (1971) — PG
+- Four Horsemen (2012) — Not Rated
+- Four Kids and It (2020) — PG
+- Fourth of July (2022) — Not Rated
+- FPS: First Person Shooter (2023) — Not Rated
+- Fragile (2005) — PG-13
+- Framed for Murder: A Fixer Upper Mystery (2017) — Not Rated
+- France (2021) — Unrated
+- Francesca Quinn, PI (2022) — PG
+- Francis (1950) — NR
+- Frank & Lola (2016) — NR
+- Frankenstein (1931) — Approved
+- Frankenstein Meets the Space Monster (1965) — Unrated
+- Frankenweenie (1984) — PG
+- Frankenweenie (2012) — PG
+- Frankie and Johnny (1966) — NR
+- Frankie, Maniac Woman (2026) — NR
+- Freak Show (2018) — Not Rated
+- Freaked (1993) — PG-13
+- Freakier Friday (2025) — PG
+- Freaks (1932) — NR
+- Freaky Friday (1976) — G
+- Freaky Friday (2003) — PG
+- Freaky Friday (2018) — G
+- Fred Claus (2007) — PG
+- Free Birds (2013) — PG
+- Free Birds (2013) — PG
+- Free Fall (2013) — NR
+- Free Guy (2021) — PG-13
+- Free Samples (2013) — NR
+- Free Solo (2018) — PG-13
+- Free Willy (1993) — PG
+- Free Willy 2: The Adventure Home (1995) — PG
+- Free Willy 3: The Rescue (1997) — PG
+- Freedom Writers (2007) — PG-13
+- Freetown (2015) — PG-13
+- French Kiss (1995) — PG-13
+- Frenchie (1950) — NR
+- Frenzy (2018) — PG-13
+- Frequencies (2013) — Not Rated
+- Frequency (2000) — PG-13
+- Frequently Asked Questions About Time Travel (2009) — PG-13
+- Fresh Kills (2024) — NR
+- Friday Night Lights (2004) — PG-13
+- Fried Green Tomatoes (1991) — PG-13
+- Friends: The Reunion (2021) — PG-13
+- Frog Dreaming (1986) — PG
+- Frogman (2024) — NR
+- Frogs (1972) — PG
+- From Friend to Fiancé (2019) — G
+- From Here to Eternity (1953) — NR
+- From Russia with Love (1963) — PG
+- From Straight A's to XXX (2017) — PG-13
+- From Zero to I Love You (2019) — Unrated
+- Front of the Class (2008) — PG
+- Frontera (2014) — PG-13
+- Frosty Returns (1992) — G
+- Frosty the Snowman (1969) — G
+- Frosty's Winter Wonderland (1976) — NR
+- Frozen (2013) — PG
+- Frozen Fever (2015) — G
+- Frozen II (2019) — PG
+- Frozen in Love (2018) — TV-G
+- Frozen: The Hit Broadway Musical (2025) — PG
+- Full of It (2007) — PG-13
+- Full Out (2015) — TV-PG
+- Fullmetal Alchemist (2017) — PG-13
+- Fullmetal Alchemist the Movie: Conqueror of Shamballa (2005) — PG-13
+- Fullmetal Alchemist: The Final Alchemy (2022) — PG-13
+- Fullmetal Alchemist: The Revenge of Scar (2022) — PG-13
+- Fullmetal Alchemist: The Sacred Star of Milos (2011) — PG-13
+- Fun and Fancy Free (1947) — G
+- Fun in Acapulco (1963) — PG
+- Fun Size (2012) — PG-13
+- Fun with Dick and Jane (1977) — PG
+- Fun with Dick and Jane (2005) — PG-13
+- Funny Face (1957) — NR
+- Funny Farm (1988) — PG
+- Funny Girl (1968) — G
+- Funny Lady (1975) — PG
+- Furious 7 (2015) — PG-13
+- Furry Friends Forever: Elmo Gets a Puppy (2021) — TV-Y
+- Furry Vengeance (2010) — PG
+- Futurama: Bender's Big Score (2007) — PG-13
+- Futurama: Bender's Game (2008) — PG-13
+- Futurama: Into the Wild Green Yonder (2009) — NR
+- Futurama: The Beast with a Billion Backs (2008) — NR
+- Futureworld (1976) — PG
+- Fuzz (1972) — PG
+
+## G
+
+- G-Force (2009) — PG
+- G.I. Joe: Retaliation (2013) — PG-13
+- G.I. Joe: The Movie (1987) — PG
+- G.I. Joe: The Rise of Cobra (2009) — PG-13
+- Gabby Giffords Won't Back Down (2022) — PG-13
+- Gabby's Dollhouse: The Movie (2025) — G
+- Gabriel "Fluffy" Iglesias: One Show Fits All (2019) — PG-13
+- Gabriel "Fluffy" Iglesias: One Show Fits All (2019) — PG-13
+- Gabriel Iglesias: Aloha Fluffy (2013) — TV-14
+- Gabriel Iglesias: Hot and Fluffy (2007) — NR
+- Gabriel Iglesias: I'm Not Fat... I'm Fluffy (2009) — NR
+- Gabriel Iglesias: I'm Sorry for What I Said When I Was Hungry (2016) — PG-13
+- Gabriel's Inferno (2020) — Not Rated
+- Galaxy Quest (1999) — PG
+- Gale: Yellow Brick Road (2026) — PG-13
+- Gallows Road (2015) — Not Rated
+- Galveston (2018) — NR
+- Game of Death (2017) — NR
+- Gandu (2010) — Unrated
+- Gang War: Bangin' in Little Rock (1994) — PG-13
+- Gangs of Wasseypur - Part 1 (2012) — Not Rated
+- Gangster Land (2017) — Not Rated
+- Garage Sale Mysteries: Murder In D Minor (2018) — PG-13
+- Garage Sale Mysteries: Picture a Murder (2018) — PG-13
+- Garage Sale Mysteries: Searched & Seized (2021) — PG
+- Garage Sale Mysteries: The Mask Murder (2018) — PG-13
+- Garage Sale Mysteries: The Pandora's Box Murders (2018) — PG-13
+- Garage Sale Mystery (2013) — TV-PG
+- Garage Sale Mystery: A Case Of Murder (2017) — PG-13
+- Garage Sale Mystery: All That Glitters (2014) — TV-PG
+- Garage Sale Mystery: Guilty Until Proven Innocent (2016) — TV-G
+- Garage Sale Mystery: Murder By Text (2017) — TV-G
+- Garage Sale Mystery: Murder Most Medieval (2017) — TV-G
+- Garage Sale Mystery: The Art of Murder (2017) — TV-G
+- Garage Sale Mystery: The Beach Murder (2017) — PG-13
+- Garage Sale Mystery: The Deadly Room (2015) — TV-PG
+- Garage Sale Mystery: The Novel Murders (2016) — TV-G
+- Garage Sale Mystery: The Wedding Dress (2015) — TV-PG
+- Garfield (2004) — PG
+- Garfield: A Tail of Two Kitties (2006) — PG
+- Garfield: A Tail of Two Kitties (2006) — PG
+- Garfield's Halloween Adventure (1985) — NR
+- Garfield's Thanksgiving (1989) — NR
+- Gascoigne (2015) — PG-13
+- Gaslight (1944) — Approved
+- Gaslit by My Husband: The Morgan Metzer Story (2024) — PG-13
+- Gates of Paradise (2019) — TV-14
+- Gator (1976) — PG
+- Gattaca (1997) — PG-13
+- Geek Charming (2011) — PG
+- Gemini Man (2019) — PG-13
+- Generation Iron (2013) — PG-13
+- Generation X (1996) — NR
+- Genesis: The Creation and the Flood (1994) — NR
+- Genie (2023) — PG
+- Genius (1999) — G
+- Genocide (1982) — PG
+- Gentleman's Agreement (1947) — NR
+- Gentlemen Broncos (2009) — PG-13
+- Gentlemen Prefer Blondes (1953) — NR
+- Geography Club (2013) — PG-13
+- George of the Jungle (1997) — PG
+- George Strait: The Cowboy Rides Away (2014) — G
+- Geostorm (2017) — PG-13
+- Gerald's Game (2017) — NR
+- Get a Clue (2002) — G
+- Get Me Roger Stone (2017) — TV-14
+- Get On Up (2014) — PG-13
+- Get Over It (2001) — PG-13
+- Get Santa (2014) — PG
+- Get Smart (2008) — PG-13
+- Get Smart (2008) — PG-13
+- Get Smart, Again! (1989) — TV-PG
+- Gett: The Trial of Viviane Amsalem (2014) — Not Rated
+- Gettin' Square (2003) — Not Rated
+- Getting Even with Dad (1994) — PG
+- Getting There (2002) — G
+- Gettysburg (1993) — PG
+- Ghidorah, the Three-Headed Monster (1964) — NR
+- Ghost (1990) — PG-13
+- Ghost in a Teeny Bikini (2006) — NR
+- Ghost in the Shell 2: Innocence (2004) — PG-13
+- Ghost in the Shell 2.0 (2008) — TV-14
+- Ghost in the Shell: Stand Alone Complex - Solid State Society (2007) — Not Rated
+- Ghost Rider (2007) — PG-13
+- Ghost Rider: Spirit of Vengeance (2011) — PG-13
+- Ghost Stories (2018) — Not Rated
+- Ghost Town (2008) — PG-13
+- Ghostbusters (1984) — PG
+- Ghostbusters (2016) — PG-13
+- Ghostbusters II (1989) — PG
+- Ghostbusters: Afterlife (2021) — PG-13
+- Ghostbusters: Frozen Empire (2024) — PG-13
+- Ghosted (2023) — PG-13
+- Ghoster (2023) — PG
+- Ghosthunters: On Icy Trails (2015) — PG
+- Ghosts (1997) — Not Rated
+- Ghosts of Christmas Always (2022) — G
+- Ghosts of Girlfriends Past (2009) — PG-13
+- Ghosts of Mississippi (1996) — PG-13
+- Ghosts of the Abyss (2003) — PG
+- Ghostwatch (1992) — Not Rated
+- Ghoul (2015) — Not Rated
+- Ghoulies (1985) — PG-13
+- Ghoulies II (1987) — PG-13
+- Giant (1956) — NR
+- Giantess Battle Attack! (2022) — PG-13
+- Gidget (1959) — NR
+- Gidget Gets Married (1972) — Not Rated
+- Gifted (2017) — PG-13
+- Gifted Hands: The Ben Carson Story (2009) — NR
+- Gigi (1958) — G
+- Gigi & Nate (2022) — PG-13
+- Gilda (1946) — NR
+- Gimme Shelter (2013) — PG-13
+- Ginger & Rosa (2012) — PG-13
+- Gingerbread Miracle (2021) — G
+- Girl Crazy (1943) — NR
+- Girl Happy (1965) — NR
+- Girl Haunts Boy (2024) — PG
+- Girl in Room 13 (2022) — PG-13
+- Girl in the Attic (2025) — NR
+- Girl in the Basement (2021) — PG-13
+- Girl in the Box (2016) — Not Rated
+- Girl in the Closet (2023) — TV-14
+- Girl in the Shed: The Kidnapping of Abby Hernandez (2022) — PG-13
+- Girl Taken (2025) — PG-13
+- Girl vs. Monster (2012) — PG
+- Girlfriends (1978) — PG
+- Girlhood (2014) — Unrated
+- GirlHouse (2014) — NR
+- Glass (2019) — PG-13
+- Glass Chin (2014) — Not Rated
+- Glass Onion: A Knives Out Mystery (2022) — PG-13
+- Gleaming the Cube (1989) — PG-13
+- Glee: The Concert Movie (2011) — PG
+- Glitter (2001) — PG-13
+- Gloria (1980) — PG
+- Glory Road (2006) — PG
+- Gnome Alone (2017) — PG
+- Gnomeo & Juliet (2011) — G
+- Goal II: Living the Dream (2007) — PG-13
+- Goal! (2005) — PG-13
+- GOAT (2026) — PG
+- Goblin (2010) — TV-14
+- God Bless the Broken Road (2018) — PG
+- God Is a Bullet (2023) — NR
+- God Knows Where I Am (2016) — Not Rated
+- God's Little Acre (1958) — Approved
+- God's Not Dead (2014) — PG
+- God's Not Dead 2 (2016) — PG
+- God's Not Dead: A Light in Darkness (2018) — PG
+- God's Not Dead: In God We Trust (2024) — NR
+- God's Not Dead: We The People (2021) — PG
+- God's Time (2023) — NR
+- Gods and Generals (2003) — PG-13
+- Gods of Egypt (2016) — PG-13
+- Godzilla (1954) — NR
+- Godzilla (1998) — PG-13
+- Godzilla (2014) — PG-13
+- Godzilla 2000: Millennium (1999) — PG
+- Godzilla Against MechaGodzilla (2002) — PG
+- Godzilla Minus One (2023) — PG-13
+- Godzilla Raids Again (1955) — NR
+- Godzilla vs. Biollante (1989) — PG
+- Godzilla vs. Destoroyah (1995) — NR
+- Godzilla vs. Gigan (1972) — G
+- Godzilla vs. Hedorah (1971) — G
+- Godzilla vs. King Ghidorah (1991) — NR
+- Godzilla vs. Kong (2021) — PG-13
+- Godzilla vs. Mechagodzilla (1974) — PG
+- Godzilla vs. Mechagodzilla II (1993) — PG
+- Godzilla vs. Megaguirus (2000) — NR
+- Godzilla vs. Megalon (1973) — G
+- Godzilla vs. Mothra (1992) — NR
+- Godzilla vs. SpaceGodzilla (1994) — NR
+- Godzilla x Kong: The New Empire (2024) — PG-13
+- Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack (2001) — NR
+- Godzilla: City on the Edge of Battle (2018) — PG-13
+- Godzilla: Final Wars (2004) — PG-13
+- Godzilla: King of the Monsters (2019) — PG-13
+- Godzilla: Planet of the Monsters (2017) — PG-13
+- Godzilla: The Planet Eater (2018) — PG
+- Godzilla: Tokyo S.O.S. (2003) — PG
+- Gog (1954) — Approved
+- Going Clear: Scientology and the Prison of Belief (2015) — Not Rated
+- Going in Style (2017) — PG-13
+- Going to the Mat (2004) — G
+- Gold Diggers: The Secret of Bear Mountain (1995) — PG
+- Golda (2023) — PG-13
+- Golden Rendezvous (1977) — PG
+- GoldenEye (1995) — PG-13
+- Goldfinger (1964) — PG
+- Golgo 13: Queen Bee (1998) — Not Rated
+- Gomorrah (2008) — NR
+- Gone (2012) — PG-13
+- Gone But Not Forgotten (1987) — NR
+- Gone But Not Forgotten (2005) — Not Rated
+- Gone in Sixty Seconds (2000) — PG-13
+- Gone with the Wind (1939) — G
+- Gone with the Wind (1939) — G
+- Gonjiam: Haunted Asylum (2018) — Not Rated
+- Good Boy (2025) — PG-13
+- Good Burger (1997) — PG
+- Good Burger 2 (2023) — PG
+- Good Deeds (2012) — PG-13
+- Good Grief (2024) [tmdbid-1504265] (2024) — NR
+- Good Luck Charlie, It's Christmas! (2011) — G
+- Good Neighbor Sam (1964) — Approved
+- Good Night Oppy (2022) — PG
+- Good Night, and Good Luck (2025) — NR
+- Good Night, and Good Luck. (2005) — PG
+- Good Times (1967) — Not Rated
+- Goodbye Charlie (1964) — Approved
+- Goodbye World (2013) — Not Rated
+- Goodnight, Sugar Babe: The Killing of Vera Jo Reigle (2013) — NR
+- Goofy and Wilbur (1939) — NR
+- Goosebumps (2015) — PG
+- Goosebumps 2: Haunted Halloween (2018) — PG
+- Gordon Lightfoot: If You Could Read My Mind (2019) — Not Rated
+- Gorgeous (1999) — PG-13
+- Gosnell: The Trial of America's Biggest Serial Killer (2018) — PG-13
+- Gotcha! (1985) — PG-13
+- Gotta Kick It Up! (2002) — G
+- Gourmet Detective (2015) — Unrated
+- Gourmet Detective: A Healthy Place to Die (2015) — TV-G
+- Gourmet Detective: Eat, Drink and Be Buried (2017) — TV-G
+- Gourmet Detective: Roux the Day (2020) — TV-PG
+- Government Gangsters (2024) — NR
+- Grace Unplugged (2013) — PG
+- Gracie & Pedro: Pets to the Rescue (2024) — PG
+- Gran Turismo (2023) — PG-13
+- Grand Hotel (1932) — Approved
+- Grand Prix of Europe (2025) — PG
+- Grand-Daddy Day Care (2019) — PG-13
+- Grandma Dearest (2020) — TV-14
+- Grandma Got Run Over by a Reindeer (2000) — G
+- Grandmaster (2012) — Not Rated
+- Grandpa's Magical Toys (1988) — NR
+- Grave Encounters (2011) — Not Rated
+- Grave of the Fireflies (1988) — PG-13
+- Gravity (2013) — PG-13
+- Gray Matter (2023) — PG-13
+- Grease (1978) — PG
+- Grease 2 (1982) — PG
+- Great Balls of Fire! (1989) — PG-13
+- Great Expectations (1946) — NR
+- Greater (2016) — PG
+- Greedy (1994) — PG-13
+- Green Book (2018) — PG-13
+- Green Day: 20 Years of American Idiot (2024) — 16+
+- Green Dolphin Street (1947) — NR
+- Green for Danger (1946) — NR
+- Green Ghost and the Masters of the Stone (2022) — PG-13
+- Green Lantern (2011) — PG-13
+- Green Lantern: Beware My Power (2022) — PG-13
+- Green Lantern: Emerald Knights (2011) — PG
+- Green Lantern: First Flight (2009) — PG-13
+- Greenland (2020) — PG-13
+- Greenland 2: Migration (2026) — PG-13
+- Gremlin (2017) — NR
+- Gremlins (1984) — PG
+- Gremlins 2: The New Batch (1990) — PG-13
+- Grenfell: Uncovered (2025) — PG-13
+- Grey Gardens (1976) — PG
+- Grey Gardens (2009) — PG
+- Greyfriars Bobby (1961) — Approved
+- Greyhound (2020) — PG-13
+- Greystoke: The Legend of Tarzan, Lord of the Apes (1984) — PG
+- Gridiron Gang (2006) — PG-13
+- Grind (2003) — PG-13
+- Groot's First Steps (2022) — PG
+- Gross Anatomy (1989) — PG-13
+- Grotesque (2009) — Not Rated
+- Grounded for Christmas (2019) — TV-PG
+- Groundhog Day (1993) — PG
+- Groundswell (2022) — G
+- Groundswell (2026) — PG
+- Grow (2025) — PG
+- Growing Pains: Return of the Seavers (2004) — G
+- Grown Ups (2010) — PG-13
+- Grown Ups 2 (2013) — PG-13
+- Grudge Match (2013) — PG-13
+- Grumpier Old Men (1995) — PG-13
+- Grumpy Old Men (1993) — PG-13
+- Guardians of the Galaxy (2014) — PG-13
+- Guardians of the Galaxy (2014) — PG-13
+- Guardians of the Galaxy (2014) — PG-13
+- Guardians of the Galaxy (2014) — PG-13
+- Guardians of the Galaxy Vol. 2 (2017) — PG-13
+- Guardians of the Galaxy Vol. 3 (2023) — PG-13
+- Guardians of Time (2023) — PG
+- Guarding Tess (1994) — PG-13
+- Guess What Happened to Count Dracula? (1971) — PG
+- Guess Who (2005) — PG-13
+- Guess Who's Coming to Dinner (1967) — NR
+- Guillermo del Toro's Pinocchio (2022) — PG
+- Guillermo Vilas: Settling the Score (2020) — TV-14
+- Gulliver's Travels (2010) — PG
+- Gumball 3000: The Movie (2003) — TV-14
+- Gun the Man Down (1956) — NR
+- Gundam Wing: The Endless Waltz (1998) — NR
+- Gunfight at Rio Bravo (2023) — NR
+- Gung Ho (1986) — PG-13
+- Gung Ho! (1943) — NR
+- Gunga Din (1939) — NR
+- Gunner (2024) — NR
+- Guns of Eden (2022) — NR
+- Guns of the Magnificent Seven (1969) — G
+- Gwen (2018) — Not Rated
+- Gwen Shamblin: Starving for Salvation (2023) — PG-13
+- Gypsy (1962) — Approved
+
+## H
+
+- H Is for Hawk (2025) — PG-13
+- H.H. Holmes: America's First Serial Killer (2004) — Unrated
+- Habit (2017) — Not Rated
+- Hachi: A Dog's Tale (2009) — G
+- Hackers (1995) — PG-13
+- Hadestown: The Musical (2026) — NR
+- HAIKYU!! The Dumpster Battle (2024) — PG-13
+- Hail, Caesar! (2016) — PG-13
+- Hail, Caesar! (2016) — PG-13
+- Hailey Dean Mysteries: 2 + 2 = Murder (2018) — TV-G
+- Hailey Dean Mysteries: A Marriage Made for Murder (2018) — TV-G
+- Hailey Dean Mysteries: A Prescription for Murder (2019) — PG-13
+- Hailey Dean Mysteries: A Will to Kill (2018) — TV-G
+- Hailey Dean Mysteries: Dating Is Murder (2017) — TV-PG
+- Hailey Dean Mysteries: Deadly Estate (2017) — TV-G
+- Hailey Dean Mysteries: Death on Duty (2019) — PG-13
+- Hailey Dean Mysteries: Killer Sentence (2019) — TV-PG
+- Hailey Dean Mysteries: Murder, With Love (2016) — G
+- Hairbrained (2013) — PG-13
+- Hairspray (1988) — PG
+- Hairspray (2007) — PG
+- Hale County This Morning, This Evening (2018) — Not Rated
+- Half a Hero (1953) — Approved
+- Half Past Dead (2002) — PG-13
+- Half Sisters (2023) — NR
+- Halftime (2022) — NR
+- Halloween Is Grinch Night (1977) — Not Rated
+- Halloweentown (1998) — G
+- Halloweentown High (2004) — G
+- Halloweentown II: Kalabar's Revenge (2001) — G
+- Halo Legends (2010) — PG-13
+- Halo: Nightfall (2014) — PG-13
+- Halston (2019) — Not Rated
+- Hamilton (2025) — PG-13
+- Hamlet (1990) — PG
+- Hamlet (1990) — PG
+- Hamlet (1996) — PG-13
+- Hamnet (2025) — PG-13
+- Hancock (2008) — PG-13
+- Hands on a Hardbody: The Documentary (1997) — PG
+- Hang 'em High (1968) — PG-13
+- Hangar 10 (2014) — Not Rated
+- Hanging Up (2000) — PG-13
+- Hangman's House (1928) — NR
+- Hanna (2011) — PG-13
+- Hannah and Her Sisters (1986) — PG-13
+- Hannah Montana 20th Anniversary Special (2026) — PG
+- Hannah Montana: The Movie (2009) — G
+- Hannah Waddingham: Home for Christmas (2023) — PG
+- Hanover Street (1979) — PG
+- Hansel & Gretel (2002) — PG
+- Hanukkah on Rye (2022) — G
+- Happiest Season (2020) — PG-13
+- Happily N'Ever After (2007) — PG
+- Happily N'Ever After 2 (2009) — TV-PG
+- Happiness Is a Four-Letter Word (2016) — TV-14
+- Happy Death Day (2017) — PG-13
+- Happy Death Day 2U (2019) — PG-13
+- Happy Feet (2006) — PG
+- Happy Feet Two (2011) — PG
+- Happy Gilmore (1996) — PG-13
+- Happy Gilmore 2 (2025) — PG-13
+- Happy Halloween, Scooby-Doo! (2020) — NR
+- Happy Holidays from Cherry Lane (2024) — TV-G
+- Happy Howlidays (2024) — TV-G
+- Happy Hunting (2017) — NR
+- Happy People: A Year in the Taiga (2010) — NR
+- Happy Together (1997) — NR
+- Harakiri (1962) — NR
+- Hard Boiled (1992) — NR
+- Hard Country (1981) — PG
+- Hard Miles (2024) — PG-13
+- Hard Plastic (2020) — PG
+- Hard Times (1975) — PG
+- Hardball (2001) — PG-13
+- Hardware Wars (1978) — NR
+- Harmony (2018) — TV-14
+- Harold and the Purple Crayon (2024) — PG
+- Harper (1966) — NR
+- Harper Valley P.T.A. (1978) — PG
+- Harriet (2019) — PG-13
+- Harriet the Spy (1996) — PG
+- Harriet the Spy: Blog Wars (2010) — PG
+- Harry & Son (1984) — PG
+- Harry and the Hendersons (1987) — PG
+- Harry and Walter Go to New York (1976) — PG
+- Harry Potter 20th Anniversary: Return to Hogwarts (2022) — PG-13
+- Harry Potter and the Chamber of Secrets (2002) — PG
+- Harry Potter and the Deathly Hallows: Part 1 (2010) — PG-13
+- Harry Potter and the Deathly Hallows: Part 2 (2011) — PG-13
+- Harry Potter and the Goblet of Fire (2005) — PG-13
+- Harry Potter and the Half-Blood Prince (2009) — PG
+- Harry Potter and the Order of the Phoenix (2007) — PG-13
+- Harry Potter and the Philosopher's Stone (2001) — PG
+- Harry Potter and the Prisoner of Azkaban (2004) — PG
+- Harum Scarum (1965) — NR
+- Harvest Love (2017) — TV-G
+- Harvest Moon (2015) — TV-G
+- Harvest of Fire (1996) — PG
+- Harvey (1950) — NR
+- Hatari! (1962) — Approved
+- Hatching (2022) — NR
+- Hats Off to Love (2025) — TV-G
+- Haul Out the Halloween (2025) — PG
+- Haul Out the Holly (2022) — G
+- Haul Out the Holly: Lit Up (2023) — G
+- Haunt Season (2024) — NR
+- Haunted Harmony Mysteries: Key to the Castle (2026) — TV-PG
+- Haunted Harmony Mysteries: Murder in G Major (2023) — TV-G
+- Haunted Honeymoon (1986) — PG
+- Haunted Mansion (2023) — PG-13
+- Haunters: The Art of the Scare (2017) — NR
+- Haunting of the Queen Mary (2023) — Not Rated
+- Have a Little Faith (2011) — PG
+- Have You Seen Andy? (2003) — Not Rated
+- Hawaii (1966) — Approved
+- Hawaiian Vacation (2011) — G
+- Hawk the Slayer (1980) — PG
+- Hawking (2004) — TV-G
+- Häxan (1922) — Not Rated
+- Hazel's Heart (2025) — NR
+- He Never Left (2024) — NR
+- He-Man and She-Ra: A Christmas Special (1985) — PG
+- He-Man and She-Ra: The Secret of the Sword (1985) — G
+- He's All That (2021) — TV-14
+- He's Just Not That Into You (2009) — PG-13
+- He's Watching (2022) — NR
+- Head (1968) — G
+- Head Full of Honey (2018) — PG-13
+- Head of State (2003) — PG-13
+- Head Office (1985) — PG-13
+- Head On (1998) — Not Rated
+- Head Over Heels (2001) — PG-13
+- Heads of State (2025) — PG-13
+- Headspace (2023) — PG
+- Heart and Souls (1993) — PG-13
+- Heart Like a Wheel (1983) — PG
+- Heart of a Champion (2023) — PG
+- Heart of Champions (2021) — PG-13
+- Heart of Stone (2023) — PG-13
+- Heart of the Matter (2022) — PG
+- Heartbreak Hotel (1988) — PG-13
+- Heartbreaker (2010) — Not Rated
+- Hearts Around the Table: Jenna's First Love (2025) — TV-G
+- Hearts Around the Table: Josh's Third Serving (2025) — TV-G
+- Hearts Around the Table: Kiki's Fourth Ingredient (2025) — TV-G
+- Hearts Around the Table: Shari's Second Act (2025) — TV-G
+- Hearts of the West (1975) — PG
+- Heathcliff: The Movie (1986) — G
+- Heaven (2019) — TV-14
+- Heaven Can Wait (1943) — NR
+- Heaven Can Wait (1978) — PG
+- Heaven Down Here (2023) — PG
+- Heaven Is for Real (2014) — PG
+- Heaven Knows, Mr. Allison (1957) — Approved
+- Heaven Sent (2016) — TV-PG
+- Heavenly Sword (2014) — NR
+- Heavyweights (1995) — PG
+- Heidi (1937) — G
+- Held Up (1999) — PG-13
+- Hell Drivers (1957) — NR
+- Hell Fire (2015) — NR
+- Hell House LLC (2015) — NR
+- Hell House LLC II: The Abaddon Hotel (2018) — NR
+- Hell House LLC III: Lake of Fire (2019) — NR
+- Hell in Normandy (1968) — Not Rated
+- Hell on the Border (2019) — PG-13
+- Hell's Angels (1930) — NR
+- Hell's Angels '69 (1969) — M
+- Hellbender (2021) — NR
+- Hellboy (2004) — PG-13
+- Hellboy Animated: Blood and Iron (2007) — NR
+- Hellboy Animated: Sword of Storms (2006) — PG
+- Hellboy II: The Golden Army (2008) — PG-13
+- Hellcats of the Navy (1957) — NR
+- Hellfighters (1968) — G
+- Hellgate (2011) — Not Rated
+- Hellhole (2019) — Unrated
+- Hello Destroyer (2016) — Not Rated
+- Hello Goodbye (2008) — TV-14
+- Hello, Dolly! (1969) — G
+- Hello, Goodbye, and Everything in Between (2022) — PG-13
+- Hello, Love, Again (2024) — TV-14
+- Hello, Love, Goodbye (2019) — TV-PG
+- Hellraiser: Judgment (2018) — NR
+- Hells Angels on Wheels (1967) — Approved
+- Help! (1965) — G
+- Helpless (2012) — Not Rated
+- Helter Skelter (1976) — Not Rated
+- Helter Skelter (2012) — Unrated
+- Hemet, or the Landlady Don't Drink Tea (2024) — NR
+- Hennessy (1975) — PG
+- Henry Danger: The Movie (2025) — PG
+- Henry: Portrait of a Serial Killer (1986) — NR
+- Her Affair to Die For (2023) — PG-13
+- Her Alibi (1989) — PG
+- Herbie Fully Loaded (2005) — G
+- Herbie Goes Bananas (1980) — G
+- Herbie Goes to Monte Carlo (1977) — G
+- Herbie Rides Again (1974) — G
+- Hercules (1997) — G
+- Hercules (2014) — PG-13
+- Hercules (2014) — PG-13
+- Here (2024) — PG-13
+- Here After (2024) — PG-13
+- Here Alone (2016) — Not Rated
+- Here Come the Co-Eds (1945) — NR
+- Here Comes Mr. Jordan (1941) — NR
+- Here Comes the Boom (2012) — PG
+- Here the Whole Time (2026) — PG-13
+- Here Today (2021) — PG-13
+- Hereafter (2010) — PG-13
+- Hergé: In the Shadow of Tintin (2016) — Not Rated
+- Hero (2002) — PG-13
+- Hero at Large (1980) — PG
+- Hero Dog: The Journey Home (2021) — PG
+- Heroes of the East (1978) — NR
+- Hex (1973) — PG
+- Hey Arnold! The Jungle Movie (2018) — NR
+- Hey Arnold! The Movie (2002) — PG
+- Hey Bartender (2013) — NR
+- Hibiscus & Ruthless (2018) — PG-13
+- Hickey (2017) — TV-14
+- Hickok (2017) — Not Rated
+- Hidalgo (2004) — PG-13
+- Hidden Figures (2016) — PG
+- Hidden Gems (2022) — G
+- Hidden Strike (2023) — PG-13
+- Hider in My House (2022) — TV-14
+- High & Low – John Galliano (2024) — NR
+- High and Low (1963) — NR
+- High Anxiety (1977) — PG
+- High Crimes (2002) — PG-13
+- High Noon (1952) — PG
+- High Road to China (1983) — PG
+- High School (1969) — NR
+- High School High (1996) — PG-13
+- High School Musical (2006) — G
+- High School Musical 2 (2007) — G
+- High School Musical 3: Senior Year (2008) — G
+- High School U.S.A. (1983) — TV-PG
+- High Sierra (1941) — NR
+- High Spirits (1988) — PG-13
+- High Strung (1992) — PG
+- High Strung (2016) — PG
+- High Time (1960) — NR
+- Highline (2020) — Not Rated
+- Highway 301 (1950) — Approved
+- Hijack '93 (2024) — PG-13
+- Hilda and the Mountain King (2021) — TV-Y7
+- Hillary's America: The Secret History of the Democratic Party (2016) — PG-13
+- Hip-Hop: Beyond Beats & Rhymes (2006) — PG-13
+- Hiroshima Mon Amour (1959) — NR
+- His & Hers (2024) — TV-G
+- His House (2020) — NR
+- His Name Was Jason: 30 Years of Friday the 13th (2010) — NR
+- His Only Son (2023) — PG-13
+- Hit the Ice (1943) — NR
+- Hitch (2005) — PG-13
+- Hitchcock (2012) — PG-13
+- Hitched for the Holidays (2012) — TV-PG
+- Hitpig! (2024) — PG
+- Hobo with a Shotgun (2011) — NR
+- Hocus Pocus (1993) — PG
+- Hocus Pocus 2 (2022) — PG
+- Hocus Pocus 25th Anniversary Halloween Bash (2018) — PG
+- Hold That Ghost (1941) — NR
+- Hold Your Man (1933) — Passed
+- Holding the Man (2015) — NR
+- Holes (2003) — PG
+- Holiday (1938) — NR
+- Holiday Affair (1949) — NR
+- Holiday Crashers (2024) — TV-G
+- Holiday Harmony (2022) — PG
+- Holiday in Handcuffs (2007) — Not Rated
+- Holiday in the Sun (2001) — G
+- Holiday in the Vineyards (2023) — PG
+- Holiday in the Wild (2019) — TV-PG
+- Holiday Inn (1942) — NR
+- Holiday Mismatch (2024) — TV-G
+- Holiday Road (2023) — G
+- Holiday Touchdown: A Bills Love Story (2025) — TV-G
+- Holiday Touchdown: A Chiefs Love Story (2024) — TV-G
+- Hollow Creek (2016) — Not Rated
+- Holly Slept Over (2020) — Not Rated
+- Holly Star (2018) — PG
+- Hollywood Homicide (2003) — PG-13
+- Hollywood Stargirl (2022) — PG
+- Holmes & Watson (2018) — PG-13
+- Holy Hell (2015) — NR
+- Holy Hell (2016) — Not Rated
+- Holy Motors (2012) — NR
+- Home (2015) — PG
+- Home Again (2017) — PG-13
+- Home Alone (1990) — PG
+- Home Alone 2: Lost in New York (1992) — PG
+- Home Alone 3 (1997) — PG
+- Home Alone 4 (2002) — PG
+- Home Alone: The Holiday Heist (2012) — PG
+- Home by Christmas (2006) — TV-14
+- Home by Spring (2018) — G
+- Home for the Holidays (1995) — PG-13
+- Home Makeover (2010) — G
+- Home on the Range (2004) — PG
+- Home Sweet Home Alone (2021) — PG
+- Home Team (2022) — PG
+- Home Town Story (1951) — NR
+- Homecoming (1996) — PG
+- Homegrown Christmas (2018) — TV-G
+- Homeless to Harvard: The Liz Murray Story (2003) — PG
+- Homestead (2024) — PG-13
+- Hometown Christmas (2018) — TV-G
+- Hometown Holiday (2018) — TV-PG
+- Homeward Bound II: Lost in San Francisco (1996) — G
+- Homeward Bound: The Incredible Journey (1993) — G
+- Hondo (1953) — NR
+- Honest Thief (2020) — PG-13
+- Honey (2003) — PG-13
+- Honey, I Blew Up the Kid (1992) — PG
+- Honey, I Shrunk the Kids (1989) — PG
+- Honey, We Shrunk Ourselves (1997) — PG
+- Honeymoon (1947) — NR
+- Honeymoon in Vegas (1992) — PG-13
+- Honeysuckle Rose (1980) — PG
+- Honkytonk Man (1982) — PG
+- Hoodwinked Too! Hood VS. Evil (2011) — PG
+- Hoodwinked! (2005) — PG
+- Hook (1991) — PG
+- Hook (2025) — Unrated
+- Hook, Line and Sinker (1969) — G
+- Hoop Dreams (1994) — PG-13
+- Hooper (1978) — PG
+- Hoosiers (1986) — PG
+- Hoovey (2015) — PG
+- Hop (2011) — PG
+- Hope Floats (1998) — PG-13
+- Hope Gap (2019) — PG-13
+- Hope Springs (2012) — PG-13
+- Hoppers (2026) — PG
+- Horrid Henry: The Movie (2011) — PG
+- Horror Noire: A History of Black Horror (2019) — Not Rated
+- Horse Feathers (1932) — NR
+- Horse Sense (1999) — G
+- Horton Hears a Who! (1970) — Not Rated
+- Horton Hears a Who! (2008) — G
+- Hospitality (2018) — NR
+- Host (2020) — NR
+- Hostage Radio (2019) — TV-14
+- Hostile Takeover (2025) — NR
+- Hot Bot (2016) — NR
+- Hot Frosty (2024) — PG
+- Hot Lead & Cold Feet (1978) — G
+- Hot Millions (1968) — G
+- Hot Pursuit (2015) — PG-13
+- Hot Rod (2007) — PG-13
+- Hot Shots! (1991) — PG-13
+- Hot Shots! Part Deux (1993) — PG-13
+- Hot Summer Nights (2018) — NR
+- Hot to Trot (1988) — PG
+- Hotel Berlin (1945) — NR
+- Hotel for Dogs (2009) — PG
+- Hotel for the Holidays (2022) — PG
+- Hotel Rwanda (2004) — PG-13
+- Hotel Transylvania (2012) — PG
+- Hotel Transylvania (2012) — PG
+- Hotel Transylvania (2012) — PG
+- Hotel Transylvania 2 (2015) — PG
+- Hotel Transylvania 3: Summer Vacation (2018) — PG
+- Hotel Transylvania: Transformania (2022) — PG
+- Hounded (2001) — TV-G
+- Hounds of Love (2016) — Not Rated
+- Hounds of War (2024) — Not Rated
+- Hour of the Wolf (1968) — Not Rated
+- Hours (2013) — PG-13
+- House (1977) — NR
+- House Arrest (1996) — PG
+- House at the End of the Street (2012) — PG-13
+- House II: The Second Story (1987) — PG-13
+- House of Bodies (2013) — Not Rated
+- House of Cards (1993) — PG-13
+- House of D (2004) — PG-13
+- House of Pleasures (2011) — NR
+- House of Usher (1960) — NR
+- House of Wax (1953) — PG
+- House on Haunted Hill (1959) — NR
+- Houseboat (1958) — Approved
+- Housebound (2014) — NR
+- Housefull (2010) — Not Rated
+- Housefull 2 (2012) — Not Rated
+- Houseguest (1995) — PG
+- Housesitter (1992) — PG
+- Houston: The Legend of Texas (1986) — Not Rated
+- How Do You Measure a Year? (2021) — G
+- How I Fell in Love with a Gangster (2022) — NR
+- How I Won the War (1967) — NR
+- How Murray Saved Christmas (2014) — TV-G
+- How the Grinch Stole Christmas (2000) — PG
+- How the Grinch Stole Christmas! (1966) — G
+- How the Gringo Stole Christmas (2023) — PG-13
+- How the West Was Fun (1994) — Not Rated
+- How to Be a Latin Lover (2017) — PG-13
+- How to Beat the High Cost of Living (1980) — PG
+- How to Date Billy Walsh (2024) — NR
+- How to Eat Fried Worms (2006) — PG
+- How to Have Sex (2023) — NR
+- How to Lose a Guy in 10 Days (2003) — PG-13
+- How to Make an American Quilt (1995) — PG-13
+- How to Make Millions Before Grandma Dies (2024) — NR
+- How to Marry a Millionaire (1953) — Approved
+- How to Murder Your Husband: The Nancy Brophy Story (2023) — TV-14
+- How to Murder Your Wife (1965) — NR
+- How to Train Your Dragon (2010) — PG
+- How to Train Your Dragon (2025) — PG
+- How to Train Your Dragon 2 (2014) — PG
+- How to Train Your Dragon: Homecoming (2019) — PG
+- How to Train Your Dragon: The Hidden World (2019) — PG
+- Howard the Duck (1986) — PG
+- Howards End (1992) — PG
+- Howl (2015) — Not Rated
+- Howl's Moving Castle (2004) — PG
+- Howling III: The Marsupials (1987) — PG-13
+- Hubie Halloween (2020) — PG-13
+- Huey Long (1985) — Not Rated
+- Hugo (2011) — PG
+- Hulk (2003) — PG-13
+- Hulk vs. Thor (2009) — PG-13
+- Hulk vs. Wolverine (2009) — PG-13
+- Hulk: Where Monsters Dwell (2016) — PG
+- Human Capital (2020) — TV-14
+- Human Desire (1954) — Approved
+- Humanist Vampire Seeking Consenting Suicidal Person (2023) — Unrated
+- Humoresque (1947) — Approved
+- Hundreds of Beavers (2024) — NR
+- Hunger (2008) — NR
+- Hunt for the Skinwalker (2018) — Not Rated
+- Hunt for the Wilderpeople (2016) — PG-13
+- Hunted (2021) — Not Rated
+- Hunter Gatherer (2016) — Not Rated
+- Hunter Hunter (2020) — NR
+- Hunters (2021) — Unrated
+- Hurricane Season (2010) — PG-13
+- Hurry Sundown (1967) — NR
+- Husband, Father, Killer: The Alyssa Pladl Story (2024) — PG-13
+- Hush (1998) — PG-13
+- Hush... Hush, Sweet Charlotte (1964) — Approved
+- Hypnotic (2021) — TV-14
+- Hypochondriac (2022) — Unrated
+
+## I
+
+- I Am a Sex Addict (2006) — Not Rated
+- I Am Divine (2014) — Not Rated
+- I Am Evel Knievel (2014) — NR
+- I Am Gabriel (2012) — G
+- I Am Heath Ledger (2017) — Not Rated
+- I Am Jane Doe (2017) — NR
+- I Am JFK Jr. (2016) — Not Rated
+- I Am Legend (2007) — PG-13
+- I Am Legend (2007) — PG-13
+- I Am Mother (2019) — PG-13
+- I Am Not a Serial Killer (2016) — NR
+- I Am Number Four (2011) — PG-13
+- I Am Patrick Swayze (2019) — Not Rated
+- I Am Paul Walker (2018) — Not Rated
+- I Am Sam (2001) — PG-13
+- I Am Sam (2001) — PG-13
+- I Am Soldier (2014) — Not Rated
+- I Am Vanessa Guillen (2022) — PG-13
+- I Am: Celine Dion (2024) — PG
+- I Believe in Santa (2022) — PG
+- I Believe in Unicorns (2015) — NR
+- I Can (2023) — PG
+- I Can Do Bad All By Myself (2009) — PG-13
+- I Can Make You Love Me (1993) — TV-14
+- I Can Only Imagine (2018) — PG
+- I Can Only Imagine 2 (2026) — PG
+- I Could Never Be Your Woman (2007) — PG-13
+- I Cover the War! (1937) — Passed
+- I Dream of Jeannie... Fifteen Years Later (1985) — G
+- I Feel Pretty (2018) — PG-13
+- I Got the Hook Up 2 (2019) — Not Rated
+- I Hate Valentine's Day (2009) — PG-13
+- I Hate You to Death (2023) — 13+
+- I Heard the Bells (2022) — NR
+- I Hired a Contract Killer (1990) — Not Rated
+- I Kill Giants (2017) — PG-13
+- I Love You Again (1940) — NR
+- I Love You Forever (2025) — NR
+- I Now Pronounce You Chuck & Larry (2007) — PG-13
+- I Saw the TV Glow (2024) — PG-13
+- I Saw What You Did (1965) — NR
+- I Sell the Dead (2008) — NR
+- I Spit Chew on Your Grave (2008) — Not Rated
+- I Spit on Your Grave: Déjà Vu (2019) — NR
+- I Spy (2002) — PG-13
+- I Start Counting (1970) — Not Rated
+- I Still Believe (2020) — PG
+- I Still Dream of Jeannie (1991) — G
+- I Still See You (2018) — PG-13
+- I Survived a Zombie Holocaust (2014) — Not Rated
+- I Trapped the Devil (2019) — Not Rated
+- I Wake Up Screaming (1941) — Approved
+- I Want a Dog for Christmas, Charlie Brown (2003) — G
+- I Want to Live! (1958) — NR
+- I Was a Stranger (2025) — PG-13
+- I Was Born, But... (1932) — Not Rated
+- I Was Honey Boo Boo (2025) — NR
+- I Was Lorena Bobbitt (2020) — NR
+- I Win (2024) — PG-13
+- I, Frankenstein (2014) — PG-13
+- I, Robot (2004) — PG-13
+- I.Q. (1994) — PG
+- I'll Be Home for Christmas (1998) — PG
+- I'll Be Seeing You (2026) — TV-G
+- I'll Do Anything (1994) — PG-13
+- I'll Find You (2019) — Unrated
+- I'll See You in My Dreams (2015) — PG-13
+- I'm in Love with a Church Girl (2013) — PG
+- I'm Not Ashamed (2016) — PG-13
+- I'm Not Ready for Christmas (2015) — TV-G
+- I'm Sorry If I Took a Toll on You (2021) — NR
+- I'm Still Here (2024) — PG-13
+- Ice Age (2002) — PG
+- Ice Age: A Mammoth Christmas (2011) — PG
+- Ice Age: Collision Course (2016) — PG
+- Ice Age: Continental Drift (2012) — PG
+- Ice Age: Dawn of the Dinosaurs (2009) — PG
+- Ice Age: The Great Egg-Scapade (2016) — PG
+- Ice Age: The Meltdown (2006) — PG
+- Ice Castles (1978) — PG
+- Ice Cold: Murder, Coffee and Jessica Wongso (2023) — PG-13
+- Ice Guardians (2016) — NR
+- Ice Princess (2005) — G
+- Ice Station Zebra (1968) — G
+- Iceman (1984) — PG
+- Idaho Transfer (1973) — PG
+- Ideal Home (2018) — NR
+- IF (2024) — PG
+- If I Only Had Christmas (2020) — TV-G
+- If I Stay (2014) — PG-13
+- If Looks Could Kill (1991) — PG-13
+- If There Be Thorns (2015) — TV-14
+- Igor (2008) — PG
+- Ike: Countdown to D-Day (2004) — PG
+- Ikiru (1952) — NR
+- Ilana Glazer: The Planet Is Burning (2020) — NR
+- Ilsa: She Wolf of the SS (1975) — NR
+- Imaginary (2024) — PG-13
+- Imagine Dragons: Live in Vegas (2023) — PG-13
+- Imitation of Life (1959) — NR
+- Immoral Tales (1974) — Not Rated
+- Immortal Combat (2026) — PG-13
+- Immortal Demon Slayer (2017) — Not Rated
+- Impact (1949) — Approved
+- IMPACT Wrestling: Slammiversary 2020 (2020) — PG-13
+- IMPACT Wrestling: Slammiversary 2021 (2021) — PG-13
+- IMPACT Wrestling: Slammiversary XVII (2019) — PG-13
+- Impetigore (2019) — Not Rated
+- Implosion: The Titanic Sub Disaster (2025) — PG
+- Impractical Jokers: The Movie (2020) — PG-13
+- In & Out (1997) [tmdbid-10806] (1997) — PG-13
+- In a Lonely Place (1950) — NR
+- In a Violent Nature (2024) — NR
+- In Darkness (2018) — Not Rated
+- In Flames (2023) — NR
+- In from the Night (2006) — TV-PG
+- In from the Side (2022) — NR
+- In Good Company (2004) — PG-13
+- In Like Flint (1967) — Approved
+- In Love and War (2001) — TV-PG
+- In My Dreams (2015) — PG
+- In Pursuit of Honor (1995) — PG-13
+- In Search of Darkness (2019) — Not Rated
+- In Search of Darkness: Part II (2020) — Not Rated
+- In Search of Darkness: Part III (2022) — Not Rated
+- In Search of Greatness (2018) — PG-13
+- In Search of the Castaways (1962) — G
+- In Society (1944) — NR
+- In the Army Now (1994) — PG
+- In the Blink of an Eye (2026) — PG-13
+- In the Good Old Summertime (1949) — NR
+- In the Heart of the Sea (2015) — PG-13
+- In the Heat of the Night (1967) — PG-13
+- In the Heat of the Night: By Duty Bound (1995) — NR
+- In the Heat of the Night: Give Me Your Life (1994) — NR
+- In the Heat of the Night: Grow Old Along with Me (1995) — NR
+- In the Heat of the Night: Who Was Geli Bendl? (1994) — NR
+- In the Heights (2021) — PG-13
+- In the Key of Love (2019) — TV-G
+- In the Land of Women (2007) — PG-13
+- In the Loop (2009) — NR
+- In the Mood for Love (2000) — PG
+- In the Name of the King: A Dungeon Siege Tale (2007) — PG-13
+- In the Navy (1941) — NR
+- In the Summers (2024) — Unrated
+- In the Time of the Butterflies (2001) — PG-13
+- In Their Skin (2012) — NR
+- In Time (2011) — PG-13
+- In Waves and War (2024) — PG-13
+- In Your Dreams (2025) — PG
+- In Your Eyes (2014) — NR
+- In-Lawfully Yours (2016) — Not Rated
+- Incarnate (2016) — PG-13
+- Inception (2010) — PG-13
+- Incredibles 2 (2018) — PG
+- Independence Day (1996) — PG-13
+- Independence Day: Resurgence (2016) — PG-13
+- Indian Horse (2018) — Not Rated
+- Indian Summer (1993) — PG-13
+- Indiana Jones and the Dial of Destiny (2023) — PG-13
+- Indiana Jones and the Dial of Destiny (2023) — PG-13
+- Indiana Jones and the Kingdom of the Crystal Skull (2008) — PG-13
+- Indiana Jones and the Last Crusade (1989) — PG-13
+- Indiana Jones and the Temple of Doom (1984) — PG
+- Indie Game: The Movie (2012) — NR
+- Indiscreet (1958) — PG
+- Indivisible (2018) — PG-13
+- Infamous (2020) — Not Rated
+- Inferno (2016) — PG-13
+- Infested (2023) — NR
+- Infiltrate (2026) — NR
+- Infinite (2021) — PG-13
+- Infinite Icon: A Visual Memoir (2026) — PG-13
+- Infinitum: Subject Unknown (2021) — PG-13
+- Informant (2013) — NR
+- Inheritance (2020) — NR
+- Ink (2009) — NR
+- Inkheart (2008) — PG
+- Inner Demons (2014) — Not Rated
+- Inner Worlds, Outer Worlds (2012) — Not Rated
+- Innerspace (1987) — PG
+- Insane (2016) — Not Rated
+- Insiang (1976) — TV-14
+- Inside (2016) — Not Rated
+- Inside Daisy Clover (1966) — NR
+- Inside Job (2010) — PG-13
+- Inside Out (2015) — PG
+- Inside Out 2 (2024) — PG
+- Insidious (2011) — PG-13
+- Insidious: Chapter 2 (2013) — PG-13
+- Insidious: Chapter 3 (2015) — PG-13
+- Insidious: The Last Key (2018) — PG-13
+- Insidious: The Red Door (2023) — PG-13
+- Insomnia (1997) — NR
+- Inspector Gadget (1999) — PG
+- Inspector Gadget 2 (2003) — G
+- Instadocs: The Decoy Plane (2026) — PG-13
+- Instant Family (2018) — PG-13
+- Instructions Not Included (2013) — PG-13
+- Insurgent (2015) — PG-13
+- Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003) — PG
+- Interstellar (2014) — PG-13
+- Intimacy (2001) — NR
+- Into the Ashes (2019) — NR
+- Into the Blue (2005) — PG-13
+- Into the Inferno (2016) — TV-PG
+- Into the Storm (2014) — PG-13
+- Intolerable Cruelty (2003) — PG-13
+- Intrusion (2021) — TV-14
+- Inuyasha the Movie 2: The Castle Beyond the Looking Glass (2002) — PG-13
+- Invader (2024) — NR
+- Invader Zim: Enter the Florpus (2019) — G
+- Invaders from Mars (1986) — PG
+- Invasion (2020) — Not Rated
+- Invasion of Astro-Monster (1965) — G
+- Invasion of the Body Snatchers (1956) — Approved
+- Invasion of the Body Snatchers (1978) — PG
+- Invasion of the Saucer Men (1957) — Approved
+- Inventing the Christmas Prince (2022) — G
+- Invincible (2006) — PG
+- Invitation to a Murder (2023) — PG-13
+- IO (2019) — PG-13
+- Io Capitano (2023) — Not Rated
+- Ip Man 3 (2015) — PG-13
+- Ip Man 4: The Finale (2019) — NR
+- iPossessed (2025) — NR
+- Irish Wish (2024) — PG
+- Irma la Douce (1963) — NR
+- Irma Vep (1996) — NR
+- Iron Eagle (1986) — PG-13
+- Iron Eagle II (1988) — PG
+- Iron Eagle on the Attack (1995) — PG-13
+- Iron Maiden: Burning Ambition (2026) — NR
+- Iron Man (2008) — PG-13
+- Iron Man (2008) — PG-13
+- Iron Man & Hulk: Heroes United (2013) — PG
+- Iron Man 2 (2010) — PG-13
+- Iron Man 3 (2013) — PG-13
+- Iron Man 3 (2013) — PG-13
+- Iron Man: Rise of Technovore (2013) — PG-13
+- Iron Mask (2019) — PG-13
+- Iron Monkey (1993) — PG-13
+- Iron Will (1994) — PG
+- Irreconcilable Differences (1984) — PG
+- Irreversible (2002) — NR
+- Ishtar (1987) — PG-13
+- Island in the Sky (1953) — NR
+- Island of Lost Souls (1932) — NR
+- Islands (2025) — NR
+- Isle of Dogs (2018) — PG-13
+- Isn't It Romantic (2019) — PG-13
+- It Ain't Hay (1943) — NR
+- It Ain't Over (2023) — PG
+- It Boy (2013) — PG-13
+- It Could Happen to You (1994) — PG
+- It Ends with Us (2024) — PG-13
+- It Happened at the World's Fair (1963) — NR
+- It Happened One Night (1934) — NR
+- It Happened to Jane (1959) — NR
+- It Lives Inside (2023) — PG-13
+- It Might Get Loud (2008) — PG
+- It Runs in the Family (1994) — PG
+- It Should Happen to You (1954) — NR
+- It Stains the Sands Red (2016) — Not Rated
+- It Started in Naples (1960) — PG
+- It Takes Two (1995) — PG
+- It Was Just an Accident (2025) — PG-13
+- It's a Mad, Mad, Mad, Mad World (1963) — G
+- It's a SpongeBob Christmas! (2012) — NR
+- It's a Very Merry Muppet Christmas Movie (2002) — PG
+- It's a Wonderful Life (1946) — PG
+- It's a Wonderful World (1939) — NR
+- It's Christmas, Eve (2018) — TV-G
+- It's Christmastime Again, Charlie Brown (1992) — G
+- It's Gawd! (2017) — NR
+- It's Kind of a Funny Story (2010) — PG-13
+- It's Never Over, Jeff Buckley (2025) — NR
+- It's Only Money (1962) — NR
+- It's Pat (1994) — PG-13
+- It's the Great Pumpkin, Charlie Brown (1966) — G
+- Ithaca (2015) — PG
+- Ivan the Terrible, Part I (1944) — NR
+- Ivan the Terrible, Part II: The Boyars' Plot (1958) — NR
+- Ivanhoe (1982) — NR
+- Iverson (2014) — NR
+
+## J
+
+- J.L. Family Ranch (2016) — Not Rated
+- Jabberwocky (1977) — PG
+- Jack (1996) — PG-13
+- Jack and Ava (2024) — NR
+- Jack and Jill (2011) — PG
+- Jack and the Beanstalk (1952) — NR
+- Jack and the Cuckoo-Clock Heart (2014) — PG
+- Jack Be Nimble (2022) — PG-13
+- Jack Frost (1979) — G
+- Jack Frost (1998) — PG
+- Jack Frost (1998) — PG
+- Jack Frost (1998) — PG
+- Jack Irish: Dead Point (2014) — PG-13
+- Jack Reacher (2012) — PG-13
+- Jack Reacher: Never Go Back (2016) — PG-13
+- Jack the Giant Slayer (2013) — PG-13
+- Jack the Ripper (1959) — NR
+- Jack-Jack Attack (2005) — NR
+- Jackass 2.5 (2007) — NR
+- Jackass 3.5 (2011) — NR
+- Jackass Shark Week (2021) — TV-14
+- Jacob (1994) — PG
+- Jacob (2011) — NR
+- Jacob (2019) — NR
+- Jai Bhim (2021) — Approved
+- Jailbait (2014) — NR
+- Jailer (2023) — NR
+- Jailhouse Rock (1957) — NR
+- Jakob's Wife (2021) — NR
+- James and the Giant Peach (1996) — PG
+- Jane (2017) — PG
+- Jane Austen's Mafia! (1998) — PG-13
+- Jane Eyre (2011) — PG-13
+- Janet Planet (2024) — PG-13
+- Janie Jones (2010) — Not Rated
+- Jason and the Argonauts (1963) — G
+- Jason Bourne (2016) — PG-13
+- Jawan (2023) — PG-13
+- Jaws (1975) — PG
+- Jaws (1975) — PG
+- Jaws @ 50: The Definitive Inside Story (2025) — NR
+- Jaws 2 (1978) — PG
+- Jaws 3-D (1983) — PG
+- Jaws: The Revenge (1987) — PG-13
+- Jazz Fest: A New Orleans Story (2022) — PG-13
+- Jazz Fest: A New Orleans Story (2022) — PG-13
+- Jazz on a Summer's Day (1960) — Not Rated
+- Jazz Ramsey: A K-9 Mystery (2024) — TV-G
+- Jean de Florette (1986) — PG
+- Jeanne Eagels (1957) — NR
+- Jedi Junkies (2010) — PG-13
+- Jeff Dunham: All Over the Map (2014) — PG-13
+- Jeff Dunham: Arguing with Myself (2006) — Not Rated
+- Jeff Dunham: Birth of a Dummy (2011) — TV-14
+- Jeff Dunham: Controlled Chaos (2011) — Unrated
+- Jeff Dunham: I'm with Cupid (2024) — NR
+- Jeff Dunham: Me the People (2022) — NR
+- Jeff Dunham: Minding the Monsters (2012) — PG-13
+- Jeff Dunham: Spark of Insanity (2007) — PG-13
+- Jeff Dunham: Unhinged in Hollywood (2015) — PG
+- Jeff Dunham's Very Special Christmas Special (2008) — PG-13
+- Jeff Hardy: My Life, My Rules (2009) — PG
+- Jeffrey Dahmer: Mind of a Monster (2020) — TV-14
+- Jelly Roll: Save Me (2023) — PG-13
+- Jem and the Holograms (2015) — PG
+- Jenny's Wedding (2015) — PG-13
+- Jeremiah (1998) — PG-13
+- Jeremiah Johnson (1972) — PG
+- Jerry & Marge Go Large (2022) — PG-13
+- Jerry Before Seinfeld (2017) — TV-14
+- Jerry Seinfeld: 23 Hours to Kill (2020) — TV-PG
+- Jerry Seinfeld: I'm Telling You for the Last Time (1998) — G
+- Jersey Girl (2004) — PG-13
+- Jessabelle (2014) — PG-13
+- Jesse Stone: Benefit of the Doubt (2012) — PG-13
+- Jesse Stone: Innocents Lost (2011) — PG-13
+- Jesse Stone: Lost in Paradise (2015) — PG-13
+- Jesse Stone: Sea Change (2007) — PG-13
+- Jesse Stone: Thin Ice (2009) — PG-13
+- Jesus (1979) — G
+- Jesus (1999) — NR
+- Jesus Christ Superstar (1973) — G
+- Jesus Revolution (2023) — PG-13
+- Jet Boy (2001) — NR
+- Jet Pilot (1957) — G
+- Jethica (2023) — NR
+- Jetsons: The Movie (1990) — G
+- Jezebel (1938) — NR
+- JFK Revisited: Through the Looking Glass (2021) — TV-14
+- JFK: What The Doctors Saw (2023) — PG
+- Jiaoying Summers: What Species Are You? (2025) — NR
+- Jigsaw (1962) — Not Rated
+- Jim Gaffigan: Beyond the Pale (2006) — TV-14
+- Jim Gaffigan: Cinco (2017) — TV-14
+- Jim Gaffigan: Comedy Monster (2021) — TV-14
+- Jim Gaffigan: Dark Pale (2023) — PG
+- Jim Gaffigan: King Baby (2009) — NR
+- Jim Gaffigan: Mr. Universe (2012) — Unrated
+- Jim Gaffigan: Obsessed (2014) — TV-14
+- Jim Gaffigan: The Skinny (2024) — PG-13
+- Jim Henson Idea Man (2024) — PG
+- Jim Jefferies: I Swear to God (2009) — NR
+- Jim Thorpe – All-American (1951) — Approved
+- Jimmy and Stiggs (2025) — NR
+- Jimmy Carr: Being Funny (2011) — Not Rated
+- Jimmy Carr: Comedian (2007) — Not Rated
+- Jimmy Carr: Laughing and Joking (2013) — Not Rated
+- Jimmy Carr: Live (2004) — Not Rated
+- Jimmy Neutron: Boy Genius (2001) — G
+- Jimmy's Hall (2014) — PG-13
+- Jingle All the Way (1996) — PG
+- Jingle All the Way (2011) — TV-G
+- Jingle All the Way 2 (2014) — PG
+- Jingle Bell Heist (2025) — PG-13
+- Jingle Bell Run (2024) — TV-G
+- Jingle Jangle: A Christmas Journey (2020) — PG
+- Jinn (2014) — PG-13
+- Jinxed (2013) — G
+- Jiro Dreams of Sushi (2011) — PG
+- JL Family Ranch: The Wedding Gift (2020) — TV-G
+- Jo Koy: Don't Make Him Angry (2009) — NR
+- Jo Koy: Lights Out (2012) — NR
+- Jo's Boy (2010) — TV-14
+- Joan Didion: The Center Will Not Hold (2017) — PG-13
+- Jobs (2013) — PG-13
+- Jodorowsky's Dune (2013) — PG-13
+- Joe and Max (2002) — PG-13
+- Joe Dirt (2001) — PG-13
+- Joe Dirt 2: Beautiful Loser (2015) — NR
+- Joe Versus the Volcano (1990) — PG-13
+- Joe's Apartment (1996) — PG-13
+- John and the Hole (2021) — NR
+- John Candy: I Like Me (2025) — PG-13
+- John Carter (2012) — PG-13
+- John Mulaney & The Sack Lunch Bunch (2019) — PG
+- John Mulaney: The Comeback Kid (2015) — PG
+- John Q (2002) — PG-13
+- John Tucker Must Die (2006) — PG-13
+- Johnny Carson: King of Late Night (2012) — Not Rated
+- Johnny Cash: The Redemption of an American Icon (2022) — NR
+- Johnny Cool (1963) — NR
+- Johnny Dangerously (1984) — PG-13
+- Johnny English (2003) — PG
+- Johnny English Reborn (2011) — PG
+- Johnny English Strikes Again (2018) — PG
+- Johnny Frank Garrett's Last Word (2016) — Not Rated
+- Johnny Got His Gun (1971) — PG
+- Johnny Kapahala: Back on Board (2007) — TV-G
+- Johnny Tremain (1957) — NR
+- Johnny Tsunami (1999) — G
+- Johnson County War (2002) — TV-14
+- Jojo Rabbit (2019) — PG-13
+- Jonah Hex (2010) — PG-13
+- Jonathan (2018) — NR
+- Jonathan Livingston Seagull (1973) — G
+- Josee, the Tiger and the Fish (2020) — TV-PG
+- Joseph (1995) — PG-13
+- Joseph: King of Dreams (2000) — G
+- Josie and the Pussycats (2001) — PG-13
+- Journey 2: The Mysterious Island (2012) — PG
+- Journey Back to Christmas (2016) — G
+- Journey of My Heart (2021) — G
+- Journey to Bethlehem (2023) — PG
+- Journey to Christmas (2023) — G
+- Journey to the Center of the Earth (2008) — PG
+- Journey to the Seventh Planet (1962) — Approved
+- Journey to the West: The Demons Strike Back (2017) — PG-13
+- Journey to You (2025) — TV-G
+- Joy (2015) — PG-13
+- Joy (2024) — PG-13
+- Joy Ride 2: Dead Ahead (2009) — NR
+- Joyful Noise (2012) — PG-13
+- Ju-on: The Curse (2000) — Not Rated
+- Juan of the Dead (2011) — NR
+- Judgment at Nuremberg (1961) — NR
+- Jujutsu Kaisen 0 (2021) — PG-13
+- Jules (2023) — PG-13
+- Julia (1977) — PG
+- Julie (1956) — NR
+- Julie & Julia (2009) — PG-13
+- Juliet of the Spirits (1965) — Not Rated
+- Jumanji (1995) — PG
+- Jumanji: The Next Level (2019) — PG-13
+- Jumanji: Welcome to the Jungle (2017) — PG-13
+- Jumper (2008) — PG-13
+- Jumping Jacks (1952) — Not Rated
+- Jumping Ship (2001) — G
+- Jumping the Broom (2011) — PG-13
+- June in January (2014) — G
+- June Zero (2023) — NR
+- Jungle 2 Jungle (1997) — PG
+- Jungle Beat 2: The Past (2025) — G
+- Jungle Beat: The Movie (2020) — G
+- Jungle Cat (1960) — Approved
+- Jungle Cruise (2021) — PG-13
+- Junglee (2019) — Not Rated
+- Juno (2007) — PG-13
+- Jupiter Ascending (2015) — PG-13
+- Jurassic City (2015) — Not Rated
+- Jurassic Park (1993) — PG-13
+- Jurassic Park III (2001) — PG-13
+- Jurassic World (2015) — PG-13
+- Jurassic World Dominion (2022) — PG-13
+- Jurassic World Rebirth (2025) — PG-13
+- Jurassic World: Fallen Kingdom (2018) — PG-13
+- Juror #2 (2024) — PG-13
+- Jury Duty (1995) — PG-13
+- Just Add Romance (2019) — TV-G
+- Just for Kicks (2005) — Not Rated
+- Just Friends (2005) — PG-13
+- Just Getting Started (2017) — PG-13
+- Just Go with It (2011) — PG-13
+- Just Go with It (2011) — PG-13
+- Just Jim (2015) — Not Rated
+- Just Let Go (2015) — PG-13
+- Just Like Heaven (2005) — PG-13
+- Just Married (2003) — PG-13
+- Just Mercy (2019) — PG-13
+- Just My Luck (2006) — PG-13
+- Just My Type (2020) — TV-G
+- Just One Kiss (2022) — G
+- Just One of the Guys (1985) — PG-13
+- Justice League (2017) — PG-13
+- Justice League vs. Teen Titans (2016) — PG-13
+- Justice League vs. the Fatal Five (2019) — PG-13
+- Justice League x RWBY: Super Heroes & Huntsmen, Part One (2023) — PG
+- Justice League x RWBY: Super Heroes & Huntsmen, Part Two (2023) — PG
+- Justice League: Crisis on Infinite Earths Part One (2024) — PG-13
+- Justice League: Crisis on Infinite Earths Part Three (2024) — PG-13
+- Justice League: Crisis on Infinite Earths Part Two (2024) — PG-13
+- Justice League: Crisis on Two Earths (2010) — PG-13
+- Justice League: Doom (2012) — PG-13
+- Justice League: Gods and Monsters (2015) — PG-13
+- Justice League: The Flashpoint Paradox (2013) — PG-13
+- Justice League: The New Frontier (2008) — PG-13
+- Justice League: Throne of Atlantis (2015) — PG-13
+- Justice League: War (2014) — PG-13
+- Justice Society: World War II (2021) — PG-13
+- Justin Morgan Had a Horse (1972) — TV-G
+
+## T
+
+- The 'Burbs (1989) — PG
+- The 100 Year-Old Man Who Climbed Out the Window and Disappeared (2013) — PG
+- The 12 Days of Christmas Eve (2022) — G
+- The 15:17 to Paris (2018) — PG-13
+- The 2nd (2020) — NR
+- The 30 Foot Bride of Candy Rock (1959) — NR
+- The 33 (2015) — PG-13
+- The 355 (2022) — PG-13
+- The 400 Blows (1959) — NR
+- The 5-Year Christmas Party (2024) — TV-G
+- The 5th Wave (2016) — PG-13
+- The 6th Day (2000) — PG-13
+- The 6th Man (1997) — PG-13
+- The 7th Voyage of Sinbad (1958) — G
+- The 8 Diagram Pole Fighter (1984) — Not Rated
+- The A-Team (2010) — PG-13
+- The ABCs of Book Banning (2024) — TV-PG
+- The ABCs of Death (2013) — NR
+- The Abominable Dr. Phibes (1971) — PG
+- The Absent One (2014) — NR
+- The Absent-Minded Professor (1961) — G
+- The Abyss (1989) — PG-13
+- The Abyss (1989) — PG-13
+- The Accidental Husband (2008) — PG-13
+- The Accidental Spy (2001) — PG-13
+- The Accidental Tourist (1988) — PG
+- The Act of Killing (2012) — NR
+- The Adam Project (2022) — PG-13
+- The Addams Family (1991) — PG-13
+- The Addams Family (1991) — PG-13
+- The Addams Family 2 (2021) — PG
+- The Addiction (1995) — NR
+- The Address (2014) — TV-PG
+- The Adjustment Bureau (2011) — PG-13
+- The Admiral: Roaring Currents (2014) — Not Rated
+- The Adventure of A.R.I.: My Robot Friend (2022) — PG
+- The Adventure of Sherlock Holmes' Smarter Brother (1975) — PG
+- The Adventures of Baron Munchausen (1988) — PG
+- The Adventures of Buckaroo Banzai Across the 8th Dimension (1984) — PG
+- The Adventures of Elmo in Grouchland (1999) — G
+- The Adventures of Ichabod and Mr. Toad (1949) — NR
+- The Adventures of Mark Twain (1944) — Approved
+- The Adventures of Mark Twain (1985) — G
+- The Adventures of Milo and Otis (1986) — G
+- The Adventures of Pluto Nash (2002) — PG-13
+- The Adventures of Rocky & Bullwinkle (2000) — PG
+- The Adventures of Sharkboy and Lavagirl (2005) — PG
+- The Adventures of the Wilderness Family (1975) — G
+- The Adventures of Tintin (2011) — PG
+- The Aeronauts (2019) — PG-13
+- The African Lion (1955) — G
+- The African Queen (1952) — PG
+- The Age of Adaline (2015) — PG-13
+- The Age of Innocence (1993) — PG
+- The AI Doc: Or How I Became an Apocaloptimist (2026) — PG-13
+- The Ainsley McGregor Mysteries: A Case for the Winemaker (2024) — TV-PG
+- The Ainsley McGregor Mysteries: A Case for the Yarn Maker (2025) — PG
+- The Air Up There (1994) — PG
+- The Alamo (2004) — PG-13
+- The Almond and the Seahorse (2022) — NR
+- The Alphabet Murders (1965) — NR
+- The Alpinist (2021) — PG-13
+- The Amateur (2025) — PG-13
+- The Amazing Bulk (2012) — G
+- The Amazing Digital Circus: The Last Act (2026) — NR
+- The Amazing Maurice (2022) — PG
+- The Amazing Mr. Blunden (1972) — G
+- The Amazing Spider-Man (2012) — PG-13
+- The Amazing Spider-Man 2 (2014) — PG-13
+- The Ambushers (1967) — NR
+- The American President (1995) — PG-13
+- The American Society of Magical Negroes (2024) — PG-13
+- The Andromeda Strain (1971) — G
+- The Angry Birds Movie (2016) — PG
+- The Angry Birds Movie 2 (2019) — PG
+- The Angry Black Girl and Her Monster (2023) — Not Rated
+- The Animal (2001) — PG-13
+- The Animatrix (2003) — NR
+- The Anna Nicole Smith Story (2007) — Not Rated
+- The Anomaly (2014) — PG-13
+- The Ant Bully (2006) — PG
+- The Apartment (1960) — Approved
+- The Apology (2022) — NR
+- The Appaloosa (1966) — NR
+- The Appearance (2018) — TV-14
+- The Apple Dumpling Gang (1975) — G
+- The Apple Dumpling Gang Rides Again (1979) — G
+- The April Fools (1969) — PG
+- The Aristocats (1970) — G
+- The Aristocrats (2005) — NR
+- The Art of Flight (2011) — PG-13
+- The Art of Racing in the Rain (2019) — PG
+- The Art of the Steal (2010) — Unrated
+- The Artifice Girl (2023) — NR
+- The Asphalt Jungle (1950) — NR
+- The Assault (2014) — NR
+- The Astronaut Farmer (2007) — PG
+- The Astronaut Lovers (2024) — NR
+- The Atticus Institute (2015) — NR
+- The Auteur (2008) — Not Rated
+- The Autobiography of Miss Jane Pittman (1974) — TV-PG
+- The Automat (2021) — TV-PG
+- The Avengers (2012) — PG-13
+- The Aviator (2004) — PG-13
+- The Babushkas of Chernobyl (2015) — NR
+- The Baby of Mâcon (1993) — NR
+- The Baby-Sitters Club (1995) — PG
+- The Back-Up Plan (2010) — PG-13
+- The Bad Education Movie (2015) — PG-13
+- The Bad Guys (2022) — PG
+- The Bad Guys 2 (2025) — PG
+- The Bad Guys: A Very Bad Holiday (2023) — G
+- The Bad Guys: Haunted Heist (2024) — PG
+- The Bad Man (2018) — NR
+- The Bad News Bears (1976) — PG
+- The Bad News Bears Go to Japan (1978) — PG
+- The Bad News Bears in Breaking Training (1977) — PG
+- The Bad Seed (1956) — NR
+- The Bad Seed (2018) — PG-13
+- The Badlanders (1958) — NR
+- The Ballad of Josie (1968) — G
+- The Ballad of Wallis Island (2025) — PG-13
+- The Band's Visit (2007) — PG-13
+- The Banishing (2021) — NR
+- The Banker (2020) — PG-13
+- The Barkley Marathons: The Race That Eats Its Young (2014) — Not Rated
+- The Baron of Arizona (1950) — NR
+- The Batman (2022) — PG-13
+- The Batman vs. Dracula (2005) — NR
+- The Batman/Superman Movie: World's Finest (1997) — PG
+- The Battery (2012) — Not Rated
+- The Battle at Lake Changjin (2021) — Not Rated
+- The Battle of Algiers (1966) — NR
+- The Bay of Silence (2020) — NR
+- The Beach Boys (2024) — PG-13
+- The Beach House (2018) — G
+- The Beach House (2020) — NR
+- The Bear (1988) — PG
+- The Beast from 20,000 Fathoms (1953) — Approved
+- The Beastmaster (1982) — PG
+- The Beasts (2022) — NR
+- The Beatles: Eight Days a Week - The Touring Years (2016) — NR
+- The Beautiful Game (2024) — PG-13
+- The Bedford Incident (1965) — PG
+- The Bellboy (1960) — Approved
+- The Bells of St. Mary's (1945) — NR
+- The Benchwarmers (2006) — PG-13
+- The Best Christmas Pageant Ever (1983) — PG
+- The Best Christmas Pageant Ever (2024) — PG
+- The Best Exotic Marigold Hotel (2012) — PG-13
+- The Best of Enemies (2019) — PG-13
+- The Best of Me (2014) — PG-13
+- The Best of Times (1986) — PG-13
+- The Best Years of Our Lives (1946) — NR
+- The Beta Test (2021) — NR
+- The Beverly Hillbillies (1993) — PG
+- The Beyond (2018) — TV-14
+- The BFG (2016) — PG
+- The Big Circus (1959) — NR
+- The Big Country (1958) — NR
+- The Big Green (1995) — PG
+- The Big Heat (1953) — Approved
+- The Big Mouth (1967) — NR
+- The Big Red One (1980) — PG
+- The Big Shave (1967) — Not Rated
+- The Big Sleep (1946) — NR
+- The Big Stampede (1932) — NR
+- The Big Trail (1930) — Passed
+- The Big Trip (2019) — G
+- The Big Year (2011) — PG
+- The Biggest Little Farm (2019) — PG
+- The Birds (1963) — PG-13
+- The Birth of a Nation (1915) — NR
+- The Birthday Wish (2017) — G
+- The Bishop's Wife (1947) — NR
+- The Black Cauldron (1985) — PG
+- The Black Hole (1979) — PG
+- The Black Hole (2006) — PG
+- The Black Marble (1980) — PG
+- The Black Stallion (1979) — G
+- The Black Stallion Returns (1983) — PG
+- The Black Watch (1929) — Passed
+- The Blackwater Lightship (2004) — PG
+- The Blackwell Ghost (2017) — NR
+- The Blackwell Ghost 4 (2020) — NR
+- The Blackwell Ghost 5 (2020) — NR
+- The Blazing World (2021) — NR
+- The Blind (2023) — PG-13
+- The Blind (2023) — PG-13
+- The Blind Side (2009) — PG-13
+- The Bling Ring (2011) — PG-13
+- The Blob (1958) — Approved
+- The Blood of a Poet (1932) — Not Rated
+- The Bloody Hundredth (2024) — PG-13
+- The Blue Angel (1930) — NR
+- The Blue Angels (2024) — G
+- The Blue Bird (1940) — G
+- The Boatniks (1970) — G
+- The Bob's Burgers Movie (2022) — PG-13
+- The Bob's Burgers Movie (2022) — PG-13
+- The Body (2001) — PG-13
+- The Boogeyman (2023) — PG-13
+- The Book of Clarence (2024) — PG-13
+- The Book of Henry (2017) — PG-13
+- The Book of Life (2014) — PG
+- The Book Thief (2013) — PG-13
+- The Borrowers (1997) — PG
+- The Borrowers (2011) — Not Rated
+- The Boss Baby (2017) — PG
+- The Boss Baby: Christmas Bonus (2022) — PG
+- The Boss Baby: Family Business (2021) — PG
+- The Boston Strangler (2006) — Not Rated
+- The Bounce Back (2016) — PG-13
+- The Bounty (1984) — PG
+- The Bounty Hunter (1954) — NR
+- The Bounty Hunter (2010) — PG-13
+- The Bourne Identity (2002) — PG-13
+- The Bourne Legacy (2012) — PG-13
+- The Bourne Supremacy (2004) — PG-13
+- The Bourne Ultimatum (2007) — PG-13
+- The Box (2009) — PG-13
+- The Boxtrolls (2014) — PG
+- The Boy (2016) — PG-13
+- The Boy and the Heron (2023) — PG-13
+- The Boy in the Plastic Bubble (1976) — PG
+- The Boy in the Striped Pyjamas (2008) — PG-13
+- The Boy Who Could Fly (1986) — PG
+- The Boy Who Cried Werewolf (2010) — G
+- The Boy Who Harnessed the Wind (2019) — TV-PG
+- The Boy with My Son's Face (2026) — NR
+- The Boy, the Mole, the Fox and the Horse (2022) — G
+- The Boys in the Boat (2023) — PG-13
+- The Brady Bunch Movie (1995) — PG-13
+- The Brainwashing of My Dad (2015) — NR
+- The Brave Archer (1977) — PG-13
+- The Brave Archer 2 (1978) — PG-13
+- The Brave Archer 3 (1981) — PG-13
+- The Brave Little Toaster (1987) — G
+- The Breadwinner (2017) — PG-13
+- The Breadwinner (2026) — PG
+- The Break-Up (2006) — PG-13
+- The Bridge (2015) — G
+- The Bridge of San Luis Rey (2004) — PG
+- The Bridge on the River Kwai (1957) — PG
+- The Bridge Part 2 (2016) — G
+- The Bridges at Toko-Ri (1954) — NR
+- The Brink of War (2026) — PG
+- The Broken Hearts Gallery (2020) — PG-13
+- The Brooklyn Heist (2009) — PG-13
+- The Brother from Another Planet (1984) — NR
+- The Brotherhood of Justice (1986) — NR
+- The Brotherhood of the Bell (1970) — NR
+- The Brothers Bloom (2008) — PG-13
+- The Brothers Grimm (2005) — PG-13
+- The Brown Bunny (2003) — NR
+- The Buccaneer (1958) — NR
+- The Bucket List (2007) — PG-13
+- The Bucks County Massacre (2010) — NR
+- The Buddy Holly Story (1978) — PG
+- The Bunny Game (2011) — Not Rated
+- The Burning Bed (1984) — Not Rated
+- The Burning Dead (2015) — Not Rated
+- The Burning Hell (1974) — Not Rated
+- The Butcher Baker: Mind of a Monster (2020) — TV-14
+- The Butler (2013) — PG-13
+- The Butter Battle Book (1989) — PG
+- The Butterfly Room (2012) — NR
+- The Bye Bye Man (2017) — PG-13
+- The Cabinet of Dr. Caligari (1920) — NR
+- The Cable Guy (1996) — PG-13
+- The Caddy (1953) — NR
+- The Cage Fighter (2018) — Unrated
+- The Caine Mutiny (1954) — NR
+- The Caine Mutiny Court-Martial (2023) — PG-13
+- The Cakemaker (2017) — Not Rated
+- The California Kid (1974) — Not Rated
+- The Call (2020) — NR
+- The Call (2020) — NR
+- The Call of the Wild: Dog of the Yukon (1997) — PG
+- The Canal (2014) — NR
+- The Candidate (1972) — PG
+- The Cannonball Run (1981) — PG
+- The Canterville Ghost (2023) — PG
+- The Car (1977) — PG
+- The Card Player (2004) — NR
+- The Carman Family Deaths (2025) — PG-13
+- The Carpetbaggers (1964) — PG
+- The Casagrandes Movie (2024) — PG
+- The Case for Christ (2017) — PG
+- The Case for Christmas (2011) — G
+- The Cases of Mystery Lane (2023) — PG
+- The Cat and the Canary (1939) — Approved
+- The Cat from Outer Space (1978) — G
+- The Cat in the Hat (1971) — G
+- The Cat in the Hat (2003) — PG
+- The Cat in the Hat Knows a Lot About Christmas! (2012) — G
+- The Cat o' Nine Tails (1971) — GP
+- The Cave (2005) — PG-13
+- The Cave (2019) — PG-13
+- The Cellar (2024) — NR
+- The Cement Garden (1993) — Not Rated
+- The Central Park Five (2012) — NR
+- The Chalk Line (2022) — PG-13
+- The Champ (1979) — PG
+- The Chaperone (2011) — PG-13
+- The Charge of the Light Brigade (1936) — NR
+- The Chase (1994) — PG-13
+- The Chaser (2008) — PG-13
+- The Cheetah Girls (2003) — G
+- The Cheetah Girls 2 (2006) — G
+- The Cheetah Girls: One World (2008) — G
+- The Cherokee Kid (1996) — PG-13
+- The Cheyenne Social Club (1970) — PG
+- The Chicken Chronicles (1977) — PG
+- The Children's Hour (1961) — NR
+- The Children's Train (2024) — PG
+- The China Syndrome (1979) — PG
+- The Chinese Exclusion Act (2017) — TV-PG
+- The Chinese Ring (1947) — NR
+- The Chipmunk Adventure (1987) — G
+- The Choice (2016) — PG-13
+- The Chorus (2004) — PG
+- The Chosen (1981) — PG
+- The Christmas Calendar (2017) — Unrated
+- The Christmas Chalet (2019) — TV-G
+- The Christmas Chronicles (2018) — PG
+- The Christmas Chronicles: Part Two (2020) — PG
+- The Christmas Contest (2021) — G
+- The Christmas Contract (2018) — TV-PG
+- The Christmas Dragon (2014) — NR
+- The Christmas Heart (2012) — TV-G
+- The Christmas Note (2015) — Not Rated
+- The Christmas Ornament (2013) — NR
+- The Christmas Pact (2018) — TV-G
+- The Christmas Project (2016) — TV-PG
+- The Christmas Quest (2024) — TV-G
+- The Christmas Secret (2014) — TV-G
+- The Christmas Shepherd (2014) — TV-G
+- The Christmas Spirit (2013) — G
+- The Christmas Star (1986) — TV-G
+- The Christmas Temp (2019) — TV-PG
+- The Christmas Toy (1986) — NR
+- The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005) — PG
+- The Chronicles of Narnia: The Voyage of the Dawn Treader (2010) — PG
+- The Chronicles of Riddick (2004) — PG-13
+- The Chronicles of Riddick: Dark Fury (2004) — NR
+- The Cider House Rules (1999) — PG-13
+- The Cincinnati Kid (1965) — NR
+- The Circuit (2008) — Not Rated
+- The Claus Family (2020) — TV-PG
+- The Cleansing Hour (2019) — NR
+- The Client (1994) — PG-13
+- The Client List (2010) — NR
+- The Clique (2008) — PG
+- The Clock (1945) — NR
+- The Clovehitch Killer (2018) — NR
+- The Cloverfield Paradox (2018) — PG-13
+- The Cobbler (2014) — PG-13
+- The Coed and the Zombie Stoner (2014) — NR
+- The Coffee Table (2023) — 16+
+- The Cohasset Snuff Film (2012) — NR
+- The Cokeville Miracle (2015) — PG-13
+- The Colditz Story (1955) — Not Rated
+- The Colony (2013) — NR
+- The Color of Friendship (2000) — PG
+- The Color Purple (1985) — PG-13
+- The Color Purple (2023) — PG-13
+- The Comebacks (2007) — PG-13
+- The Comedy of Terrors (1964) — Approved
+- The Commuter (2018) — PG-13
+- The Commuter (2018) — PG-13
+- The Company Called Glitch That Nobody and Everybody Wanted (2024) — NR
+- The Competition (2018) — TV-14
+- The Concorde... Airport '79 (1979) — PG
+- The Concubine (2012) — Unrated
+- The Confession (2026) — NR
+- The Confession Musical (2023) — NR
+- The Confirmation (2016) — PG-13
+- The Congress (1989) — G
+- The Congress (2013) — NR
+- The Conqueror (1956) — Approved
+- The Conspirator (2011) — PG-13
+- The Constant Husband (1955) — Not Rated
+- The Conversation (1974) — PG
+- The Convert (2024) — NR
+- The Core (2003) — PG-13
+- The Cottage (2008) — Unrated
+- The Count of Monte Cristo (2002) — PG-13
+- The Count of Monte Cristo (2024) — NR
+- The Counterfeit Traitor (1962) — NR
+- The Countess (2009) — Not Rated
+- The Courageous Heart of Irena Sendler (2009) — NR
+- The Courier (2020) — PG-13
+- The Court Jester (1955) — Approved
+- The Cove (2009) — PG-13
+- The Covenant (2006) — PG-13
+- The Cowboy Way (1994) — PG-13
+- The Cowboys (1972) — PG
+- The Craft: Legacy (2020) — PG-13
+- The Craigslist Killer (2011) — TV-14
+- The Cranes Are Flying (1957) — Not Rated
+- The Creator (2023) — PG-13
+- The Creeping Garden (2014) — Not Rated
+- The Criminal (1960) — TV-14
+- The Crimson Pirate (1952) — NR
+- The Croods (2013) — PG
+- The Croods: A New Age (2020) — PG
+- The Crossing (2000) — NR
+- The Crucible (1996) — PG-13
+- The Cruel Sea (1953) — NR
+- The Cuba Prostitution Documentary (2011) — NR
+- The Culling (2015) — NR
+- The Cult Next Door (2017) — NR
+- The Cure (1995) — PG-13
+- The Curious Case of Benjamin Button (2008) — PG-13
+- The Curious Case of Benjamin Button (2008) — PG-13
+- The Current War (2018) — PG-13
+- The Curse of Bridge Hollow (2022) — PG-13
+- The Curse of Downers Grove (2015) — Not Rated
+- The Curse of Frankenstein (1957) — NR
+- The Curse of the Werewolf (1961) — NR
+- The Cutting Edge (1992) — PG
+- The D Train (2011) — Not Rated
+- The Da Vinci Code (2006) — PG-13
+- The Dam Busters (1955) — NR
+- The Damned (1962) — NR
+- The Dancing Detective: A Deadly Tango (2023) — PG
+- The Daniel Tiger Movie: Won't You Be Our Neighbor? (2018) — G
+- The Dark and the Wicked (2020) — NR
+- The Dark Crystal (1982) — PG
+- The Dark Knight (2008) — PG-13
+- The Dark Knight Rises (2012) — PG-13
+- The Dark Side of the Rainbow (2000) — NR
+- The Dark Tower (2017) — PG-13
+- The Dark Valley (2014) — NR
+- The Darkest Hour (2011) — PG-13
+- The Darkest Minds (2018) — PG-13
+- The Darkness (2016) — PG-13
+- The Dawn Wall (2017) — NR
+- The Day After (1983) — NR
+- The Day After Tomorrow (2004) — PG-13
+- The Day of the Jackal (1973) — PG
+- The Day of the Triffids (1963) — NR
+- The Day the Earth Blew Up: A Looney Tunes Movie (2024) — PG
+- The Day the Earth Stood Still (2008) — PG-13
+- The Day the Music Died: The Story of Don McLean's "American Pie" (2022) — PG
+- The Dead (1987) — PG
+- The Dead Center (2019) — Not Rated
+- The Dead Outside (2008) — Not Rated
+- The Death and Return of Superman (2019) — PG-13
+- The Death of Superman (2018) — PG-13
+- The Death of the Incredible Hulk (1990) — NR
+- The Deep (1977) — PG
+- The Deep End of the Ocean (1999) — PG-13
+- The Deep House (2021) — NR
+- The Deeper You Dig (2019) — NR
+- The Deepest Breath (2023) — PG
+- The Deliberate Stranger (1986) — NR
+- The Delicate Delinquent (1957) — NR
+- The Desert Fox: The Story of Rommel (1951) — NR
+- The Desperate Hour (2022) — PG-13
+- The Desperate Hours (1955) — Approved
+- The Devil and Daniel Johnston (2006) — PG-13
+- The Devil and Father Amorth (2018) — Not Rated
+- The Devil and Max Devlin (1981) — PG
+- The Devil Comes at Night (2023) — 18+
+- The Devil Is a Woman (1935) — NR
+- The Devil Is Busy (2024) — PG-13
+- The Devil Rides Out (1968) — G
+- The Devil Wears Prada (2006) — PG-13
+- The Devil Wears Prada 2 (2026) — PG-13
+- The Devil's Candy (2016) — NR
+- The Devil's Carnival (2012) — Not Rated
+- The Devil's Doorway (2018) — Unrated
+- The Devil's Mouth (2026) — PG-13
+- The Devil's Rock (2011) — Not Rated
+- The Diabetes Solution (2021) — NR
+- The Dilemma (2011) — PG-13
+- The Dink (2026) — PG-13
+- The Dinner Game (1998) — PG-13
+- The Dinosaur Project (2012) — PG-13
+- The Dirt Bike Kid (1985) — PG
+- The Dirties (2013) — NR
+- The Dirty Dozen (1967) — NR
+- The Dish (2000) — PG-13
+- The Disorderly Orderly (1964) — NR
+- The Disruptors (2022) — NR
+- The Dissident (2020) — PG-13
+- The Doberman Gang (1972) — PG
+- The Doctor and the Girl (1949) — NR
+- The Dog (2013) — Not Rated
+- The Dog Lover's Guide to Dating (2023) — G
+- The Dog Who Stopped the War (1984) — G
+- The Domestic (2022) — NR
+- The Donor Party (2023) — NR
+- The Double (2011) — PG-13
+- The Dove (1974) — PG
+- The Dragon's Prophecy (2025) — NR
+- The Dream Team (1989) — PG-13
+- The Dream Team (2012) — PG
+- The Dresden Sun (2026) — PG-13
+- The Duchess (2008) — PG-13
+- The Duchess and the Dirtwater Fox (1976) — PG
+- The Duel (2016) — PG-13
+- The Duellists (1977) — PG
+- The DUFF (2015) — PG-13
+- The Duke of Burgundy (2014) — Not Rated
+- The Duke of Burgundy (2014) — Not Rated
+- The Dukes of Hazzard (2005) — PG-13
+- The Dust Storm (2016) — PG-13
+- The Eagle (1925) — NR
+- The Eagle (2011) — PG-13
+- The Eagle Has Landed (1976) — PG
+- The Eagle Huntress (2016) — G
+- The Earth Dies Screaming (1964) — Approved
+- The East (2013) — PG-13
+- The Egyptian (1954) — NR
+- The Electric Horseman (1979) — PG
+- The Electric State (2025) — PG-13
+- The Elephant in the Living Room (2010) — PG
+- The Elephant Man (1980) — PG
+- The Elephant Whisperers (2022) — PG
+- The Eleventh Victim (2012) — Not Rated
+- The Emoji Movie (2017) — PG
+- The Emperor's New Groove (2000) — G
+- The Empire Strikes Back (1980) — PG
+- The Enchanted (1984) — PG
+- The Enchanting Phantom (2020) — 18+
+- The Endless (2017) — NR
+- The Endless Summer (1966) — PG
+- The Endurance (2000) — G
+- The Enemy Below (1957) — NR
+- The Engagement Plot (2022) — PG
+- The Escape of Prisoner 614 (2018) — PG-13
+- The Escapist (2008) — NR
+- The Escort (2015) — NR
+- The Essential Church (2023) — PG-13
+- The Eternal Daughter (2022) — PG-13
+- The Even Stevens Movie (2003) — G
+- The Ewok Adventure (1984) — NR
+- The Exorcism of Emily Rose (2005) — PG-13
+- The Exorcists (2023) — NR
+- The Expendables 3 (2014) — PG-13
+- The Experts (1989) — PG-13
+- The Express (2008) — PG
+- The Exterminating Angel (1962) — Not Rated
+- The Extraordinary Adventures of Adèle Blanc-Sec (2010) — NR
+- The Eye (2008) — PG-13
+- The Eyes of Tammy Faye (2021) — PG-13
+- The Fabelmans (2022) — PG-13
+- The Face of an Angel (2014) — PG-13
+- The Face on the Milk Carton (1995) — TV-G
+- The Falcon and the Co-Eds (1943) — NR
+- The Falcon in Danger (1943) — NR
+- The Falcon in Hollywood (1944) — NR
+- The Falcon in Mexico (1944) — NR
+- The Falcon in San Francisco (1945) — NR
+- The Falcon Out West (1944) — NR
+- The Falcon Strikes Back (1943) — NR
+- The Falcon Takes Over (1942) — NR
+- The Falcon's Adventure (1946) — NR
+- The Falcon's Brother (1942) — NR
+- The Fall Guy (2024) — PG-13
+- The Fallen Idol (1948) — Approved
+- The Family Man (2000) — PG-13
+- The Family Plan (2023) — PG-13
+- The Family Plan 2 (2025) — PG-13
+- The Family Stone (2005) — PG-13
+- The Fantastic 4: First Steps (2025) — PG-13
+- The Fantastic Four (1994) — PG
+- The Far Country (1954) — NR
+- The Farewell (2019) — PG
+- The Fast and the Fierce (2017) — NR
+- The Fast and the Furious (2001) — PG-13
+- The Fast and the Furious: Tokyo Drift (2006) — PG-13
+- The Fastest Guitar Alive (1967) — PG
+- The Fate of the Furious (2017) — PG-13
+- The Father (2020) — PG-13
+- The Fault in Our Stars (2014) — PG-13
+- The FBI Story (1959) — NR
+- The Fear Footage 3AM (2021) — NR
+- The Fear of God: 25 Years of The Exorcist (1998) — Not Rated
+- The Fiendish Plot of Dr. Fu Manchu (1980) — PG
+- The Fifth Element (1997) — PG-13
+- The Fighting Prince of Donegal (1966) — Not Rated
+- The Fighting Temptations (2003) — PG-13
+- The Final Countdown (1980) — PG
+- The Final Cut (2004) — PG-13
+- The Final Girls (2015) — PG-13
+- The Final Member (2012) — NR
+- The Final Season (2007) — PG
+- The Finest Hours (2016) — PG-13
+- The Finnish Line (2024) — TV-G
+- The Fire Inside (2024) — PG-13
+- The Firing Squad (2024) — PG-13
+- The Firm (1989) — TV-14
+- The First Great Train Robbery (1978) — PG
+- The First Snow of Fraggle Rock (2025) — G
+- The First Time (1969) — PG-13
+- The First Time (2012) — PG-13
+- The First Wives Club (1996) — PG
+- The Five (2023) — NR
+- The Five Devils (2022) — NR
+- The Five Star Stories (1989) — TV-14
+- The Flash (2023) — PG-13
+- The Flight of the Phoenix (1965) — NR
+- The Flim-Flam Man (1967) — NR
+- The Flintstones (1994) — PG
+- The Flintstones and WWE: Stone Age SmackDown! (2015) — NR
+- The Flintstones in Viva Rock Vegas (2000) — PG
+- The Flintstones Meet Rockula and Frankenstone (1979) — Not Rated
+- The Flintstones: Hollyrock a Bye Baby (1993) — Not Rated
+- The Flintstones' New Neighbors (1980) — PG
+- The Fluffy Movie (2014) — PG-13
+- The Fly (1958) — Approved
+- The Flyboys (2008) — PG-13
+- The Flying Scotsman (2006) — PG-13
+- The Fog of War (2003) — PG-13
+- The Forbidden City (2025) — NR
+- The Forbidden Kingdom (2008) — PG-13
+- The Forge (2024) — PG
+- The Forgotten (2004) — PG-13
+- The Forgotten (2014) — Unrated
+- The Fortune Cookie (1966) — NR
+- The Founder (2016) — PG-13
+- The Fountain (2006) — PG-13
+- The Fountainhead (1949) — NR
+- The Four Feathers (2002) — PG-13
+- The Four Seasons (1981) — PG
+- The Fourth Kind (2009) — PG-13
+- The Fox and the Hound (1981) — G
+- The Fox and the Hound 2 (2006) — G
+- The Fox Hunter (2020) — NR
+- The Fresh Prince of Bel-Air Reunion (2020) — TV-14
+- The Friends of Jesus: Thomas (2001) — Not Rated
+- The Frisco Kid (1979) — PG
+- The Frontier (2016) — Not Rated
+- The Fugitive (1993) — PG-13
+- The Fugitive Kind (1960) — NR
+- The Fuller Brush Girl (1950) — NR
+- The Fuller Brush Man (1948) — Approved
+- The Fuzzies (2025) — NR
+- The Gabby Petito Story (2022) — TV-14
+- The Galapagos Affair: Satan Came to Eden (2014) — Not Rated
+- The Gallant Hours (1960) — NR
+- The Gambler (1980) — NR
+- The Game Changers (2019) — NR
+- The Game Plan (2007) — PG
+- The Gangster, the Cop, the Devil (2019) — Not Rated
+- The Garbage Pail Kids Movie (1987) — PG
+- The Garfield Movie (2024) — PG
+- The Gate (1987) — PG-13
+- The Gatekeepers (2012) — PG-13
+- The Gayle King Interview with R. Kelly (2019) — PG
+- The Geisha Boy (1958) — Approved
+- The General (1926) — NR
+- The Genesis Code (2010) — PG
+- The Getaway (1972) — PG
+- The Ghost & Mr. Chicken (1966) — G
+- The Ghost and Mrs. Muir (1947) — NR
+- The Ghost Breakers (1940) — NR
+- The Ghost Trap (2024) — NR
+- The Giant Behemoth (1959) — NR
+- The Giant Claw (1957) — NR
+- The Girl Hunters (1963) — NR
+- The Girl in the Book (2015) — Not Rated
+- The Girl in the Garage: The Laura Cowan Story (2025) — PG-13
+- The Girl Locked Upstairs: The Tanya Kach Story (2024) — PG-13
+- The Girl Who Believes in Miracles (2021) — PG
+- The Girl Who Escaped: The Kara Robinson Story (2023) — PG-13
+- The Girl Who Had Everything (1953) — NR
+- The Girl Who Leapt Through Time (2006) — NR
+- The Girl with the Needle (2024) — Unrated
+- The Giver (2014) — PG-13
+- The Giver (2014) — PG-13
+- The Glass Bottom Boat (1966) — NR
+- The Glass Castle (2017) — PG-13
+- The Glass House (2001) — PG-13
+- The Glass Shield (1994) — PG-13
+- The Glenn Miller Story (1954) — G
+- The Go-Go Boys: The Inside Story of Cannon Films (2014) — NR
+- The Goalie's Anxiety at the Penalty Kick (1975) — NR
+- The Gods Must Be Crazy (1980) — PG
+- The Gods Must Be Crazy II (1989) — PG
+- The Gold Rush (1925) — NR
+- The Golden Boys (2008) — PG
+- The Golden Child (1986) — PG-13
+- The Golden Compass (2007) — PG-13
+- The Golden Eye (1948) — Approved
+- The Golden Glove (2019) — Not Rated
+- The Golden Voyage of Sinbad (1973) — G
+- The Good Dinosaur (2015) — PG
+- The Good Earth (1937) — NR
+- The Good Father: The Martin MacNeill Story (2021) — PG
+- The Good Half (2024) — NR
+- The Good Lie (2014) — PG-13
+- The Good Old Boys (1995) — PG-13
+- The Good Witch (2008) — PG
+- The Good Witch's Charm (2012) — G
+- The Good Witch's Destiny (2013) — PG
+- The Good Witch's Family (2011) — PG
+- The Good Witch's Garden (2009) — PG
+- The Good Witch's Gift (2010) — G
+- The Good Witch's Wonder (2014) — G
+- The Goonies (1985) — PG
+- The Gorge (2025) — PG-13
+- The Gorgon (1964) — NR
+- The Gospel of John (2003) — PG-13
+- The Gospel of Luke (2015) — Not Rated
+- The Gracefield Incident (2017) — PG-13
+- The Graduate (1967) — PG
+- The Grand Seduction (2014) — PG-13
+- The Grandmaster (2013) — PG-13
+- The Grapes of Wrath (1940) — NR
+- The Gray Man (2022) — PG-13
+- The Greasy Strangler (2016) — Unrated
+- The Great Debaters (2007) — PG-13
+- The Great Dictator (1940) — NR
+- The Great Escape (1963) — NR
+- The Great Gatsby (1974) — PG
+- The Great Gatsby (2013) — PG-13
+- The Great Gilly Hopkins (2015) — PG
+- The Great Hip Hop Hoax (2013) — Not Rated
+- The Great Lie (1941) — NR
+- The Great Locomotive Chase (1956) — NR
+- The Great Lover (1949) — NR
+- The Great Mouse Detective (1986) — G
+- The Great Muppet Caper (1981) — G
+- The Great Outdoors (1988) — PG
+- The Great Race (1965) — NR
+- The Great Santini (1979) — PG
+- The Great Silence (1968) — Not Rated
+- The Great Wall (2016) — PG-13
+- The Greatest (1977) — PG
+- The Greatest Game Ever Played (2005) — PG
+- The Greatest Hits (2024) — PG-13
+- The Greatest Night in Pop (2024) — PG-13
+- The Greatest Showman (2017) — PG
+- The Greatest Story Ever Told (1965) — G
+- The Green Berets (1968) — G
+- The Green Hornet (1940) — NR
+- The Green Hornet (2011) — PG-13
+- The Green Prince (2014) — PG-13
+- The Grim Adventures of the Kids Next Door (2007) — TV-Y7
+- The Grinch (2018) — PG
+- The Grinch Grinches the Cat in the Hat (1982) — G
+- The Groom Wore Spurs (1951) — Approved
+- The Growing Pains Movie (2000) — G
+- The Grudge (2004) — PG-13
+- The Grudge 2 (2006) — PG-13
+- The Gruffalo (2009) — G
+- The Gruffalo's Child (2011) — Approved
+- The Guardian (2006) — PG-13
+- The Guardian of the Monarchs (2024) — PG-13
+- The Guardians of the Galaxy Holiday Special (2022) — PG-13
+- The Guilt Trip (2012) — PG-13
+- The Gumball Rally (1976) — PG
+- The Gun in Betty Lou's Handbag (1992) — PG-13
+- The Guns of Navarone (1961) — NR
+- The Guyver (1991) — PG-13
+- The Hallow (2015) — NR
+- The Halloween Tree (1993) — G
+- The Hammer (2023) — TV-PG
+- The Harbinger (2022) — PG-13
+- The Hard Way (2019) — M
+- The Harder They Fall (1956) — NR
+- The Harvest (2015) — NR
+- The Harvey Girls (1946) — NR
+- The Hate U Give (2018) — PG-13
+- The Haunted (1991) — Unrated
+- The Haunted Mansion (2003) — PG
+- The Haunted Palace (1963) — Approved
+- The Haunting (1963) — G
+- The Haunting (1999) — PG-13
+- The Haunting Hour: Don't Think About It (2007) — PG
+- The Haunting in Connecticut (2009) — PG-13
+- The Haunting of Helena (2013) — NR
+- The Hayseed (1919) — NR
+- The Heart Is a Lonely Hunter (1968) — G
+- The Heavenly Kid (1985) — PG-13
+- The Heiress (1949) — NR
+- The Heiress and the Handyman (2024) — TV-G
+- The Help (2011) — PG-13
+- The Hero of Color City (2014) — G
+- The Hidden Fortress (1958) — Not Rated
+- The Hidden Hand (1942) — Approved
+- The High and the Mighty (1954) — NR
+- The High Note (2020) — PG-13
+- The Hill (1965) — NR
+- The Hill (2023) — PG
+- The Hip Hop Nutcracker (2022) — TV-PG
+- The Hitch Hikers Guide to the Galaxy (1981) — TV-PG
+- The Hitchhiker's Guide to the Galaxy (2005) — PG
+- The Hoarder (2015) — Not Rated
+- The Hobbit (1977) — PG
+- The Hobbit: An Unexpected Journey (2012) — PG-13
+- The Hobbit: The Battle of the Five Armies (2014) — PG-13
+- The Hobbit: The Desolation of Smaug (2013) — PG-13
+- The Hole (2009) — PG-13
+- The Holiday (2006) — PG-13
+- The Holiday Calendar (2018) — TV-PG
+- The Holiday Junkie (2024) — TV-PG
+- The Hollars (2016) — PG-13
+- The Hollow (2015) — NR
+- The Hollow Child (2018) — NR
+- The Hoober-Bloob Highway (1975) — TV-G
+- The Hook (1963) — NR
+- The Horse Dancer (2017) — G
+- The Horse Whisperer (1998) — PG-13
+- The Horse's Mouth (1958) — Approved
+- The Host (2013) — PG-13
+- The Hot Chick (2002) — PG-13
+- The Hot Rock (1972) — PG
+- The Hound of the Baskervilles (1978) — PG
+- The House (2022) — PG-13
+- The House Bunny (2008) — PG-13
+- The House of Fear (1945) — NR
+- The House of Mirth (2000) — PG
+- The House with a Clock in Its Walls (2018) — PG
+- The Housemaid (2010) — Not Rated
+- The Houses October Built (2014) — Not Rated
+- The Houses October Built 2 (2017) — NR
+- The Hudsucker Proxy (1994) — PG
+- The Human Condition I: No Greater Love (1959) — Not Rated
+- The Human Condition II: Road to Eternity (1959) — Not Rated
+- The Human Condition III: A Soldier's Prayer (1961) — Not Rated
+- The Hunchback of Notre Dame (1996) — G
+- The Hunchback of Notre Dame II (2002) — G
+- The Hundred-Foot Journey (2014) — PG
+- The Hundred-Foot Journey (2014) — PG
+- The Hunger Games (2012) — PG-13
+- The Hunger Games: Catching Fire (2013) — PG-13
+- The Hunger Games: Mockingjay - Part 1 (2014) — PG-13
+- The Hunger Games: Mockingjay - Part 2 (2015) — PG-13
+- The Hunger Games: The Ballad of Songbirds & Snakes (2023) — PG-13
+- The Hunley (1999) — PG
+- The Hunt for Red October (1990) — PG-13
+- The Hunt for Red October (1990) — PG-13
+- The Hunted (2014) — PG-13
+- The Hurricane (1937) — NR
+- The Hurricane Express (1932) — NR
+- The Hurricane Heist (2018) — PG-13
+- The Hustle (2019) — PG-13
+- The Hustle of @617MikeBiv (2023) — 18+
+- The Hustler (1961) — NR
+- The Hypnotic Eye (1960) — Approved
+- The Ice Age Adventures of Buck Wild (2022) — PG
+- The Ice Pirates (1984) — PG
+- The Ice Road (2021) — PG-13
+- The Iceman Cometh (1973) — PG
+- The Iceman Confesses: Secrets of a Mafia Hitman (2001) — NR
+- The Iceman Tapes: Conversations with a Killer (1992) — Not Rated
+- The Idaho Student Murders (2025) — PG-13
+- The Idolmaker (1980) — PG
+- The Illusionist (2006) — PG-13
+- The Imitation Game (2014) — PG-13
+- The Impossible (2012) — PG-13
+- The In Between (2022) — PG-13
+- The In-Laws (1979) — PG
+- The In-Laws (2003) — PG-13
+- The Incident (1967) — Approved
+- The Inconfessable Orgies of Emmanuelle (1982) — Unrated
+- The Incredible Burt Wonderstone (2013) — PG-13
+- The Incredible Hulk (2008) — PG-13
+- The Incredible Hulk Returns (1988) — NR
+- The Incredible Journey (1963) — G
+- The Incredible Mr. Limpet (1964) — G
+- The Incredible Shrinking Woman (1981) — PG
+- The Incredibles (2004) — PG
+- The Indian in the Cupboard (1995) — PG
+- The Inhabitant (2022) — NR
+- The Innocents (2016) — PG-13
+- The Innocents (2021) — Not Rated
+- The Inseparables (2023) — G
+- The Inspector General (1949) — NR
+- The Inspectors (1998) — NR
+- The Intern (2015) — PG-13
+- The Intern (2015) — PG-13
+- The Internet's Own Boy: The Story of Aaron Swartz (2014) — NR
+- The Internship (2013) — PG-13
+- The Intruder (1962) — PG-13
+- The Intruder (2019) — PG-13
+- The Invasion (2007) — PG-13
+- The Invention of Lying (2009) — PG-13
+- The Inventor (2023) — PG
+- The Inventor: Out for Blood in Silicon Valley (2019) — TV-14
+- The Investigation of Lucy Letby (2026) — PG-13
+- The Investigator (2013) — PG-13
+- The Invisible Man (1933) — NR
+- The Invitation (2016) — NR
+- The Invitation (2022) — PG-13
+- The Iron Giant (1999) — PG
+- The Iron Petticoat (1956) — NR
+- The Irony of Fate, or Enjoy Your Bath! (1975) — TV-G
+- The Irresistible Blueberry Farm (2016) — TV-G
+- The Island (2005) — PG-13
+- The Island at the Top of the World (1974) — G
+- The Island of Dr. Moreau (1996) — PG-13
+- The Isle (2000) — Not Rated
+- The Italian Job (1969) — G
+- The Italian Job (2003) — PG-13
+- The J Team (2021) — TV-G
+- The Jackie Robinson Story (1950) — Approved
+- The Jane Mysteries: A Deadly Prescription (2024) — G
+- The Jane Mysteries: Inheritance Lost (2023) — PG
+- The Jane Mysteries: Murder at Moseby (2024) — G
+- The Jane Mysteries: Too Much to Lose (2024) — G
+- The Jayne Mansfield Story (1980) — PG-13
+- The Jazz Singer (1927) — NR
+- The Jeffrey Dahmer Files (2013) — Not Rated
+- The Jester (2023) — NR
+- The Jester 2 (2025) — NR
+- The Jesus Music (2021) — PG-13
+- The Jetsons & WWE: Robo-WrestleMania (2017) — NR
+- The Jetsons Meet the Flintstones (1987) — NR
+- The Jewel of the Nile (1985) — PG
+- The Joke Thief (2018) — TV-14
+- The Jokers (1967) — NR
+- The Journey of Natty Gann (1985) — PG
+- The Jungle Book (1967) — G
+- The Jungle Book (1967) — G
+- The Jungle Book (2016) — PG
+- The Jungle Book 2 (2003) — G
+- The Jurassic Games (2018) — Not Rated

@@ -1,0 +1,7 @@
+*MOVIE SYSTEM*
+
+Announcements and coordination for the Movie group system.
+
+*💬 Feedback on the groups:* https://forms.gle/ExampleForm02
+*🤖 Feedback on the bot:* https://forms.gle/ExampleForm03
+*📬 Movie not on the server?* https://forms.gle/ExampleForm01

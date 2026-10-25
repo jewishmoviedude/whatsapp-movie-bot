@@ -1,0 +1,30 @@
+# Recently released (cam) requests
+# command: #rules-cam
+
+*📋 RECENTLY RELEASED — RULES*
+
+*This group is for cam versions of movies only.*
+
+• If you want a proper digital file, *wait until it's released digitally* and request it in the main movie requests group.
+• Request format is the same: ONE message, *#request* then the correct name and year. Text only.
+• *One movie at a time.* No chatting, no tagging, no replying.
+• *No rated-R movies* (or NC-17 / X / TV-MA).
+• You may repost *only once every 24 hours*, and not over the weekend.
+• *Two strikes and you're removed.*
+
+*WHAT THE REACTIONS MEAN*
+🔍 Researching · 🎬 Added to the queue
+1️⃣2️⃣3️⃣…🔟 Your place in line (updates live) · 🔢 11th or further back
+⬇️ Downloading · ⚙️ Converting · ⬆️ Sending · ✅ Done
+
+If we can't do it:
+⛔ Rated R / NC-17 / X / TV-MA — not allowed
+🎪 Only in theaters — not on the server yet
+📬 Not in the library — tell us here: https://forms.gle/ExampleForm01
+❓ Not a movie we could find — check the spelling. An unofficial film? Request it in group 07
+📅 More than one movie has that name — add the year
+☝️ More than one movie in one message — send each on its own
+❌ An admin cancelled it — it isn't coming
+⏭️ An admin set it aside (usually a huge file)
+⚠️ Something went wrong (the bot usually retries)
+⏸️ On hold — requests are paused for a moment; it runs by itself when they resume, no need to ask again

@@ -1,0 +1,18 @@
+*DO NOT STAY IN THIS GROUP IF YOU HAVE A STRICT FILTER ON YOUR DEVICE*
+
+This group sends *links only* — no file is ever sent.
+
+Movies:
+Type *#request-movie name year*
+
+TV shows:
+Type *#request-tv name S01*
+A whole season comes back as one message with every episode link.
+
+Ratings are not blocked here — restricted titles just come back with a warning.
+
+*Join Movie Posts #1:*
+https://chat.whatsapp.com/ExampleInvite07xxxxxxxx
+
+*Request group:*
+https://chat.whatsapp.com/ExampleInvite06xxxxxxxx

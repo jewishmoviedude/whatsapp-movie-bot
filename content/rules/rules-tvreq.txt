@@ -1,0 +1,34 @@
+# TV request group
+# command: #rules-tvreq
+
+*📋 TV REQUEST RULES*
+
+*This is a requests-only group. Absolutely no chatting.*
+
+• Start every request with *#request*, then the show, season and episode:
+*#request The Boys S01E01* — one episode
+*#request The Boys season 1* — the whole season, sent one episode at a time
+• Text only — no pictures, voice notes or links. ONE show per message.
+• No tagging, no replying, no "thank you" — *only actual requests.*
+• *No rated-R / TV-MA shows.*
+• You may repost *only once every 24 hours*, and not over the weekend.
+• Episodes are posted *only in the TV Posts group.*
+• *Two strikes and you're removed.*
+
+*WHAT THE REACTIONS MEAN*
+🔍 Researching · 🎬 Added to the queue · 🤥 Already asked for — it's coming, not added twice
+1️⃣2️⃣3️⃣…🔟 Your place in line (updates live; a whole season is one place, and films go first, so it can go up) · 🔢 11th or further back
+⬇️ Downloading · ⚙️ Converting · ⬆️ Sending (repeats for each episode of a season) · ✅ Done
+
+If we can't do it:
+⛔ Rated TV-MA / R / NC-17 / X — not allowed (in a season, only those episodes are left out)
+📺 Which season? — say the season, e.g. *#request The Office S01*
+📬 Not in the library, or the name didn't match — check the spelling. Admin will review and advise on discussions group (link below)
+✍️ Not written properly — write the season and episode like *#request The Office S01E05* (a zero, not the letter O)
+❌ An admin cancelled it — it isn't coming
+⏭️ An admin set it aside (usually a huge file)
+⚠️ Something went wrong and the bot gave up — ask again later
+🚫 Too soon — one request per person per hour; send it again once the hour is up
+⏸️ On hold — requests are paused for a moment; it runs by itself when they resume, no need to ask again
+Up to 10 episodes of one season a request — for more, the bot replies with how to ask for the rest.
+No reaction at all? Start the message with *#request*.

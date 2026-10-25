@@ -1,0 +1,51 @@
+# Movie request groups
+# command: #rules-requests
+
+*📋 MOVIE REQUEST RULES*
+
+*This is a requests-only group. Absolutely no chatting.*
+
+*HOW TO REQUEST*
+• ONE message: *#request* then the movie's correct official name and year.
+• *Text only* — no pictures, screenshots, voice notes or links.
+• No tagging, no replying, no "thank you", no yes/no — *only actual requests.*
+• *One movie at a time.* More than one gets your request deleted.
+• *We will not do the research for you.*
+
+*REPOSTING*
+• You may repost a request *only once every 24 hours.*
+• If someone already requested it, *do not request it again* — you'll be removed.
+• *No reposting over the weekend (Friday–Sunday).*
+• Do not tag or reply to a previous request — it will be deleted.
+
+*NOT ALLOWED*
+• *No rated-R movies* (or NC-17 / X / TV-MA).
+• *No movies that are only in theaters* — this results in removal. A 🎪 means theaters-only; ask again once it's out digitally.
+
+*POSTING*
+• Movies are posted *only in the Posts group.*
+• Have a movie to post and aren't a Posts admin? *PM an admin.*
+
+*GOOD TO KNOW*
+• Most admins don't post at night or on weekends.
+• Nobody is getting paid. A proper request doesn't obligate anyone to send it — if it's filled, great; if not, try again tomorrow.
+
+*ENFORCEMENT*
+• *Two strikes and you're removed.* Wrong formats get you removed or banned.
+
+*WHAT THE REACTIONS MEAN*
+🔍 Researching · 🎬 Added to the queue
+1️⃣2️⃣3️⃣…🔟 Your place in line (updates live) · 🔢 11th or further back
+⬇️ Downloading · ⚙️ Converting · ⬆️ Sending · ✅ Done
+
+If we can't do it:
+⛔ Rated R / NC-17 / X / TV-MA — not allowed
+🎪 Only in theaters — not on the server yet
+📬 Not in the library — tell us here: https://forms.gle/ExampleForm01
+❓ Not a movie we could find — check the spelling. An unofficial film? Request it in group 07
+📅 More than one movie has that name — add the year
+☝️ More than one movie in one message — send each on its own
+❌ An admin cancelled it — it isn't coming
+⏭️ An admin set it aside (usually a huge file)
+⚠️ Something went wrong (the bot usually retries)
+⏸️ On hold — requests are paused for a moment; it runs by itself when they resume, no need to ask again

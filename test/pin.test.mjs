@@ -1,0 +1,16 @@
+import { WhatsAppBot } from '../src/core/bot.js';
+let pass=0,fail=0;
+const ok=(c,m)=>{c?(pass++,console.log('  ok   '+m)):(fail++,console.log('  FAIL '+m));};
+const bot=new WhatsAppBot({configStore:{get:()=>({whatsapp:{}})},dataDir:'/tmp'});
+bot.state='connected'; bot.groupCache=new Map([['g@g.us',{subject:'G'}]]);
+let sent=null; bot.sock={sendMessage:async(j,c)=>{sent={j,c};return{};}};
+await bot.pinMessage('g@g.us',{id:'M1',remoteJid:'g@g.us'},2592000);
+ok(sent.c.pin.id==='M1','pins the given message key');
+ok(sent.c.type===1,'type 1 = PIN_FOR_ALL');
+ok(sent.c.time===2592000,'30 days');
+await bot.pinMessage('g@g.us',{id:'M2'},604800);
+ok(sent.c.time===604800,'7 days accepted');
+await bot.pinMessage('g@g.us',{id:'M3'},999);
+ok(sent.c.time===2592000,'an unsupported duration falls back to 30 days rather than failing');
+console.log('\n'+pass+' passed, '+fail+' failed');
+process.exit(fail?1:0);

@@ -1,0 +1,37 @@
+Absolutely no chatting is allowed.
+Request in ONE message, starting with #request:
+examples:
+#request The Office S01E01 — one episode
+#request The Office S01 — the whole season, sent one episode at a time and up to 10 max if bot does it
+#request The Office S01-e04-e07 or e06, e09 - Specific episodes
+
+Bot Will only process 10 episodes at a time
+
+Bot Will ignore you for 1 hour minutes after you do a request
+
+Text only. One seaon per message. - general group rule regardless of bot
+
+Episodes are posted only in the TV Posts group:
+https://chat.whatsapp.com/ExampleInvite04xxxxxxxx
+
+Live queue updates:
+https://chat.whatsapp.com/ExampleInvite05xxxxxxxx
+
+🔍 Researching · 🎬 Added to the queue · 🤥 Already asked for — it's coming, not added twice
+1️⃣2️⃣3️⃣…🔟 Your place in line (updates live; a whole season is one place, and films go first, so it can go up) · 🔢 11th or further back
+⬇️ Downloading · ⚙️ Converting · ⬆️ Sending (repeats for each episode of a season) · ✅ Done
+
+If we can't do it:
+⛔ Rated TV-MA / R / NC-17 / X — not allowed (in a season, only those episodes are left out)
+📺 Which season? — say the season, e.g. #request The Office S01
+📬 Not in the library, or the name didn't match — check the spelling. Admin will review and advise on discussions group (link below)
+✍️ Not written properly — write the season and episode like #request The Office S01E05 (a zero, not the letter O)
+❌ An admin cancelled it — it isn't coming
+⏭️ An admin set it aside (usually a huge file)
+⚠️ Something went wrong and the bot gave up — ask again later
+🚫 Too soon — one request per person per hour; send it again once the hour is up
+⏸️ On hold — requests are paused for a moment; it runs by itself when they resume, no need to ask again
+Up to 10 episodes of one season a request — for more, the bot replies with how to ask for the rest.
+No reaction at all? Start the message with #request.
+
+💬 Feedback on the groups: https://forms.gle/ExampleForm02

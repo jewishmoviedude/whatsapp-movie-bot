@@ -1,0 +1,20 @@
+# Posts groups
+# command: #rules-posts
+
+*📋 POSTS GROUP RULES*
+
+*This group is for posting movie files only. No chatting.*
+
+• *Do not PM an admin with a request.* Join the request group and request there.
+• If you have something to post and you're not an admin here, *PM an admin's Head Admin* to be made an admin.
+• *IF YOU'RE ON MOVIE POSTS #2, DO NOT JOIN #1.*
+
+*HOW TO SEND A MOVIE FILE* (under 2GB only)
+1. Download the file to your phone
+2. Open this chat
+3. Tap the 📎 paperclip
+4. Choose *Document*
+5. Find the movie in your file manager and send
+
+*TO WATCH ON IPHONE* — VLC:
+https://apps.apple.com/us/app/vlc-media-player/id650377962

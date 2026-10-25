@@ -1,0 +1,15 @@
+# Admin groups
+# command: #rules-admins
+
+*📋 ADMIN RULES*
+
+*The admins in this group are executive admins of the Movie group system and are the only ones authorized to make executive decisions.*
+
+• If you leave this group, you are no longer an admin on the Movie Posts groups.
+• If someone needs to be removed, *post it here.*
+• *Letting in new members isn't your job* — leave that to the executives.
+• *No one* may add a member as admin unless they are an admin in this group.
+• Failure to comply and your admin privileges are stripped indefinitely.
+
+*Blacklist:*
+https://docs.google.com/spreadsheets/d/EXAMPLE_SHEET_ID/edit?usp=sharing

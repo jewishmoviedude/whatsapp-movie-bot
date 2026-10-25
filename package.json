@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-bot-platform",
+  "version": "1.0.0",
+  "description": "Pluggable WhatsApp bot platform with a web control panel. Ships with a movie-request plugin.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "./start.sh",
+    "dev": "node --watch src/index.js",
+    "test": "node tools/run-tests.mjs"
+  },
+  "dependencies": {
+    "@hebcal/core": "^6.9.2",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "nodemailer": "^9.0.5",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "linkedom": "^0.18.13"
+  }
+}

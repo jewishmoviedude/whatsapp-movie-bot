@@ -1,0 +1,31 @@
+# dependencies. No trailing slash: "node_modules/" matches only a directory,
+# and a node_modules SYMLINK (a worktree borrowing another checkout's) was
+# committed straight past it once.
+node_modules
+# deploy/auto-update.sh installs new dependencies here before swapping them in
+.auto-update-staging/
+.node_modules.old.*
+
+# the daily-activity backup keeps its OWN clone in data/activity-backup so the
+# production checkout is never left dirty or mid-rebase by a scheduled commit
+
+# runtime data — contains the live WhatsApp session, encrypted config,
+# request history, transfers, and rotated logs. NEVER commit.
+data/
+
+# secrets — MASTER_KEY decrypts the config; must never leave the server
+.env
+.env.*
+
+# network filter CA certs (if any are dropped in)
+certs/*.crt
+certs/*.pem
+
+# logs / scratch
+*.log
+*.tmp
+
+# Python bytecode, written next to deploy/hourly-debug/sandbox.py when it runs.
+__pycache__/
+*.pyc
+.claude/

@@ -1,0 +1,11 @@
+*HEAD ADMIN'S*
+
+*Super-admin group.* Executive decisions for the Movie group system are made here.
+
+• Ban requests are posted here with a *reason*, and take effect once approved.
+• Keep it to admin business.
+
+*Blacklist:*
+https://docs.google.com/spreadsheets/d/EXAMPLE_SHEET_ID/edit?usp=sharing
+
+*💬 Feedback on the groups:* https://forms.gle/ExampleForm02
