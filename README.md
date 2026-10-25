@@ -287,6 +287,47 @@ miss.
 Steps 2–4 run immediately so the reaction lands right away. Only the heavy
 part is queued.
 
+### What the reactions mean
+
+The legend members are given in the request groups. The bot's own copy,
+from which it builds the group descriptions, is in `tools/legends.mjs`.
+
+```text
+Movies
+🔍 Researching · 🎬 Added to the queue
+1️⃣2️⃣3️⃣…🔟 Your place in line (updates live) · 🔢 11th or further back
+⬇️ Downloading · ⚙️ Converting · ⬆️ Sending · ✅ Done
+
+If we can't do it:
+⛔ Rated R / NC-17 / X / TV-MA — not allowed
+🎪 Only in theaters — not on the server yet
+📬 Not in the library — tell us here: https://forms.gle/ExampleForm01
+❓ Not a movie we could find — check the spelling. An unofficial film? Request it in group 07
+📅 More than one movie has that name — add the year
+☝️ More than one movie in one message — send each on its own
+✍️ Not written properly — write the season and episode like *#request The Office S01E05* (a zero, not the letter O)
+❌ An admin cancelled it — it isn't coming
+⏭️ An admin set it aside (usually a huge file)
+⚠️ Something went wrong (the bot usually retries)
+⏸️ On hold — requests are paused for a moment; it runs by itself when they resume, no need to ask again
+
+Shows
+🔍 Researching · 🎬 Added to the queue · 🤥 Already asked for — it's coming, not added twice
+1️⃣2️⃣3️⃣…🔟 Your place in line (updates live; a whole season is one place, and films go first, so it can go up) · 🔢 11th or further back
+⬇️ Downloading · ⚙️ Converting · ⬆️ Sending (repeats for each episode of a season) · ✅ Done
+
+If we can't do it:
+⛔ Rated TV-MA / R / NC-17 / X — not allowed (in a season, only those episodes are left out)
+📺 Which season? — say the season, e.g. *#request The Office S01*
+📬 Not in the library, or the name didn't match — check the spelling. Admin will review and advise on discussions group (link below)
+✍️ Not written properly — write the season and episode like *#request The Office S01E05* (a zero, not the letter O)
+❌ An admin cancelled it — it isn't coming
+⏭️ An admin set it aside (usually a huge file)
+⚠️ Something went wrong and the bot gave up — ask again later
+🚫 Too soon — one request per person per hour; send it again once the hour is up
+⏸️ On hold — requests are paused for a moment; it runs by itself when they resume, no need to ask again
+```
+
 ### "Not in the library" — and how to tell when that is wrong
 
 📭 is the answer this bot gets wrong most often, and it used to be the one it
