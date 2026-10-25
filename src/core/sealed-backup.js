@@ -957,7 +957,7 @@ function readmeFor(manifest, { archive = [], archived = null } = {}) {
     '',
     '```bash',
     '# on the NEW machine, after installing gh and running `gh auth login`:',
-    'gh repo clone your-github-user/whatsapp-bot ~/whatsapp-bot',
+    'gh repo clone jewishmoviedude/whatsapp-movie-bot ~/whatsapp-bot',
     'cd ~/whatsapp-bot && tools/bootstrap.sh',
     '```',
     '',

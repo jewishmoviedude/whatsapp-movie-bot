@@ -69,7 +69,7 @@ first, so the backup this restores is the final one.
   gh auth status >/dev/null 2>&1 || gh auth login --hostname github.com --git-protocol https --web
   gh auth setup-git
   # 3. The code, at the path the service expects.
-  [ -d ~/whatsapp-bot/.git ] || gh repo clone your-github-user/whatsapp-bot ~/whatsapp-bot
+  [ -d ~/whatsapp-bot/.git ] || gh repo clone jewishmoviedude/whatsapp-movie-bot ~/whatsapp-bot
   cd ~/whatsapp-bot
   git pull --ff-only -q
   # 4. Everything else. Its questions and logins come first; after them it runs by itself.
@@ -181,7 +181,7 @@ sudo apt-get update && sudo apt-get install -y gh
 gh auth login
 
 # 3. clone to ~/whatsapp-bot (the path the service expects)
-gh repo clone your-github-user/whatsapp-bot ~/whatsapp-bot
+gh repo clone jewishmoviedude/whatsapp-movie-bot ~/whatsapp-bot
 
 # 4. rebuild. --dry-run first prints every action and changes nothing.
 cd ~/whatsapp-bot && tools/bootstrap.sh --dry-run
@@ -357,7 +357,7 @@ Have these to hand:
 - **The `.env` from the existing machine**, if this box is replacing or joining
   an existing install. Without it the new box cannot read the old
   `data/config.json` — see [Moving an existing install](#5-moving-an-existing-install).
-- The GitHub account that owns `your-github-user/whatsapp-bot` (it is private).
+- The GitHub account that owns `jewishmoviedude/whatsapp-movie-bot` (it is private).
 - The Cloudflare account that owns the hostname you want to serve the panel on.
 - A phone with the bot's WhatsApp number on it, for linking.
 
@@ -773,7 +773,7 @@ Confirm, then clone:
 
 ```bash
 gh auth status
-gh repo clone your-github-user/whatsapp-bot ~/whatsapp-bot
+gh repo clone jewishmoviedude/whatsapp-movie-bot ~/whatsapp-bot
 cd ~/whatsapp-bot
 ```
 

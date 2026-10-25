@@ -863,7 +863,7 @@ console.log('=== clicking a row switches tab, opens the group and lands on the f
   ok(/Settings › API keys/.test(link.textContent), `the link names where it goes: "${link.textContent.trim()}"`);
 
   const foot = document.querySelector('#card-fresh-install .fic-foot a');
-  ok(foot?.getAttribute('href') === 'https://github.com/your-github-user/whatsapp-bot/blob/main/docs/server-setup.md'
+  ok(foot?.getAttribute('href') === 'https://github.com/jewishmoviedude/whatsapp-movie-bot/blob/main/docs/server-setup.md'
     && foot.getAttribute('target') === '_blank' && foot.getAttribute('rel') === 'noopener',
     'the footer links the server setup doc in a new tab, without an opener');
   ok(/tools\/bootstrap\.sh/.test(document.querySelector('#card-fresh-install .fic-foot').textContent),
