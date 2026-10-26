@@ -584,6 +584,10 @@ export const DEFAULT_CONFIG = {
     // Head Admin: whatever she asks or tells the bot (a reply to it or an
     // @-mention), it says "Yes Boss" (the operator, 2026-10-25).
     yesBoss: ['15558100180'],
+    // Groups besides the discussions group where the agent answers questions,
+    // from that group's own description (content/descriptions/). No on-topic
+    // reminders there. The operator, 2026-10-25: 05, the direct links group.
+    groups: [],
     // How many answers the bot may give per group in an hour. A question past
     // it goes to the admins, as one it cannot answer.
     maxPerHour: 20,

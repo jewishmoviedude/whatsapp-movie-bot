@@ -120,7 +120,7 @@ export function planConversion(info, cfg) {
   // tracks; posted untouched on 2026-10-12, WhatsApp answered every member
   // who opened it "This file was sent in an unusual format that may indicate
   // it is dangerous, corrupted, or otherwise not supported on WhatsApp" (A.
-  // Itz's #issue #group04). The remux keeps the picture and sound as they
+  // Ito's #issue #group04). The remux keeps the picture and sound as they
   // are, takes seconds, and puts the index at the front (+faststart).
   const extras = Number(info.extraStreams ?? 0);
   if (fitsSize && isMp4 && compatVideo && compatAudio && extras > 0) {

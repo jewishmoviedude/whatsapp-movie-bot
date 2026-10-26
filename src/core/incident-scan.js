@@ -69,6 +69,9 @@ import { restartAdvice, MAX_INTERRUPTIONS, askedAgain, tvEpisodes } from './hour
 import { betaFindings } from './beta-scan.js';
 import { newsSettings } from './library-news.js';
 import { ticketLabel } from './issue-tickets.js';
+import { UNOPENABLE } from './known-errors.js';
+
+export { UNOPENABLE };
 
 const MIN = 60_000;
 const HOUR = 60 * MIN;
@@ -1860,25 +1863,8 @@ function logErrorFindings({ lines, since }) {
 const COMPLAINT = /\b(not (?:work|play|load|open|download|send|com)\w*|(?:does|did|do|is|was|wo|ca|could)n'?t (?:work|play|load|open|download|send|get|come|go)\w*|never (?:got|came|arrived|sent)|didn'?t (?:get|come|arrive)|broken|corrupt\w*|missing|stuck|wrong (?:movie|film|episode|season|file|one)|error|glitch\w*|no (?:sound|audio|video|subtitles?)|out of sync|black screen|freez\w*|cut(?:s)? off|only \d+\s?mb|blurry|pixelat\w*|still waiting|been waiting)\b/i;
 
 // What reads as a fix or an addition, in the words people use for one.
-// WhatsApp's own refusal to open a file a member was sent, as they quote it:
-// "This file was sent in an unusual format that may indicate it is dangerous,
-// corrupted, or otherwise not supported on WhatsApp. For security
-// precautions, this file cannot be opened." (A. Ito's #issue #group04 about
-// Daniel Sloss - Live Shows S01E01, 2026-10-12.) It was an H.264/AAC mp4 sent
-// as it was, with 26 subtitle tracks besides; repackaged with only its picture
-// and sound (src/media/ffmpeg.js planConversion) it opened - A. Ito, by way of
-// the operator, 2026-10-13: "if anybody opens an #issue ticket and quotes
-// that error you'll know what to do".
-// A. Ito's own words did not quote it - "file for Daniel Sloss S01E01 gives
-// this message when download is attempted", the warning was shown, not typed
-// - so a file that will not open, or a message it "gives", counts too: the
-// remedy has the session check the send before anything is re-posted.
-export const UNOPENABLE = new RegExp([
-  'unusual format', '(?:dangerous|corrupted),? or otherwise not supported', '(?:not|un)supported',
-  "(?:file|it|video|episode|movie|film) (?:cannot|can'?t|could ?n'?t|won'?t|will not|does ?n'?t|does not) (?:be )?open",
-  "(?:cannot|can'?t|could ?n'?t|unable to) open (?:the |this |that |it|my )",
-  '(?:gives|gave|shows|showed|says|said|get|got|getting) (?:me )?(?:this|that|an?) (?:message|error|warning)',
-].join('|'), 'i');
+// UNOPENABLE, WhatsApp's own refusal to open a file, is in known-errors.js: the
+// discussions agent knows it too.
 export const UNOPENABLE_REMEDY = 'This may be WhatsApp refusing to open a file the bot sent - its warning "This file was '
   + 'sent in an unusual format that may indicate it is dangerous, corrupted, or otherwise not supported on WhatsApp ... '
   + 'cannot be opened" - or the member\'s words only sound like it: first make sure which file and what they saw. Known cause and cure (Daniel Sloss - Live Shows S01E01, 2026-10-12): the file went out as it was, '
@@ -2427,6 +2413,43 @@ function newsAt(w, since) {
   return times.length ? Math.max(...times) : 0;
 }
 
+/* ---------------------------- agent tickets --------------------------- */
+
+/**
+ * A ticket the discussions agent opened (discussion-tools.js, state
+ * 'agent-tickets'): researched like a member's #issue. Before 2026-10-25 the
+ * check never read them, so ticket #0003 ("Why can't I download any of the
+ * movies") was only a line in the notifications group. One that quotes
+ * WhatsApp's "unusual format" warning carries its known cure.
+ */
+export function agentTicketFindings({ state = {}, since = 0 }) {
+  const list = state?.['agent-tickets']?.list;
+  if (!Array.isArray(list)) return [];
+  return list.filter((t) => t && t.n != null && Number(t.at) >= since).map((t) => {
+    const said = `${t.summary ?? ''} ${t.question ?? ''}`;
+    const unopenable = UNOPENABLE.test(said);
+    const who = t.who ?? 'a member';
+    return {
+      fp: `agent-ticket:${t.n}`,
+      kind: 'member-issue',
+      severity: 'error',
+      at: t.at,
+      title: `Ticket #${ticketLabel(t.n)} - the discussions agent opened it for ${who}: "${redactPersonal(String(t.summary ?? '')).slice(0, 200)}"`,
+      request: null,
+      evidence: [
+        ...(t.question ? [`${stamp(t.at)} ${who} asked: "${redactPersonal(String(t.question)).slice(0, 600)}"`] : []),
+        `${stamp(t.at)} the agent's ticket: "${redactPersonal(String(t.summary ?? '')).slice(0, 600)}"`,
+      ],
+      report: { at: t.at, reporter: who, group: null, groupJid: t.group ?? null, text: String(t.summary ?? ''), ticket: t.n, source: 'agent' },
+      ...(unopenable ? { unopenable: true } : {}),
+      remedy: (unopenable ? `${UNOPENABLE_REMEDY} ` : '') + 'Research it as an #issue: find the film or episode and the send in History and the logs, '
+        + 'fix it in code if it is code, and say plainly what you found and what you did.',
+      restartHelps: false,
+      rerunnable: false,
+    };
+  });
+}
+
 /* --------------------------- support tickets -------------------------- */
 
 // What Ticket Tool posts on its own when a ticket opens: not an answer.
@@ -2654,6 +2677,7 @@ export function scan({
     ...newsFindings({ news, since, keepers: newsSettings(config).senders }),
     ...wantedFindings({ state, since }),
     ...discordFindings({ tickets, state, config, since, now }),
+    ...agentTicketFindings({ state, since }),
     ...repeatFindings({ chains, config, names, since }),
     ...policyMembers({ state, names, since }),
     ...diskFindings({ lines, disk, processStart, now, since, opt }),

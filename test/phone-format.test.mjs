@@ -483,7 +483,7 @@ if (!parseHTML) {
     $('mr-filter').value = '+447700900428';
     h.renderRoster();
     ok(names().length === 1 && names()[0].includes('Dan'), 'and a UK number finds Dan');
-    $('mr-filter').value = 'ahuva';
+    $('mr-filter').value = 'abby';
     h.renderRoster();
     ok(names().length === 1, 'a name search is what it always was');
     $('mr-filter').value = '';

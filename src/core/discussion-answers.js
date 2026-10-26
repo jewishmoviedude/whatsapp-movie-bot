@@ -3,6 +3,7 @@ import path from 'node:path';
 import log from '../util/logger.js';
 import { ISSUE } from './library-news.js';
 import { ticketLabel } from './issue-tickets.js';
+import { WHATSAPP_BLOCKED } from './known-errors.js';
 
 const logger = log.scope('discussion-answers');
 
@@ -52,6 +53,9 @@ export function mentionsBot(text) {
  * Whether a message is a question. A "#" command (a request, #rules) is never
  * one, nor an #issue, which the library news keeps for the hourly check.
  */
+// What an error a member quotes looks like, for a reply to the bot's question.
+const ERROR_WORDS = /\b(?:error|fail(?:ed|s)?|cannot|can'?t|unable|block(?:ed)?|format|not supported|says|message|warning)\b/i;
+
 export function isQuestion(text) {
   const t = String(text ?? '').trim();
   if (t.length < 6 || t.length > 300) return false;
@@ -107,8 +111,28 @@ export const TOOL_SPECS = [
   },
 ];
 
-/** The prompt. The question is quoted as data, so it cannot steer the answer. */
-export function buildPrompt({ question, knowledge, admin = false }) {
+/**
+ * The description written for one group (content/descriptions/), found by the
+ * group's name the way tools/build-descriptions.mjs named the file: lower case,
+ * dashes, and without the number the groups were given later ("05 ").
+ */
+export function groupDescription(contentDir, subject) {
+  if (!subject) return '';
+  const slug = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 48);
+  for (const name of [slug(String(subject).replace(/^\s*\d+\s+/, '')), slug(subject)]) {
+    if (!name) continue;
+    try { return fs.readFileSync(path.join(contentDir, 'descriptions', `${name}.txt`), 'utf8').trim().slice(0, KNOWLEDGE_CHARS); } catch { /* not this name */ }
+  }
+  return '';
+}
+
+/**
+ * The prompt. The question is quoted as data, so it cannot steer the answer.
+ * `group` is { name, description } for a group that is not the discussions
+ * group (05, the direct links group): it is answered from its own description,
+ * and is not told chatting is allowed.
+ */
+export function buildPrompt({ question, knowledge, admin = false, group = null }) {
   return [
     'You are the assistant of a WhatsApp group about a movie and TV library, its rules and its bot. Members ask you questions in the group.',
     '',
@@ -116,10 +140,17 @@ export function buildPrompt({ question, knowledge, admin = false }) {
     '',
     'Facts about how the bot works, which you may state as they are: a request an admin cancels frees the member\'s hour, so it no longer blocks their next one; a film that is queued holds the hour until it is cancelled or sent; one request per member per hour; up to 10 episodes of one season per request.',
     '',
+    'A member who cannot download, open or play a file is asking a tech question. Unless they already said it, ask them two things before anything else: which film or episode, and the exact error they see, copied word for word (verdict "answer", no ticket yet). Do not guess the cause, and do not open a ticket for "it does not work" alone.',
+    'A known error: WhatsApp\'s warning "This file was sent in an unusual format that may indicate it is dangerous, corrupted, or otherwise not supported on WhatsApp. For security precautions, this file cannot be opened." It means WhatsApp blocked that file because of how it was packed (extra subtitle or sound tracks), not their phone. The cure is a re-post: the bot repacks the file with only its picture and sound and posts it again. When a member quotes it, open a ticket naming the film or episode and quoting the warning, and tell them it is a known WhatsApp block, the file will be re-posted in a form WhatsApp opens, and to check the new post opens.',
+    'Any other error: open a ticket with the film or episode and the error word for word, and tell the member the ticket number.',
+    WHATSAPP_BLOCKED.test(String(question ?? '')) ? 'This message quotes that WhatsApp warning: treat it as the known error above.' : '',
+    '',
     'Never give a reason for a denial that a search_requests result does not show. If the records do not explain it, say so and open a ticket.',
     'If a problem is on the server or in the bot (a file missing or broken, a title that should be there and is not, a failed request the records cannot explain), open a ticket with what you checked, then tell the member the ticket number.',
     'A complaint about a decision is answered with what the records show, and a ticket if you think the decision was wrong.',
-    'This is the discussions group: members chat here, and chatting is allowed. The "no chatting" rule belongs to the request groups. Never tell anyone to stop chatting, to use a format, or to follow the rules unless they ask how to make a request. There are no #rules commands any more; do not mention them.',
+    group
+      ? `This message is in the group "${group.name}". Answer from that group's description (below, under THIS GROUP): how its commands work, what it sends and what it does not. Do not tell anyone off or quote rules at them; only explain what they ask. There are no #rules commands any more; do not mention them.`
+      : 'This is the discussions group: members chat here, and chatting is allowed. The "no chatting" rule belongs to the request groups. Never tell anyone to stop chatting, to use a format, or to follow the rules unless they ask how to make a request. There are no #rules commands any more; do not mention them.',
     'Most messages here are members talking to each other. Answer only what is asked of you. If a message is not asking you anything, or is talk between members, reply {"verdict": "skip"} and say nothing.',
     'Never argue with an admin, correct one, or defend yourself. If anyone says you were wrong, reply {"verdict": "skip"}.',
     admin ? 'The sender of this message is an admin of the group. Answer what they ask plainly and briefly, and never push back on them.' : '',
@@ -135,6 +166,7 @@ export function buildPrompt({ question, knowledge, admin = false }) {
     question,
     'QUESTION>>>',
     '',
+    ...(group ? [`THIS GROUP ("${group.name}"), its description:`, group.description || '(none)', ''] : []),
     'KNOWLEDGE (the group\'s own texts):',
     knowledge || '(none)',
   ].join('\n');
@@ -166,8 +198,8 @@ export function parseVerdict(raw) {
  * Returns { ok: true, verdict, tickets } or { ok: false, why }. `tickets` lists
  * the ticket numbers the open_ticket calls gave, so the reply can name them.
  */
-export async function runAgent({ question, knowledge, chat, runTool, maxRounds = 6, admin = false }) {
-  const messages = [{ role: 'user', content: buildPrompt({ question, knowledge, admin }) }];
+export async function runAgent({ question, knowledge, chat, runTool, maxRounds = 6, admin = false, group = null }) {
+  const messages = [{ role: 'user', content: buildPrompt({ question, knowledge, admin, group }) }];
   const tickets = [];
   for (let round = 0; round < maxRounds; round += 1) {
     const res = await chat({ messages, tools: TOOL_SPECS });
@@ -246,7 +278,8 @@ export function isBoss(msg, cfg = {}) {
 export class DiscussionAnswers {
   /**
    * @param getConfig    () => the whole config
-   * @param isDiscussion (jid) => true for the discussions group(s)
+   * @param isDiscussion (jid) => true for every group the agent answers in
+   * @param isChatGroup  (jid) => true for the discussions group(s), where chatting is allowed and off-topic remarks get a reminder; the others (05) only get answers
    * @param isAdmin      (msg) => true for a group admin or a library keeper: never answered unless they address the bot
    * @param topic        async ({ text, replyText }) => { ok, onTopic } - the model's view of an ordinary remark
    * @param agent        async ({ question, msg, admin }) => runAgent's result: { ok, verdict, tickets }, or { ok: false, why }
@@ -255,10 +288,11 @@ export class DiscussionAnswers {
    * @param now          () => ms
    * @param store        a state namespace: what happened, for the dashboard card
    */
-  constructor({ getConfig, isDiscussion = () => false, isAddressed = () => false, isAdmin = () => false, topic = null, agent, say, escalate, now = () => Date.now(), store = null }) {
+  constructor({ getConfig, isDiscussion = () => false, isChatGroup = null, isAddressed = () => false, isAdmin = () => false, topic = null, agent, say, escalate, now = () => Date.now(), store = null }) {
     this.store = store;
     this.getConfig = getConfig;
     this.isDiscussion = isDiscussion;
+    this.isChatGroup = isChatGroup ?? isDiscussion;
     this.isAddressed = isAddressed;
     this.isAdmin = isAdmin;
     this.topic = topic;
@@ -305,7 +339,9 @@ export class DiscussionAnswers {
     const admin = !!this.isAdmin(msg);
     const boss = addressed && isBoss(msg, cfg);
     if (admin && !addressed) { this._ignored(msg, text, 'an admin talking, not to the bot'); return false; }
-    if (!admin && !isQuestion(text) && !addressed) {
+    // WhatsApp's "unusual format" warning pasted on its own is for the agent too.
+    const blocked = WHATSAPP_BLOCKED.test(text);
+    if (!admin && !isQuestion(text) && !addressed && !blocked) {
       this._ignored(msg, text, 'not a question');
       this._maybeTopicCheck(msg, text, cfg);
       return false;
@@ -313,7 +349,10 @@ export class DiscussionAnswers {
     if (msg.timestamp && this.now() - msg.timestamp > STALE_MS) return false;
     // One taken message per person per two minutes: an exchange cannot become a loop.
     const who = msg.senderJid ?? msg.senderNumber ?? '?';
-    if (!boss && this.now() - (this.lastTaken.get(who) ?? 0) < SENDER_GAP_MS) { this._ignored(msg, text, 'too soon after its last reply to them'); return false; }
+    // The answer to the bot's own "what error do you see?" is not held back by
+    // the gap: a reply to the bot that gives an error, or the warning itself.
+    const errorReply = blocked || (addressed && ERROR_WORDS.test(text));
+    if (!boss && !errorReply && this.now() - (this.lastTaken.get(who) ?? 0) < SENDER_GAP_MS) { this._ignored(msg, text, 'too soon after its last reply to them'); return false; }
     if (this.seen.has(msg.id)) return false;
     this.seen.add(msg.id);
     this.lastTaken.set(who, this.now());
@@ -328,6 +367,8 @@ export class DiscussionAnswers {
   /** An ordinary remark from a member, put to the topic check when it is worth one. */
   _maybeTopicCheck(msg, text, cfg) {
     if (!this.topic || cfg.keepOnTopic === false || msg.catchUp) return;
+    // The reminder says "this group is for movie and TV talk": the discussions group's, not 05's.
+    if (!this.isChatGroup(msg.chatJid)) return;
     if (text.startsWith('#') || text.split(/\s+/).length < TOPIC_MIN_WORDS) return;
     if (msg.timestamp && this.now() - msg.timestamp > STALE_MS) return;
     const who = msg.senderJid ?? msg.senderNumber ?? '?';

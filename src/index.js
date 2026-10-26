@@ -29,7 +29,7 @@ import { ActivityBackup } from './core/activity-backup.js';
 import { MessageIndex } from './core/message-index.js';
 import { MemberActivity } from './core/member-activity.js';
 import { LibraryNews } from './core/library-news.js';
-import { DiscussionAnswers, runAgent, loadKnowledge, buildTopicPrompt, parseTopic } from './core/discussion-answers.js';
+import { DiscussionAnswers, runAgent, loadKnowledge, groupDescription, buildTopicPrompt, parseTopic } from './core/discussion-answers.js';
 import { createDiscussionTools } from './core/discussion-tools.js';
 import { DriveLinks } from './core/drive-links.js';
 import { DriveLinksJob } from './core/drive-links-job.js';
@@ -214,7 +214,9 @@ async function main() {
   });
   bot.discussionAnswers = new DiscussionAnswers({
     getConfig: () => configStore.get(),
-    isDiscussion: (jid) => newsSettings(configStore.get()).groups.has(jid),
+    isDiscussion: (jid) => newsSettings(configStore.get()).groups.has(jid)
+      || (configStore.get().discussionAnswers?.groups ?? []).includes(jid),
+    isChatGroup: (jid) => newsSettings(configStore.get()).groups.has(jid),
     // A reply to one of the bot's messages, or an @-mention of it, is for the bot.
     isAddressed: (msg) => (!!msg.replyTo?.senderJid && bot.isSelf(msg.replyTo.senderJid))
       || (msg.mentionedJids ?? []).some((j) => bot.isSelf(j)),
@@ -239,8 +241,12 @@ async function main() {
       const model = c.ai?.ollama?.model || MODEL_PREFERENCES.ollama[0];
       if (!key || !model) return { ok: false, why: 'no Ollama key or model chosen' };
       knowledge ??= loadKnowledge(path.join(__dirname, '..', 'content'));
+      // Outside the discussions group (05), the group's own description is its context.
+      const subject = bot.groupCache.get(msg.chatJid)?.subject ?? null;
+      const group = newsSettings(c).groups.has(msg.chatJid) ? null
+        : { name: subject ?? 'this group', description: groupDescription(path.join(__dirname, '..', 'content'), subject) };
       return runAgent({
-        question, knowledge, admin,
+        question, knowledge, admin, group,
         chat: ({ messages, tools: specs }) => chatWithTools(PROVIDERS.ollama, { key, model, messages, tools: specs }),
         runTool: tools.forMessage({
           group: msg.chatJid,
