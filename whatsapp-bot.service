@@ -1,6 +1,6 @@
 [Unit]
 Description=WhatsApp movie/TV request bot
-Documentation=https://github.com/jewishmoviedude/whatsapp-movie-bot
+Documentation=https://github.com/jewishmoviemom/whatsapp-movie-bot
 # Wants the network, but does not require it: the bot has its own reconnect
 # backoff and starting a few seconds early is better than not starting at all.
 After=network-online.target

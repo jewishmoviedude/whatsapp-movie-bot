@@ -6,7 +6,7 @@
 #   # one go", which does these four and the rest in one go:
 #   sudo apt-get install -y gh        # or see docs/server-setup.md, step 2
 #   gh auth login
-#   gh repo clone jewishmoviedude/whatsapp-movie-bot ~/whatsapp-bot
+#   gh repo clone jewishmoviemom/whatsapp-movie-bot ~/whatsapp-bot
 #   cd ~/whatsapp-bot && tools/bootstrap.sh --dry-run     # see what it will do
 #   tools/bootstrap.sh                                    # do it
 #

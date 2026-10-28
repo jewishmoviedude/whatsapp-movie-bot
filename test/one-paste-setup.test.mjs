@@ -54,7 +54,7 @@ console.log('=== the block ===');
     `every apt-get waits for the lock (${aptLines.length} of them)`);
   ok(/while sudo fuser \/var\/lib\/dpkg\/lock-frontend/.test(code) && code.indexOf('fuser') < code.indexOf('apt-get'),
     'and it waits for the boot-time apt jobs before the first one');
-  ok(/gh repo clone jewishmoviedude\/whatsapp-movie-bot ~\/whatsapp-bot/.test(code) && /cd ~\/whatsapp-bot/.test(code),
+  ok(/gh repo clone jewishmoviemom\/whatsapp-movie-bot ~\/whatsapp-bot/.test(code) && /cd ~\/whatsapp-bot/.test(code),
     'it clones to ~/whatsapp-bot, the path the service expects');
   ok(/gh auth login --hostname github\.com --git-protocol https --web/.test(code) && (code.match(/gh auth login/g) ?? []).length === 1,
     'the GitHub login is the one login in the block itself');
